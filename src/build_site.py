@@ -17,34 +17,142 @@ DATA_FILE = ROOT / "data" / "data.json"
 OUT_FILE = ROOT / "docs" / "index.html"
 
 STYLE = """
-body { font-family: -apple-system, sans-serif; max-width: 900px; margin: 0 auto; padding: 24px; color: #222; }
-h1 { margin-bottom: 4px; }
-.update-bar { color: #666; font-size: 13px; margin-bottom: 16px; }
-.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
-.tab-btn { font-size: 13px; padding: 6px 12px; border: 1px solid #ccc; border-radius: 999px; background: #fafafa; cursor: pointer; color: #444; }
-.tab-btn:hover { background: #eee; }
-.tab-btn.active { background: #222; color: #fff; border-color: #222; }
-h2 { border-bottom: 2px solid #222; padding-bottom: 4px; margin-top: 32px; }
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* { box-sizing: border-box; }
+
+:root {
+  --sky: #4fc3f7;
+  --sky-dark: #0288d1;
+  --sky-pale: #e6f7ff;
+  --sky-mid: #cdeeff;
+  --pink: #ff8fab;
+  --pink-pale: #ffe3ec;
+  --gold: #ffca28;
+  --gold-pale: #fff3cd;
+  --green: #66bb6a;
+  --green-pale: #e3f7e5;
+  --ink: #2c4a5e;
+  --ink-soft: #6d8a9c;
+}
+
+body {
+  font-family: -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--ink);
+  background: linear-gradient(180deg, #eaf7ff 0%, #f7fcff 200px, #f7fcff 100%);
+  min-height: 100vh;
+}
+
+.app-shell { max-width: 560px; margin: 0 auto; padding: 20px 16px 48px; }
+
+.hero {
+  text-align: center;
+  padding: 22px 16px 18px;
+  margin-bottom: 18px;
+  background: linear-gradient(135deg, var(--sky) 0%, #7fd3ff 100%);
+  border-radius: 22px;
+  box-shadow: 0 8px 20px rgba(79, 195, 247, 0.35);
+  color: #fff;
+}
+h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 0 0 4px; letter-spacing: -0.5px; }
+.tagline { font-size: 13px; margin: 0; opacity: 0.95; }
+.update-bar {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 11px;
+  background: rgba(255,255,255,0.25);
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; justify-content: center; }
+.tab-btn {
+  font-family: 'Jua', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 9px 14px;
+  border: 2px solid var(--sky-mid);
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  color: var(--sky-dark);
+  transition: transform 0.1s ease, background 0.15s ease;
+}
+.tab-btn:active { transform: scale(0.96); }
+.tab-btn.active { background: linear-gradient(135deg, var(--sky) 0%, var(--sky-dark) 100%); color: #fff; border-color: transparent; box-shadow: 0 4px 10px rgba(2, 136, 209, 0.35); }
+.tab-btn .count { font-size: 11px; opacity: 0.85; }
+
+.site-block { margin-top: 8px; }
 .site-block.empty-in-tab { display: none; }
-.notice-list { list-style: none; padding: 0; margin: 0; }
-.notice-item { padding: 8px 0; border-bottom: 1px solid #eee; font-size: 14px; }
+.site-block h2 {
+  font-family: 'Jua', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--sky-dark);
+  background: var(--sky-pale);
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin: 12px 0 12px;
+}
+.site-block h2::before { content: '🏫 '; }
+
+.notice-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+.notice-item {
+  background: #fff;
+  border-radius: 16px;
+  padding: 14px 16px;
+  box-shadow: 0 3px 10px rgba(79, 195, 247, 0.14);
+  border: 1px solid var(--sky-pale);
+}
 .notice-item.tab-hidden { display: none; }
-.notice-item.is-read .notice-link { text-decoration: line-through; opacity: 0.7; }
-.notice-link { color: #1a4fb4; text-decoration: none; }
-.notice-link:hover { text-decoration: underline; }
-.meta { color: #888; font-size: 12px; }
-.notice-item button { margin-left: 6px; font-size: 12px; padding: 2px 8px; border: 1px solid #ccc; border-radius: 4px; background: #fafafa; cursor: pointer; color: #444; }
-.notice-item button:hover { background: #eee; }
-.star-btn.is-active { background: #fff3cd; border-color: #e0c060; color: #7a5c00; }
-.empty-msg { color: #888; font-size: 14px; padding: 24px 0; }
-.error { color: #b00020; font-size: 13px; }
+.notice-item.is-read { background: #f6f9fb; opacity: 0.72; }
+.notice-item.is-read .notice-link { text-decoration: line-through; }
+
+.notice-link { display: block; color: var(--sky-dark); text-decoration: none; font-weight: 600; font-size: 15px; line-height: 1.4; margin-bottom: 6px; }
+.notice-link:active { opacity: 0.7; }
+
+.meta { display: inline-block; color: var(--ink-soft); font-size: 11.5px; background: var(--sky-pale); padding: 2px 9px; border-radius: 999px; margin-bottom: 8px; }
+.dept-tag { display: inline-block; color: #c2185b; font-size: 11.5px; background: var(--pink-pale); padding: 2px 9px; border-radius: 999px; margin-left: 4px; margin-bottom: 8px; }
+
+.btn-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.notice-item button {
+  font-size: 12px;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.1s ease;
+}
+.notice-item button:active { transform: scale(0.94); }
+.mark-read-btn { background: var(--green-pale); color: #2e7d32; }
+.star-btn { background: var(--gold-pale); color: #8a6400; }
+.star-btn.is-active { background: var(--gold); color: #5c4200; }
+.mark-relevant-btn { background: var(--sky-pale); color: var(--sky-dark); }
+
+.empty-msg { text-align: center; color: var(--ink-soft); font-size: 14px; padding: 40px 20px; background: #fff; border-radius: 16px; border: 1px dashed var(--sky-mid); }
+.error { color: #c0392b; font-size: 13px; background: #fdecea; padding: 10px 14px; border-radius: 12px; }
+
+@media (min-width: 620px) {
+  body { padding: 24px 0; }
+  .app-shell { background: #fff; border-radius: 28px; box-shadow: 0 12px 40px rgba(79, 195, 247, 0.25); padding: 28px 28px 40px; }
+}
+
+@media (max-width: 360px) {
+  .app-shell { padding: 14px 10px 40px; }
+  .notice-item { padding: 12px 13px; }
+  h1 { font-size: 21px; }
+}
 """
 
 TAB_LABELS = [
-    ("unread", "안 읽은 공지"),
-    ("read", "읽은 공지"),
-    ("starred", "★ 주요 공지"),
-    ("other", "다른 학과 공지"),
+    ("unread", "📩 안 읽은 공지"),
+    ("read", "✅ 읽은 공지"),
+    ("starred", "⭐ 주요 공지"),
+    ("other", "📚 다른 학과"),
 ]
 
 READ_STATE_SCRIPT = """
@@ -95,18 +203,18 @@ READ_STATE_SCRIPT = """
 
     if (readBtn) {
       readBtn.style.display = relevant ? '' : 'none';
-      readBtn.textContent = isRead ? '읽지 않음으로 표시' : '읽음으로 표시';
+      readBtn.textContent = isRead ? '↩️ 안읽음으로' : '✅ 읽음으로 표시';
     }
     if (starBtn) {
       starBtn.style.display = relevant ? '' : 'none';
       starBtn.classList.toggle('is-active', isStar);
-      starBtn.textContent = isStar ? '★ 주요 공지 해제' : '☆ 주요 공지로 표시';
+      starBtn.textContent = isStar ? '★ 즐겨찾기 해제' : '☆ 즐겨찾기';
     }
     if (relBtn) {
       // 원래(서버 기준) 다른 학과 공지였던 것만 이 버튼을 보여준다.
       // 관련 공지로 표시한 뒤에도 계속 보여야 다시 되돌릴 수 있다.
       relBtn.style.display = serverRelevant ? 'none' : '';
-      relBtn.textContent = overrideSet.has(link) ? '다른 학과로 되돌리기' : '관련 공지로 표시';
+      relBtn.textContent = overrideSet.has(link) ? '↩️ 다른 학과로' : '💙 관련 공지예요';
     }
   }
 
@@ -207,14 +315,16 @@ def render_item(n):
     writer = html.escape(n["writer"])
     date = html.escape(n["date"])
     relevant = "true" if n["relevant"] else "false"
-    extra = f" <span class='meta'>- {html.escape(n['matched_dept'])}</span>" if n.get("matched_dept") else ""
+    dept_tag = f"<span class='dept-tag'>🏷️ {html.escape(n['matched_dept'])}</span>" if n.get("matched_dept") else ""
     return (
         f"<li class='notice-item' data-link='{link}' data-relevant='{relevant}'>"
-        f"<a href='{link}' target='_blank' rel='noopener' class='notice-link'>{title}</a> "
-        f"<span class='meta'>{writer} ({date})</span>{extra} "
-        f"<button type='button' class='mark-read-btn'>읽음으로 표시</button>"
-        f"<button type='button' class='star-btn'>☆ 주요 공지로 표시</button>"
-        f"<button type='button' class='mark-relevant-btn'>관련 공지로 표시</button>"
+        f"<a href='{link}' target='_blank' rel='noopener' class='notice-link'>{title}</a>"
+        f"<span class='meta'>{writer} · {date}</span>{dept_tag}"
+        f"<div class='btn-row'>"
+        f"<button type='button' class='mark-read-btn'>✅ 읽음으로 표시</button>"
+        f"<button type='button' class='star-btn'>☆ 즐겨찾기</button>"
+        f"<button type='button' class='mark-relevant-btn'>💙 관련 공지예요</button>"
+        f"</div>"
         f"</li>"
     )
 
@@ -247,20 +357,28 @@ def build():
         for tab_id, label in TAB_LABELS
     )
 
+    favicon = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💙</text></svg>"
+
     page = f"""<!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>인천대 알림 모음</title>
+<link rel="icon" href="{favicon}">
 <style>{STYLE}</style>
 </head>
 <body>
-<h1>인천대 알림 모음</h1>
-<p class="update-bar">마지막 갱신: {html.escape(meta.get('last_updated', ''))} KST · 내 학과 키워드: {keywords}</p>
+<div class="app-shell">
+<div class="hero">
+<h1>💙 인천대 알림 모음</h1>
+<p class="tagline">매일 아침 조용히 챙겨주는 공지 비서 ✨</p>
+<span class="update-bar">🕐 {html.escape(meta.get('last_updated', ''))} 기준 · {keywords}</span>
+</div>
 <div class="tabs">{tabs_html}</div>
-<p id="empty-msg" class="empty-msg">이 탭에는 표시할 공지가 없습니다.</p>
+<p id="empty-msg" class="empty-msg">🎉 이 탭에는 표시할 공지가 없어요!</p>
 {sites_html}
+</div>
 <script>{READ_STATE_SCRIPT}</script>
 </body>
 </html>"""
