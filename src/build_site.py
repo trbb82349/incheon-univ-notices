@@ -217,11 +217,28 @@ READ_STATE_SCRIPT = """
   function refresh() {
     var counts = { unread: 0, read: 0, starred: 0, other: 0 };
     var items = document.querySelectorAll('.notice-item');
+
+    // "읽은 공지" 탭만 최근에 읽은 순으로 보여준다. readSet은 읽음으로 표시한 순서대로
+    // 쌓이는 자바스크립트 Set이라(먼저 읽은 게 앞), 뒤집으면 최근에 읽은 것부터 나온다.
+    // .notice-list가 flex라서, DOM 순서는 그대로 두고 order 값만 바꿔서 화면 순서를 조정한다.
+    var readOrderIndex = null;
+    if (activeTab === 'read') {
+      readOrderIndex = {};
+      Array.from(readSet).reverse().forEach(function (l, i) { readOrderIndex[l] = i; });
+    }
+
     items.forEach(function (li) {
       Object.keys(counts).forEach(function (tab) {
         if (matchesTab(li, tab)) counts[tab]++;
       });
       li.classList.toggle('tab-hidden', !matchesTab(li, activeTab));
+
+      if (readOrderIndex) {
+        var link = li.getAttribute('data-link');
+        li.style.order = link in readOrderIndex ? readOrderIndex[link] : '';
+      } else {
+        li.style.order = ''; // 다른 탭에서는 원래대로 최신 날짜순(원래 화면에 적힌 순서)
+      }
     });
 
     document.querySelectorAll('.tab-btn').forEach(function (btn) {
