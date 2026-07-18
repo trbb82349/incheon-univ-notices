@@ -435,9 +435,25 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
       });
     }
 
+    // 카드를 좌우로 밀면(스와이프) 읽음으로 표시한다.
+    // 제목 글자(링크) 위가 카드에서 가장 넓은 면적을 차지하기 때문에(특히 휴대폰에서),
+    // 스와이프 시작을 링크 위에서도 허용해야 한다. 대신 실제로 많이 끌었을 때는(wasDragged)
+    // 링크의 클릭(=새 창 열기)을 막아서, 스와이프와 "눌러서 열기"가 서로 안 부딪히게 한다.
+    var SWIPE_THRESHOLD = 80;
+    var DRAG_MOVE_THRESHOLD = 10; // 이만큼 넘게 움직이면 "탭"이 아니라 "끌기"로 본다
+    var swipeStartX = null;
+    var swipeStartY = null;
+    var swipePointerId = null;
+    var swipeDX = 0;
+    var wasDragged = false;
+
     var a = li.querySelector('.notice-link');
     if (a) {
-      a.addEventListener('click', function () {
+      a.addEventListener('click', function (e) {
+        if (wasDragged) {
+          e.preventDefault();
+          return;
+        }
         if (isRelevant(li) && !readSet.has(link)) {
           toggleRead(link);
           applyItemState(li);
@@ -446,24 +462,24 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
       });
     }
 
-    // 카드를 좌우로 밀면(스와이프) 읽음으로 표시한다.
-    var SWIPE_THRESHOLD = 80;
-    var swipeStartX = null;
-    var swipePointerId = null;
-    var swipeDX = 0;
-
     li.addEventListener('pointerdown', function (e) {
       if (!isRelevant(li)) return; // 다른 학과 공지는 읽음 기능이 없으니 스와이프도 안 함
-      if (e.target.closest('button') || e.target.closest('a')) return; // 버튼/링크는 그대로 누르게 둔다
+      if (e.target.closest('button')) return; // 버튼은 그대로 누르게 둔다
       swipePointerId = e.pointerId;
       swipeStartX = e.clientX;
+      swipeStartY = e.clientY;
       swipeDX = 0;
+      wasDragged = false;
       li.style.transition = 'none';
     });
 
     li.addEventListener('pointermove', function (e) {
       if (swipeStartX === null || e.pointerId !== swipePointerId) return;
       swipeDX = e.clientX - swipeStartX;
+      var dy = e.clientY - swipeStartY;
+      // 위아래로 더 많이 움직였으면(스크롤 의도) 좌우 스와이프로 보지 않는다.
+      if (Math.abs(dy) > Math.abs(swipeDX)) return;
+      if (Math.abs(swipeDX) > DRAG_MOVE_THRESHOLD) wasDragged = true;
       li.style.transform = 'translateX(' + swipeDX + 'px)';
       li.style.opacity = String(Math.max(1 - Math.abs(swipeDX) / 300, 0.4));
     });
