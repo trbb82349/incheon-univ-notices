@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "last_updated": "2026-07-18 16:21",
+    "my_keywords": [
+      "경영학부",
+      "경영대학",
+      "데이터과학과",
+      "데이터사이언스"
+    ]
+  },
+  "sites": [
+    {
+      "name": "인천대 홈페이지 공지사항",
+      "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
+      "notices": [
+        {
+          "title": "[HUSS 포용사회사업단] 2026년도 하계방학 및 2학기 국가근로장학생 선발 결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427172/artclView",
+          "writer": "HUSS포용사회이니셔티브학부",
+          "date": "2026.07.16",
+          "relevant": false,
+          "matched_dept": "포용사회이니셔티브학부"
+        },
+        {
+          "title": "[기초과학연구소] 2026학년도 2학기 국가근로장학생 모집(7월 20일부터 7월 31까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427167/artclView",
+          "writer": "기초과학연구소",
+          "date": "2026.07.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 생활원 야간생활조교 장학생(대학원생) 선발 공고(모집기간 연장)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427154/artclView",
+          "writer": "생활원",
+          "date": "2026.07.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[안전공학과] 2026 -2학기 교내봉사장학생 모집 ( ∼7/24)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427152/artclView",
+          "writer": "안전공학과",
+          "date": "2026.07.16",
+          "relevant": false,
+          "matched_dept": "안전공학과"
+        },
+        {
+          "title": "[전자공학부]2026-2 교내 봉사장학생(일반) 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427151/artclView",
+          "writer": "전자공학부",
+          "date": "2026.07.16",
+          "relevant": false,
+          "matched_dept": "전자공학부"
+        },
+        {
+          "title": "[전자공학부]2026학년도 2학기 국가근로장학생 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427144/artclView",
+          "writer": "전자공학부",
+          "date": "2026.07.16",
+          "relevant": false,
+          "matched_dept": "전자공학부"
+        },
+        {
+          "title": "[장애학생지원센터] 2026-2학기 장애대학생 봉사유형 국가근로장학생 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427143/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.07.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[창업지원단] 2026년도 1학기 창업인재지원금 안내(~7.19(일)까지 신청)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427133/artclView",
+          "writer": "창업지원단",
+          "date": "2026.07.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년도 인천대학교 학부 재학생 대상 3회차(8~9월) 전화영어 수강생 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427131/artclView",
+          "writer": "국제교류과",
+          "date": "2026.07.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "인천대-울산대 초광역 해커톤 참가자 모집: 지역의 문제를 AI로 해결하라!",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427128/artclView",
+          "writer": "RISE전략과",
+          "date": "2026.07.16",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
+    }
+  ]
+}

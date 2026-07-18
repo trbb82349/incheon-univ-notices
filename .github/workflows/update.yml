@@ -1,0 +1,57 @@
+name: 자동 업데이트
+
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 매일 08:00 KST (= 23:00 UTC 전날)
+  workflow_dispatch:
+
+concurrency:
+  group: update-workflow
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 의존 패키지 설치
+        run: pip install -r requirements.txt
+
+      - name: 공지 수집
+        run: python src/collect.py
+
+      - name: 웹사이트 빌드
+        run: python src/build_site.py
+
+      - name: 변경사항 커밋 & 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/data.json docs/index.html
+          if git diff --staged --quiet; then
+            echo "변경사항 없음"
+            exit 0
+          fi
+          git commit -m "update: $(date '+%Y-%m-%d')"
+          set +e
+          git push
+          RESULT=$?
+          set -e
+          if [ $RESULT -ne 0 ]; then
+            echo "Push 실패, rebase 후 재시도..."
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi
