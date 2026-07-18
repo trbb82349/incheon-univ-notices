@@ -50,14 +50,46 @@ body {
 }
 h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 0 0 4px; letter-spacing: -0.5px; }
 .tagline { font-size: 13px; margin: 0; opacity: 0.95; }
+.hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 10px; }
 .update-bar {
   display: inline-block;
-  margin-top: 10px;
   font-size: 11px;
   background: rgba(255,255,255,0.25);
   padding: 4px 12px;
   border-radius: 999px;
 }
+.source-toggle-btn {
+  font-size: 11px;
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.source-toggle-btn:active { transform: scale(0.95); }
+
+.source-panel {
+  background: #fff;
+  border-radius: 16px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 3px 10px rgba(134, 194, 220, 0.16);
+  border: 1px solid var(--sky-pale);
+}
+.source-panel[hidden] { display: none; }
+.source-panel-title { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 14px; color: var(--sky-dark); margin: 0 0 10px; }
+.source-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.source-list a {
+  display: block;
+  color: var(--title);
+  text-decoration: none;
+  font-size: 13.5px;
+  padding: 9px 12px;
+  background: var(--sky-pale);
+  border-radius: 10px;
+}
+.source-list a:active { opacity: 0.7; }
 
 .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; justify-content: center; }
 .tab-btn {
@@ -133,7 +165,20 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
 <div class="hero">
 <h1>💙 인천대 알림 모음</h1>
 <p class="tagline">매일 아침 조용히 챙겨주는 공지 비서 ✨</p>
+<div class="hero-meta">
 <span class="update-bar">🕐 2026-07-18 21:05 기준 · 경영학부, 경영대학, 데이터과학과, 데이터사이언스</span>
+<button type="button" id="source-toggle-btn" class="source-toggle-btn">📋 출처</button>
+</div>
+</div>
+<div id="source-panel" class="source-panel" hidden>
+<p class="source-panel-title">공지를 가져오는 곳</p>
+<ul class="source-list"><li><a href='https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1' target='_blank' rel='noopener'>🏫 인천대 홈페이지 공지사항</a></li>
+<li><a href='https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1' target='_blank' rel='noopener'>🏫 데이터과학과 홈페이지 공지사항</a></li>
+<li><a href='https://datascience.inu.ac.kr/bbs/datascience/1829/artclList.do?page=1' target='_blank' rel='noopener'>🏫 데이터과학과 장학게시판</a></li>
+<li><a href='https://lib.inu.ac.kr/library-guide/news/notice?page=1' target='_blank' rel='noopener'>🏫 학산도서관 공지사항</a></li>
+<li><a href='https://everytime.kr/259118' target='_blank' rel='noopener'>🏫 에타 정보게시판</a></li>
+<li><a href='https://everytime.kr/367564' target='_blank' rel='noopener'>🏫 에타 홍보게시판</a></li>
+<li><a href='https://everytime.kr/418891' target='_blank' rel='noopener'>🏫 에타 동아리/학회</a></li></ul>
 </div>
 <div class="tabs"><button type='button' class='tab-btn active' data-tab='unread'>📩 안 읽은 공지<span class='count'></span></button>
 <button type='button' class='tab-btn' data-tab='read'>✅ 읽은 공지<span class='count'></span></button>
@@ -419,6 +464,21 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
       refresh();
     });
   });
+
+  var sourceToggleBtn = document.getElementById('source-toggle-btn');
+  var sourcePanel = document.getElementById('source-panel');
+  if (sourceToggleBtn && sourcePanel) {
+    sourceToggleBtn.addEventListener('click', function () {
+      var isHidden = sourcePanel.hasAttribute('hidden');
+      if (isHidden) {
+        sourcePanel.removeAttribute('hidden');
+        sourceToggleBtn.textContent = '📋 출처 닫기';
+      } else {
+        sourcePanel.setAttribute('hidden', '');
+        sourceToggleBtn.textContent = '📋 출처';
+      }
+    });
+  }
 
   document.querySelectorAll('.notice-item').forEach(function (li) {
     var link = li.getAttribute('data-link');

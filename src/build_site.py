@@ -61,14 +61,46 @@ body {
 }
 h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 0 0 4px; letter-spacing: -0.5px; }
 .tagline { font-size: 13px; margin: 0; opacity: 0.95; }
+.hero-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 10px; }
 .update-bar {
   display: inline-block;
-  margin-top: 10px;
   font-size: 11px;
   background: rgba(255,255,255,0.25);
   padding: 4px 12px;
   border-radius: 999px;
 }
+.source-toggle-btn {
+  font-size: 11px;
+  background: rgba(255,255,255,0.25);
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.source-toggle-btn:active { transform: scale(0.95); }
+
+.source-panel {
+  background: #fff;
+  border-radius: 16px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  box-shadow: 0 3px 10px rgba(134, 194, 220, 0.16);
+  border: 1px solid var(--sky-pale);
+}
+.source-panel[hidden] { display: none; }
+.source-panel-title { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 14px; color: var(--sky-dark); margin: 0 0 10px; }
+.source-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.source-list a {
+  display: block;
+  color: var(--title);
+  text-decoration: none;
+  font-size: 13.5px;
+  padding: 9px 12px;
+  background: var(--sky-pale);
+  border-radius: 10px;
+}
+.source-list a:active { opacity: 0.7; }
 
 .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; justify-content: center; }
 .tab-btn {
@@ -263,6 +295,21 @@ READ_STATE_SCRIPT = """
     });
   });
 
+  var sourceToggleBtn = document.getElementById('source-toggle-btn');
+  var sourcePanel = document.getElementById('source-panel');
+  if (sourceToggleBtn && sourcePanel) {
+    sourceToggleBtn.addEventListener('click', function () {
+      var isHidden = sourcePanel.hasAttribute('hidden');
+      if (isHidden) {
+        sourcePanel.removeAttribute('hidden');
+        sourceToggleBtn.textContent = '📋 출처 닫기';
+      } else {
+        sourcePanel.setAttribute('hidden', '');
+        sourceToggleBtn.textContent = '📋 출처';
+      }
+    });
+  }
+
   document.querySelectorAll('.notice-item').forEach(function (li) {
     var link = li.getAttribute('data-link');
     applyItemState(li);
@@ -434,6 +481,11 @@ def build():
         for tab_id, label in TAB_LABELS
     )
 
+    source_items_html = "\n".join(
+        f"<li><a href='{html.escape(site['url'])}' target='_blank' rel='noopener'>🏫 {html.escape(site['name'])}</a></li>"
+        for site in data["sites"]
+    )
+
     favicon = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💙</text></svg>"
 
     page = f"""<!doctype html>
@@ -450,7 +502,14 @@ def build():
 <div class="hero">
 <h1>💙 인천대 알림 모음</h1>
 <p class="tagline">매일 아침 조용히 챙겨주는 공지 비서 ✨</p>
+<div class="hero-meta">
 <span class="update-bar">🕐 {html.escape(meta.get('last_updated', ''))} 기준 · {keywords}</span>
+<button type="button" id="source-toggle-btn" class="source-toggle-btn">📋 출처</button>
+</div>
+</div>
+<div id="source-panel" class="source-panel" hidden>
+<p class="source-panel-title">공지를 가져오는 곳</p>
+<ul class="source-list">{source_items_html}</ul>
 </div>
 <div class="tabs">{tabs_html}</div>
 {errors_html}
