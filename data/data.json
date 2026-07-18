@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-18 18:59",
+    "last_updated": "2026-07-18 19:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -505,6 +505,14 @@
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/424611/artclView",
           "writer": "데이터과학과",
           "date": "2026.05.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 조기졸업 희망자 신청 안내(7/20(월) ~ 8/21(금) 까지)",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/425712/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.06.17",
           "relevant": true,
           "matched_dept": null
         }

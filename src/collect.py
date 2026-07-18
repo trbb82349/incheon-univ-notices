@@ -3,7 +3,8 @@
 동작 방식:
 - 사이트를 처음 추가했을 때(그 사이트 기록이 아예 없을 때): 최근에 올라온 글은 물론,
   제목에 "~7/24", "7월 20일부터 7월 31일까지" 같은 신청/행사 기간이 적혀 있고
-  그 기간에 오늘 날짜가 포함되는 글이면 며칠 전에 올라온 글이라도 다 찾아서 가져온다.
+  그 기간이 오늘이거나 오늘 이후까지 걸쳐 있는 글이면(아직 시작 전인 공지 포함,
+  마감일이 이미 지난 것만 제외) 며칠 전에 올라온 글이라도 다 찾아서 가져온다.
   (페이지를 계속 넘기다가, 어느 페이지에 더 이상 해당하는 글이 하나도 없으면 멈춘다.)
 - 이후 업데이트할 때: 이전에 이미 저장해둔 공지는 그대로 두고, 그 이후 새로 올라온 공지만
   추가한다. 이미 저장된 글(링크로 구분)을 만나면 그 뒤로는 다 예전 글이므로 페이지 넘기기를 멈춘다.
@@ -123,29 +124,28 @@ def _resolve_date(md, year, posted):
     return result
 
 
-def period_covers_today(title, posted, today):
-    """제목에 적힌 기간에 오늘 날짜가 포함되면 True, 기간이 지났거나 아직 시작 전이면 False,
-    제목에서 기간을 아예 못 찾았으면 None을 돌려준다."""
+def period_still_relevant(title, posted, today):
+    """제목에 적힌 기간이 오늘이거나 오늘 이후까지 걸쳐 있으면 True를 돌려준다.
+    (아직 시작 전인 "다음 주부터 접수" 같은 공지도 포함 — 오늘 이후에 해당되는 공지이므로.)
+    마감일이 이미 지난 게 확실한 경우에만 False. 제목에서 기간을 아예 못 찾았으면 None."""
     start_md, end_md = parse_title_period(title)
     if start_md is None and end_md is None:
         return None
-    start = _resolve_date(start_md, posted.year, posted)
     end = _resolve_date(end_md, posted.year, posted)
-    if start and today < start:
-        return False
     if end and today > end:
-        return False
-    return True
+        return False  # 마감일이 이미 지났음
+    return True  # 아직 진행 중이거나, 시작 전이거나(=오늘 이후에 해당), 마감일이 안 적혀 있음
 
 
 def is_bootstrap_relevant(row, today):
     """사이트를 처음 추가할 때, 이 글을 초기 목록에 포함할지 정한다.
 
-    "최근 글"이거나 "제목에 적힌 기간에 오늘이 포함되는 글"이면 포함한다.
-    글이 며칠 전 것인지는 상관하지 않는다 — 학과 홈페이지처럼 상단에 고정해두고
-    학기 내내 걸어두는 공지(예: "~12/31까지")는 올라온 지 몇 달이 지났어도
-    지금도 유효할 수 있기 때문이다. (제목에 아무 기간도 안 적혀 있는 오래된 글은
-    period_covers_today가 None을 돌려주므로 자연스럽게 제외된다.)"""
+    "최근 글"이거나 "제목에 적힌 기간이 오늘이거나 오늘 이후까지 걸쳐 있는 글"이면
+    포함한다(아직 시작 전인 공지도 포함 — 오늘 이후에 해당되니까). 글이 며칠 전
+    것인지는 상관하지 않는다 — 학과 홈페이지처럼 상단에 고정해두고 학기 내내
+    걸어두는 공지(예: "~12/31까지")는 올라온 지 몇 달이 지났어도 지금도 유효할
+    수 있기 때문이다. (제목에 아무 기간도 안 적혀 있는 오래된 글은
+    period_still_relevant가 None을 돌려주므로 자연스럽게 제외된다.)"""
     try:
         posted = datetime.strptime(row["date"], "%Y.%m.%d").date()
     except ValueError:
@@ -154,7 +154,7 @@ def is_bootstrap_relevant(row, today):
     if (today - posted).days <= RECENT_DAYS:
         return True  # 최근 며칠 안에 올라온 글은 기간 언급이 없어도 포함
 
-    return period_covers_today(row["title"], posted, today) is True
+    return period_still_relevant(row["title"], posted, today) is True
 
 
 def classify_relevance(title, writer, my_keywords):
