@@ -2,7 +2,7 @@
 
 ## 한 줄 목표
 
-인천대학교 여러 사이트의 새 공지를 매일 자동으로 모으고, 내 학과와 관련 없는 공지는 접어서 보여주는 웹사이트를 만든다. (`auto-update-site` 스킬 기반: GitHub Actions로 매일 수집 → GitHub Pages로 무료 공개)
+인천대학교 여러 사이트에서 오늘 날짜로 올라온 공지를 매일 자동으로 모으고, 내 학과와 관련 없는 공지는 접어서 보여주는 웹사이트를 만든다. (`auto-update-site` 스킬 기반: GitHub Actions로 매일 수집 → GitHub Pages로 무료 공개)
 
 ## 작업 카드
 
@@ -38,26 +38,25 @@ incheon-univ-notices/
 - [x] 내 학과 관련 없는 공지 걸러내기 (input/my_keywords.txt 기반)
 - [x] data.json / docs/index.html 분리 구조로 재구성 (auto-update-site 스킬 표준 구조)
 - [x] GitHub Actions 워크플로 작성 (매일 08:00 KST, Gemini 등 AI 분석 없이 순수 스크래핑만 사용)
-- [ ] **GitHub 저장소 생성 + 첫 배포** (사람이 해야 하는 단계, 아래 참고)
+- [x] **GitHub 저장소 생성 + 첫 배포 완료** (`trbb82349/incheon-univ-notices`, Pages 켜짐, Actions 정상 동작 확인)
+- [x] "오늘 날짜" 글만 모으도록 페이지 자동 넘기기 (하루에 10건 넘게 올라와도 다음 페이지까지 계속 확인)
 - [ ] 다른 인천대 공지 사이트 추가
 - [ ] 필터링 정확도 다듬기
 
-## GitHub 배포 절차 (아직 안 한 상태 - 꼭 필요한 단계)
+## GitHub 배포 상태 (완료)
 
-이 스킬은 브라우저에서 GitHub 저장소를 만드는 과정이 필요하다. 이 컴퓨터에는 `gh`(GitHub CLI)가 설치되어 있지 않아서, 저장소 생성만은 직접 해줘야 한다. 나머지(커밋/푸시/Actions 설정)는 Codex가 도와줄 수 있다.
+- 저장소: https://github.com/trbb82349/incheon-univ-notices
+- 사이트 주소: https://trbb82349.github.io/incheon-univ-notices
+- GitHub Pages: Branch `main` / Folder `/docs`로 켜짐
+- GitHub Actions 첫 수동 실행(Run workflow) 성공 확인함
 
-1. **GitHub에서 새 저장소 만들기**
-   - github.com → 우측 상단 **+** → **New repository**
-   - Repository name: `incheon-univ-notices` (또는 원하는 이름)
-   - **Public** 선택 (Pages 무료 사용 조건)
-   - "Add a README file" 체크 **해제**
-   - Create repository
-2. 저장소를 만들었으면 Codex에게 "저장소 만들었어, 주소는 https://github.com/[아이디]/incheon-univ-notices.git 이야, 이제 push 해줘"라고 알려주면 이 폴더를 그 저장소로 커밋/푸시한다.
-3. **GitHub Pages 켜기**: 저장소 → Settings → Pages → Source: `Deploy from a branch` → Branch: `main` / Folder: `/docs` → Save
-4. **첫 수동 실행 테스트**: 저장소 → Actions 탭 → "자동 업데이트" → Run workflow (한 번 눌러서 정상 동작 확인)
-5. 몇 분 후 `https://[아이디].github.io/incheon-univ-notices` 에서 사이트 확인
+매일 08:00 KST에 GitHub Actions가 자동으로 `collect.py`(오늘 날짜 공지 수집, 필요하면 여러 페이지까지 확인) → `build_site.py`(웹페이지 생성)를 실행하고, 바뀐 내용이 있으면 자동 커밋 + 배포한다.
 
-이후에는 매일 08:00 KST에 GitHub Actions가 자동으로 `collect.py` → `build_site.py`를 실행하고, 바뀐 내용이 있으면 자동 커밋 + 배포한다.
+새 컴퓨터에서 다시 push해야 하는 경우:
+```powershell
+git remote add origin https://github.com/trbb82349/incheon-univ-notices.git
+git push -u origin main
+```
 
 ## 로컬 실행 방법 (테스트용)
 
@@ -71,13 +70,10 @@ python src/build_site.py
 ## 확인 방법
 
 - **로컬**: `docs/index.html`을 열어서 "나와 관련된 공지" / "다른 학과 공지(접힘)" 분류가 맞는지 확인
-- **배포 후**: `https://[아이디].github.io/incheon-univ-notices` 접속 + 저장소 Actions 탭에서 매일 초록색 체크(✅) 확인
+- **배포 사이트**: https://trbb82349.github.io/incheon-univ-notices 접속 + 저장소 Actions 탭에서 매일 초록색 체크(✅) 확인
+- 오늘 새 글이 없는 날은 "오늘 새로 올라온 공지가 없습니다"라고 뜨는 게 정상이다 (버그 아님).
 
 ## Codex에게 다음에 요청할 말
-
-```text
-저장소 만들었어, 주소는 https://github.com/[아이디]/incheon-univ-notices.git 이야, push 해줘.
-```
 
 ```text
 사이트 추가: 사이트명 - URL
@@ -87,9 +83,14 @@ python src/build_site.py
 "OO공지가 나랑 관련 있는데 다른 학과로 잘못 분류됐어" 처럼 잘못된 필터링 결과 알려주기
 ```
 
+```text
+오늘 날짜 말고 최근 3일치도 같이 보고 싶어 / 주말에도 뭔가 보여줬으면 좋겠어 처럼 범위를 바꾸고 싶을 때 알려주기
+```
+
 ## 메모
 
 - **데이터 방식**: 트렌드 추적형(auto-update-site 기본 예시)과 달리, 이 프로젝트는 공지 게시판을 "매번 최신 스냅샷으로 교체"하는 방식이다. 게시판 자체가 이미 최신 글을 보여주므로, 과거 데이터를 계속 쌓아두지 않는다.
+- **"오늘 날짜" 기준 수집**: `collect.py`는 게시판 1페이지부터 시작해서, 오늘 날짜(예: 2026.07.18)인 글이 있는 동안 계속 다음 페이지로 넘어간다. 하루에 10건보다 많이 올라와도 다 가져오고, 반대로 그날 새 글이 하나도 없으면(주말 등) 결과가 0건이 된다. 안전 상한은 15페이지다.
 - **AI 분석 미사용**: `auto-update-site` 템플릿은 기본적으로 Gemini API로 데이터를 분석하지만, 이 프로젝트는 학과 이름 패턴 매칭만으로 충분해서 AI 호출 없이 만들었다. API 키/Secret 등록이 필요 없다.
 - **필터링 한계**: "HUSS포용사회이니셔티브학부"처럼 이름 끝이 "학부"로 끝나지만 실제로는 전교생 대상인 공지가 다른 학과로 잘못 접힐 수 있다. 걸러진 공지도 숨기지 않고 펼쳐보기로 항상 확인 가능하게 해뒀다.
 - **저장소 분리 이유**: 메인 워크스페이스(BAI-GUIDE) 저장소는 개인 메모 등 비공개 성격 파일이 섞여 있어서, 공개 웹사이트로 배포되는 이 프로젝트는 별도의 전용 저장소로 분리하기로 했다 (사용자 확인 완료). 메인 저장소의 `.gitignore`에 이 폴더가 추가되어 있다.

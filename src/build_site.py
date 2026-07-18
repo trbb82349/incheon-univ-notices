@@ -45,7 +45,7 @@ def render_site(site):
 
     notices = site["notices"]
     if not notices:
-        parts.append("<p>가져온 공지가 없습니다.</p>")
+        parts.append("<p>오늘 새로 올라온 공지가 없습니다.</p>")
         return "\n".join(parts)
 
     relevant = [n for n in notices if n["relevant"]]
@@ -84,7 +84,7 @@ def build():
 </head>
 <body>
 <h1>인천대 알림 모음</h1>
-<p class="update-bar">마지막 갱신: {html.escape(meta.get('last_updated', ''))} KST · 내 학과 키워드: {keywords}</p>
+<p class="update-bar">{html.escape(meta.get('today', ''))} 오늘 올라온 공지 · 마지막 갱신: {html.escape(meta.get('last_updated', ''))} KST · 내 학과 키워드: {keywords}</p>
 {sites_html}
 </body>
 </html>"""
