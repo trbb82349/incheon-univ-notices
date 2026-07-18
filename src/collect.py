@@ -1,8 +1,10 @@
 """collect.py - 인천대 알림 사이트를 스크래핑해서 data/data.json을 최신 상태로 갱신한다.
 
 동작 방식:
-- 사이트를 처음 추가했을 때(그 사이트 기록이 아예 없을 때): 게시판에서 가장 최근 날짜에 올라온
-  공지를 전부 가져온다 (페이지에 걸쳐 있으면 여러 페이지를 넘겨서라도 그 날짜 것은 다 가져옴).
+- 사이트를 처음 추가했을 때(그 사이트 기록이 아예 없을 때): 최근에 올라온 글은 물론,
+  제목에 "~7/24", "7월 20일부터 7월 31일까지" 같은 신청/행사 기간이 적혀 있고
+  그 기간에 오늘 날짜가 포함되는 글이면 며칠 전에 올라온 글이라도 다 찾아서 가져온다.
+  (페이지를 계속 넘기다가, 어느 페이지에 더 이상 해당하는 글이 하나도 없으면 멈춘다.)
 - 이후 업데이트할 때: 이전에 이미 저장해둔 공지는 그대로 두고, 그 이후 새로 올라온 공지만
   추가한다. 이미 저장된 글(링크로 구분)을 만나면 그 뒤로는 다 예전 글이므로 페이지 넘기기를 멈춘다.
 
@@ -14,7 +16,7 @@ import csv
 import json
 import re
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
@@ -29,11 +31,21 @@ DATA_FILE = ROOT / "data" / "data.json"
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 REQUEST_DELAY_SEC = 1.0  # 요청 사이마다 너무 빠르게 보내지 않기 위한 딜레이
-MAX_PAGES = 15  # 새 글/최근 글을 찾으려고 페이지를 넘길 때의 안전 상한
+MAX_INCREMENTAL_PAGES = 15  # 업데이트할 때 새 글을 찾으려고 페이지를 넘길 때의 안전 상한
+MAX_BOOTSTRAP_PAGES = 30  # 사이트를 처음 추가할 때 기간이 겹치는 글을 찾으려고 넘길 때의 안전 상한
+RECENT_DAYS = 3  # 이 기간 안에 올라온 글은 제목에 기간이 없어도 일단 "최근 글"로 포함
+BOOTSTRAP_MAX_LOOKBACK_DAYS = 30  # 이보다 오래된 글은 기간이 적혀 있어도 무시(오래된 글의 기간 오탐 방지)
 MAX_STORED_PER_SITE = 300  # 사이트 하나당 보관하는 공지 최대 개수 (계속 쌓이기만 하는 것 방지)
 
 # 공지 제목/작성부서에서 "OO학과", "OO학부", "OO전공" 형태의 학과 이름을 찾는 패턴
 DEPT_PATTERN = re.compile(r"[가-힣]+(?:학과|학부|전공)")
+
+# 제목에서 "월/일" 하나를 찾는 조각: 7/20, 7.20, 7월 20일 모두 허용
+_MD = r"(\d{1,2})\s*(?:[./]|월)\s*(\d{1,2})\s*일?"
+PERIOD_RANGE_WORDS = re.compile(rf"{_MD}\s*부터\s*{_MD}\s*까지")
+PERIOD_RANGE_TILDE = re.compile(rf"{_MD}\s*[~\-∼～]\s*{_MD}")
+PERIOD_DEADLINE_TILDE = re.compile(rf"[~∼～]\s*{_MD}")
+PERIOD_DEADLINE_WORD = re.compile(rf"{_MD}\s*까지")
 
 
 def load_sites():
@@ -55,6 +67,89 @@ def load_existing_data():
         return {}
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     return {s["name"]: s for s in data.get("sites", [])}
+
+
+def _valid_md(m, d):
+    return 1 <= m <= 12 and 1 <= d <= 31
+
+
+def parse_title_period(title):
+    """제목에서 "~7/24", "7월 20일부터 7월 31일까지", "7/20~7/31" 같은 신청/행사 기간을 찾는다.
+    (시작 (월,일) 또는 None, 끝 (월,일) 또는 None)을 돌려준다. 못 찾으면 (None, None)."""
+    m = PERIOD_RANGE_WORDS.search(title)
+    if m:
+        m1, d1, m2, d2 = map(int, m.groups())
+        if _valid_md(m1, d1) and _valid_md(m2, d2):
+            return (m1, d1), (m2, d2)
+
+    m = PERIOD_RANGE_TILDE.search(title)
+    if m:
+        m1, d1, m2, d2 = map(int, m.groups())
+        if _valid_md(m1, d1) and _valid_md(m2, d2):
+            return (m1, d1), (m2, d2)
+
+    m = PERIOD_DEADLINE_TILDE.search(title)
+    if m:
+        m2, d2 = map(int, m.groups())
+        if _valid_md(m2, d2):
+            return None, (m2, d2)
+
+    m = PERIOD_DEADLINE_WORD.search(title)
+    if m:
+        m2, d2 = map(int, m.groups())
+        if _valid_md(m2, d2):
+            return None, (m2, d2)
+
+    return None, None
+
+
+def _resolve_date(md, year, posted):
+    """(월,일)을 실제 date로 만든다. 연말/연초를 넘나드는 경우 posted 날짜와 너무 동떨어지면
+    다음 해로 넘겨서 보정한다 (예: 12월에 올라온 글의 "~1/5"는 다음 해 1월 5일)."""
+    if md is None:
+        return None
+    m, d = md
+    try:
+        result = date(year, m, d)
+    except ValueError:
+        return None
+    if result < posted - timedelta(days=180):
+        try:
+            result = date(year + 1, m, d)
+        except ValueError:
+            return None
+    return result
+
+
+def period_covers_today(title, posted, today):
+    """제목에 적힌 기간에 오늘 날짜가 포함되면 True, 기간이 지났거나 아직 시작 전이면 False,
+    제목에서 기간을 아예 못 찾았으면 None을 돌려준다."""
+    start_md, end_md = parse_title_period(title)
+    if start_md is None and end_md is None:
+        return None
+    start = _resolve_date(start_md, posted.year, posted)
+    end = _resolve_date(end_md, posted.year, posted)
+    if start and today < start:
+        return False
+    if end and today > end:
+        return False
+    return True
+
+
+def is_bootstrap_relevant(row, today):
+    """사이트를 처음 추가할 때, 이 글을 초기 목록에 포함할지 정한다."""
+    try:
+        posted = datetime.strptime(row["date"], "%Y.%m.%d").date()
+    except ValueError:
+        return True  # 날짜 형식을 못 읽으면 일단 안전하게 포함
+
+    if (today - posted).days <= RECENT_DAYS:
+        return True  # 최근 며칠 안에 올라온 글은 기간 언급이 없어도 포함
+
+    if (today - posted).days > BOOTSTRAP_MAX_LOOKBACK_DAYS:
+        return False  # 너무 오래된 글은 기간 오탐 방지 차원에서 더 보지 않음
+
+    return period_covers_today(row["title"], posted, today) is True
 
 
 def classify_relevance(title, writer, my_keywords):
@@ -113,51 +208,59 @@ def with_page(url, page):
     return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
 
 
-def fetch_new_notices(fetch_page, base_url, known_links):
-    """새로 나온 공지만 가져온다.
-
-    known_links가 비어 있으면(이 사이트를 처음 추가한 경우) 게시판에서 가장 최근 날짜에
-    해당하는 글을 전부 가져온다(여러 페이지에 걸쳐 있어도 계속 넘긴다).
-
-    known_links에 이미 글이 있으면(예전에 한 번 이상 수집한 사이트), 이미 알고 있는 글을
-    만날 때까지만 페이지를 넘기며 그 앞의(더 최신인) 새 글들을 가져온다.
-    """
-    is_bootstrap = not known_links
-    latest_date = None
+def bootstrap_notices(fetch_page, base_url, today):
+    """사이트를 처음 추가할 때: 최근 글 + 제목의 신청/행사 기간에 오늘이 포함되는 글을
+    페이지를 넘겨가며 찾는다. 어느 페이지에 해당하는 글이 하나도 없으면 그 뒤는 안 본다."""
     collected = []
-
-    for page in range(1, MAX_PAGES + 1):
+    for page in range(1, MAX_BOOTSTRAP_PAGES + 1):
         rows = fetch_page(with_page(base_url, page))
         if not rows:
             break
-
-        if is_bootstrap:
-            if latest_date is None:
-                latest_date = rows[0]["date"]
-            matching = [r for r in rows if r["date"] == latest_date]
-            collected.extend(matching)
-            reached_boundary = len(matching) < len(rows)
-        else:
-            page_new = []
-            reached_boundary = False
-            for r in rows:
-                if r["link"] in known_links:
-                    reached_boundary = True
-                    break
-                page_new.append(r)
-            collected.extend(page_new)
-
-        if reached_boundary:
+        matches = [r for r in rows if is_bootstrap_relevant(r, today)]
+        collected.extend(matches)
+        if not matches:
             break
-        if page < MAX_PAGES:
+        if page < MAX_BOOTSTRAP_PAGES:
             time.sleep(REQUEST_DELAY_SEC)
     else:
-        print(f"  [주의] {MAX_PAGES}페이지까지 전부 새 글이라 더 있을 수 있음 (안전 상한 도달)")
-
+        print(f"  [주의] {MAX_BOOTSTRAP_PAGES}페이지까지 계속 해당 글이 있어서 안전 상한 도달")
     return collected
 
 
-def collect_site(site, my_keywords, existing_site):
+def fetch_incremental_notices(fetch_page, base_url, known_links):
+    """업데이트할 때: 이미 알고 있는 글을 만날 때까지만 페이지를 넘기며 그 앞의(더 최신인)
+    새 글들을 가져온다."""
+    collected = []
+    for page in range(1, MAX_INCREMENTAL_PAGES + 1):
+        rows = fetch_page(with_page(base_url, page))
+        if not rows:
+            break
+        page_new = []
+        reached_boundary = False
+        for r in rows:
+            if r["link"] in known_links:
+                reached_boundary = True
+                break
+            page_new.append(r)
+        collected.extend(page_new)
+        if reached_boundary:
+            break
+        if page < MAX_INCREMENTAL_PAGES:
+            time.sleep(REQUEST_DELAY_SEC)
+    else:
+        print(f"  [주의] {MAX_INCREMENTAL_PAGES}페이지까지 전부 새 글이라 더 있을 수 있음 (안전 상한 도달)")
+    return collected
+
+
+def fetch_new_notices(fetch_page, base_url, known_links, today):
+    """known_links가 비어 있으면(이 사이트를 처음 추가한 경우) 초기 목록을 만들고,
+    아니면(예전에 한 번 이상 수집한 사이트) 새로 올라온 글만 가져온다."""
+    if not known_links:
+        return bootstrap_notices(fetch_page, base_url, today)
+    return fetch_incremental_notices(fetch_page, base_url, known_links)
+
+
+def collect_site(site, my_keywords, existing_site, today):
     parser = PARSERS.get(site.get("parser", "").strip())
     prev_notices = existing_site["notices"] if existing_site else []
 
@@ -168,7 +271,7 @@ def collect_site(site, my_keywords, existing_site):
     known_links = {n["link"] for n in prev_notices}
 
     try:
-        new_rows = fetch_new_notices(parser, site["url"], known_links)
+        new_rows = fetch_new_notices(parser, site["url"], known_links, today)
     except requests.RequestException as e:
         print(f"  [경고] {site['name']} 요청 실패: {e} (기존 데이터 유지)")
         return {"name": site["name"], "url": site["url"], "notices": prev_notices, "error": str(e)}
@@ -199,12 +302,13 @@ def main():
 
     my_keywords = load_my_keywords()
     existing_by_name = load_existing_data()
+    today = now.date()
 
     results = []
     for i, site in enumerate(sites):
         if i > 0:
             time.sleep(REQUEST_DELAY_SEC)
-        results.append(collect_site(site, my_keywords, existing_by_name.get(site["name"])))
+        results.append(collect_site(site, my_keywords, existing_by_name.get(site["name"]), today))
 
     data = {
         "meta": {
