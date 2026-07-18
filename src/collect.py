@@ -233,12 +233,49 @@ def scrape_inu_js_link(url):
     return notices
 
 
+LIB_PAGE_SIZE = 10
+
+
+def scrape_lib_pyxis(url):
+    """학산도서관(lib.inu.ac.kr) 공지사항: 화면은 자바스크립트(Angular)로 그려져서
+    requests로는 빈 껍데기만 보이지만, 뒤에서 부르는 JSON API(pyxis-api)를 직접
+    호출하면 진짜 데이터를 그대로 받을 수 있다. sites.csv의 URL에 있는 "page="
+    값을 이 API가 쓰는 offset(=(page-1)*10)으로 바꿔서 요청한다."""
+    parts = urlsplit(url)
+    query = dict(parse_qsl(parts.query))
+    page = int(query.get("page", "1") or "1")
+    offset = (page - 1) * LIB_PAGE_SIZE
+    origin = f"{parts.scheme}://{parts.netloc}"
+    api_url = (
+        f"{origin}/pyxis-api/1/bulletin-boards/1/bulletins"
+        f"?offset={offset}&max={LIB_PAGE_SIZE}&nameOption=part&isSeq=false&onlyWriter=false"
+    )
+    resp = requests.get(api_url, headers=HEADERS, timeout=15)
+    resp.raise_for_status()
+    items = resp.json().get("data", {}).get("list", [])
+
+    notices = []
+    for item in items:
+        date_created = item.get("dateCreated", "")  # "2026-07-16 13:42:20"
+        date = date_created[:10].replace("-", ".")
+        notices.append(
+            {
+                "title": item.get("title", ""),
+                "link": f"{origin}/library-guide/news/notice/{item['id']}",
+                "writer": item.get("writer", ""),
+                "date": date,
+            }
+        )
+    return notices
+
+
 # 사이트별 파서 등록. sites.csv의 parser 칸에 적힌 이름으로 찾는다.
 # 새 사이트가 다른 구조를 쓰면 함수를 하나 더 만들어 여기에 등록하면 된다.
 # 파서는 "게시판 목록 페이지 URL 1개"를 받아 그 페이지에 있는 공지 목록을 반환한다.
 PARSERS = {
     "inu_standard": scrape_inu_standard,
     "inu_js_link": scrape_inu_js_link,
+    "inu_lib_pyxis": scrape_lib_pyxis,
 }
 
 

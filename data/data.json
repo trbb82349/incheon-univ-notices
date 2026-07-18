@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-18 19:36",
+    "last_updated": "2026-07-18 19:57",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -904,6 +904,93 @@
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/421491/artclView",
           "writer": "데이터과학과",
           "date": "2026.03.20",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "학산도서관 공지사항",
+      "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
+      "notices": [
+        {
+          "title": "2026. 7. 17.(금) 제헌절 휴관 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13755",
+          "writer": "김*준",
+          "date": "2026.07.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[ INU Great Books] 2026학년도 하계 고전읽기 토의 세미나 신청(~ 26. 7. 13일까지)",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13735",
+          "writer": "이*화",
+          "date": "2026.07.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "경기 인천지역 대학도서관 방학중 열람실 공동이용 개방 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13733",
+          "writer": "김*준",
+          "date": "2026.07.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026 JCR relesase (2025 Journal Impact Factor) 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13725",
+          "writer": "장*경",
+          "date": "2026.07.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026-1 하계방학 【슬기로운 방학생활】 특강 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13720",
+          "writer": "조*주",
+          "date": "2026.06.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "이룸관 개인학습캐럴(7-8월) 이용대상자 알림",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13703",
+          "writer": "조*주",
+          "date": "2026.06.25",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "이룸관 개인학습캐럴(7-8월) <대학원생> 이용 신청 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13678",
+          "writer": "조*주",
+          "date": "2026.06.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[필독] 2026년도 하계방학 도서관 운영시간 안내(보강주간 안내 포함)",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13671",
+          "writer": "김*준",
+          "date": "2026.06.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[긴급공지] 통합검색 및 EBSCO DB 장애 공지 - 6/9 조치완료",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13658",
+          "writer": "김*빈",
+          "date": "2026.06.09",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "★2026년 8월 학위논문 졸업자 dCollection 제출 안내(~7/15)",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13654",
+          "writer": "조*주",
+          "date": "2026.06.08",
           "relevant": true,
           "matched_dept": null
         }
