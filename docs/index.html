@@ -398,6 +398,10 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
       }
     });
 
+    // 일부 모바일 브라우저는 order 값만 바꾸면 화면을 바로 다시 안 그리는 경우가 있어서,
+    // 강제로 한 번 더 계산하게 만든다(이미 계산해둔 값을 다시 읽기만 해도 강제로 다시 그려진다).
+    void document.body.offsetHeight;
+
     document.querySelectorAll('.tab-btn').forEach(function (btn) {
       var tab = btn.getAttribute('data-tab');
       btn.classList.toggle('active', tab === activeTab);
