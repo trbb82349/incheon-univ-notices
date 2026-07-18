@@ -83,6 +83,8 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
   padding: 14px 16px;
   box-shadow: 0 3px 10px rgba(134, 194, 220, 0.16);
   border: 1px solid var(--sky-pale);
+  touch-action: pan-y;
+  user-select: none;
 }
 .notice-item.tab-hidden { display: none; }
 .notice-item.is-read { background: #f6f9fb; opacity: 0.72; }
@@ -334,6 +336,11 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
     return !readSet.has(link); // unread
   }
 
+  function toggleRead(link) {
+    if (readSet.has(link)) readSet.delete(link); else readSet.add(link);
+    saveSet(READ_KEY, readSet);
+  }
+
   function applyItemState(li) {
     var link = li.getAttribute('data-link');
     var serverRelevant = li.getAttribute('data-relevant') === 'true';
@@ -400,8 +407,7 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
     if (readBtn) {
       readBtn.addEventListener('click', function (e) {
         e.preventDefault();
-        if (readSet.has(link)) readSet.delete(link); else readSet.add(link);
-        saveSet(READ_KEY, readSet);
+        toggleRead(link);
         applyItemState(li);
         refresh();
       });
@@ -433,13 +439,63 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
     if (a) {
       a.addEventListener('click', function () {
         if (isRelevant(li) && !readSet.has(link)) {
-          readSet.add(link);
-          saveSet(READ_KEY, readSet);
+          toggleRead(link);
           applyItemState(li);
           refresh();
         }
       });
     }
+
+    // 카드를 좌우로 밀면(스와이프) 읽음으로 표시한다.
+    var SWIPE_THRESHOLD = 80;
+    var swipeStartX = null;
+    var swipePointerId = null;
+    var swipeDX = 0;
+
+    li.addEventListener('pointerdown', function (e) {
+      if (!isRelevant(li)) return; // 다른 학과 공지는 읽음 기능이 없으니 스와이프도 안 함
+      if (e.target.closest('button') || e.target.closest('a')) return; // 버튼/링크는 그대로 누르게 둔다
+      swipePointerId = e.pointerId;
+      swipeStartX = e.clientX;
+      swipeDX = 0;
+      li.style.transition = 'none';
+    });
+
+    li.addEventListener('pointermove', function (e) {
+      if (swipeStartX === null || e.pointerId !== swipePointerId) return;
+      swipeDX = e.clientX - swipeStartX;
+      li.style.transform = 'translateX(' + swipeDX + 'px)';
+      li.style.opacity = String(Math.max(1 - Math.abs(swipeDX) / 300, 0.4));
+    });
+
+    function endSwipe(e) {
+      if (swipeStartX === null || e.pointerId !== swipePointerId) return;
+      var dx = swipeDX;
+      swipeStartX = null;
+      swipePointerId = null;
+      swipeDX = 0;
+      li.style.transition = 'transform 0.25s ease, opacity 0.25s ease';
+
+      if (Math.abs(dx) >= SWIPE_THRESHOLD) {
+        var flyTo = dx > 0 ? 500 : -500;
+        li.style.transform = 'translateX(' + flyTo + 'px)';
+        li.style.opacity = '0';
+        setTimeout(function () {
+          toggleRead(link);
+          applyItemState(li);
+          li.style.transition = 'none';
+          li.style.transform = '';
+          li.style.opacity = '';
+          refresh();
+        }, 220);
+      } else {
+        li.style.transform = '';
+        li.style.opacity = '';
+      }
+    }
+
+    li.addEventListener('pointerup', endSwipe);
+    li.addEventListener('pointercancel', endSwipe);
   });
 
   refresh();
