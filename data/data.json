@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-18 20:14",
+    "last_updated": "2026-07-18 21:05",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -1311,6 +1311,33 @@
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13654",
           "writer": "조*주",
           "date": "2026.06.08",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "에타 정보게시판",
+      "url": "https://everytime.kr/259118",
+      "notices": [],
+      "error": null
+    },
+    {
+      "name": "에타 홍보게시판",
+      "url": "https://everytime.kr/367564",
+      "notices": [],
+      "error": null
+    },
+    {
+      "name": "에타 동아리/학회",
+      "url": "https://everytime.kr/418891",
+      "notices": [
+        {
+          "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-07-18",
+          "writer": "정기 알림",
+          "date": "2026.07.18",
           "relevant": true,
           "matched_dept": null
         }

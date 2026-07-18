@@ -28,7 +28,10 @@ KST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 SITES_CSV = ROOT / "input" / "sites.csv"
 KEYWORDS_TXT = ROOT / "input" / "my_keywords.txt"
+REMINDERS_CSV = ROOT / "input" / "everytime_reminders.csv"
 DATA_FILE = ROOT / "data" / "data.json"
+
+WEEKDAY_KO = {"월": 0, "화": 1, "수": 2, "목": 3, "금": 4, "토": 5, "일": 6}
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 REQUEST_DELAY_SEC = 1.0  # 요청 사이마다 너무 빠르게 보내지 않기 위한 딜레이
@@ -63,6 +66,61 @@ def load_my_keywords():
         return []
     lines = KEYWORDS_TXT.read_text(encoding="utf-8").splitlines()
     return [line.strip() for line in lines if line.strip() and not line.startswith("#")]
+
+
+def load_reminders():
+    """월/목처럼 정해진 요일마다 '이 게시판 확인해보세요' 카드를 만들 대상 목록을 읽는다.
+    실제 글을 긁어오는 게 아니라, 그 사이트로 가는 바로가기 알림이다(로그인이 필요한
+    에브리타임 같은 곳을 위한 것)."""
+    if not REMINDERS_CSV.exists():
+        return []
+    with REMINDERS_CSV.open(encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    reminders = []
+    for row in rows:
+        weekdays = {
+            WEEKDAY_KO[w.strip()] for w in row["weekdays"].split(",") if w.strip() in WEEKDAY_KO
+        }
+        reminders.append({"name": row["name"].strip(), "url": row["url"].strip(), "weekdays": weekdays})
+    return reminders
+
+
+def build_reminder_notice(reminder, today):
+    """오늘 날짜를 링크에 붙여서, 매번 "새 글"처럼 인식되도록 만든다
+    (똑같은 링크를 계속 쓰면 한 번 읽음 처리한 뒤로는 다시 안 올라오기 때문).
+    실제로 눌렀을 때는 뒤에 붙은 물음표 이후 부분은 무시되고 원래 게시판으로 이동한다."""
+    return {
+        "title": f"{reminder['name']} 보기",
+        "link": f"{reminder['url']}?remind={today.isoformat()}",
+        "writer": "정기 알림",
+        "date": today.strftime("%Y.%m.%d"),
+        "relevant": True,
+        "matched_dept": None,
+    }
+
+
+def collect_reminders(reminders, existing_by_name, today):
+    """요일에 맞는 사이트마다 오늘 알림 카드가 필요하면 추가하고, 해당 안 되는 날에도
+    이전에 만들어둔 카드들은 그대로 보존한다."""
+    today_weekday = today.weekday()
+    results = []
+    for reminder in reminders:
+        existing_site = existing_by_name.get(reminder["name"])
+        notices = existing_site["notices"] if existing_site else []
+        if today_weekday in reminder["weekdays"]:
+            notice = build_reminder_notice(reminder, today)
+            if not any(n["link"] == notice["link"] for n in notices):
+                notices = [notice] + notices
+                print(f"  {reminder['name']}: 오늘 알림 카드 추가")
+        results.append(
+            {
+                "name": reminder["name"],
+                "url": reminder["url"],
+                "notices": notices[:MAX_STORED_PER_SITE],
+                "error": None,
+            }
+        )
+    return results
 
 
 def load_existing_data():
@@ -401,6 +459,9 @@ def main():
         if i > 0:
             time.sleep(REQUEST_DELAY_SEC)
         results.append(collect_site(site, my_keywords, existing_by_name.get(site["name"]), today))
+
+    reminders = load_reminders()
+    results.extend(collect_reminders(reminders, existing_by_name, today))
 
     data = {
         "meta": {
