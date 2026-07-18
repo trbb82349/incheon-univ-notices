@@ -1343,6 +1343,93 @@
         }
       ],
       "error": null
+    },
+    {
+      "name": "인천대 기숙사 공지사항",
+      "url": "https://dorm.inu.ac.kr/bbs/dorm/1521/artclList.do?page=1",
+      "notices": [
+        {
+          "title": "2026학년도 2학기 생활원 야간생활조교 장학생(대학원생) 선발 공고",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/427157/artclView",
+          "writer": "생활원",
+          "date": "2026.07.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "생활원 제2, 3기숙사 도어락 교체 공사와 관련하여  아르바이트생을 모집합니다.",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/426989/artclView",
+          "writer": "생활원",
+          "date": "2026.07.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026-하계방학 생활원 정주대학 「한국문화 체험 프로그램」 운영 안내",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/426831/artclView",
+          "writer": "생활원",
+          "date": "2026.07.08",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 하계방학 기숙사 교양강좌 안내",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/426282/artclView",
+          "writer": "생활원",
+          "date": "2026.06.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "「2026 송도 이봉주 마라톤」 개최에 따른 교통통제 안내",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/426196/artclView",
+          "writer": "생활원",
+          "date": "2026.06.26",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 2학기 2기숙사 식당 선택식 접수 안내",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/425928/artclView",
+          "writer": "생활원",
+          "date": "2026.06.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[종료] 기숙사 봉사활동 종료 안내",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/425612/artclView",
+          "writer": "생활원",
+          "date": "2026.06.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 하계방학 기숙사생(신규 입사자 대상) 오리엔테이션 안내",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/425598/artclView",
+          "writer": "생활원",
+          "date": "2026.06.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[생협] 2026년 하계방학 쿱스켓 「천원의 아침밥」 운영 매장 변경 안내",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/425517/artclView",
+          "writer": "생활원",
+          "date": "2026.06.15",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "생활원 「안녕, 우리의 기숙마을」 행사 안내",
+          "link": "https://dorm.inu.ac.kr/bbs/dorm/1521/425417/artclView",
+          "writer": "생활원",
+          "date": "2026.06.11",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
     }
   ]
 }

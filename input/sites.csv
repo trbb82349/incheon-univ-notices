@@ -3,3 +3,4 @@ name,url,parser
 데이터과학과 홈페이지 공지사항,https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1,inu_js_link
 데이터과학과 장학게시판,https://datascience.inu.ac.kr/bbs/datascience/1829/artclList.do?page=1,inu_js_link
 학산도서관 공지사항,https://lib.inu.ac.kr/library-guide/news/notice?page=1,inu_lib_pyxis
+인천대 기숙사 공지사항,https://dorm.inu.ac.kr/bbs/dorm/1521/artclList.do?page=1,inu_js_link
