@@ -1,3 +1,4 @@
 name,url,parser
 인천대 홈페이지 공지사항,https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1,inu_standard
 데이터과학과 홈페이지 공지사항,https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1,inu_js_link
+데이터과학과 장학게시판,https://datascience.inu.ac.kr/bbs/datascience/1829/artclList.do?page=1,inu_js_link

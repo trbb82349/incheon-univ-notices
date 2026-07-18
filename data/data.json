@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-18 19:14",
+    "last_updated": "2026-07-18 19:36",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -809,6 +809,101 @@
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/420398/artclView",
           "writer": "데이터과학과",
           "date": "2026.03.04",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "데이터과학과 장학게시판",
+      "url": "https://datascience.inu.ac.kr/bbs/datascience/1829/artclList.do?page=1",
+      "notices": [
+        {
+          "title": "1. 교내  장학금  신청 시 지도교수 면담 필수 안내(매 학기)",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/416606/artclView",
+          "writer": "데이터과학과",
+          "date": "2025.12.18",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내장학금] 2026-2학기 교내장학금(1차) 신청 안내(2026.07.06. 9시 ~",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/426469/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.07.01",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내장학굼] 2026-1학기 교내장학금(학생장학금Ⅱ) 신청 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/426228/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.06.26",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내장학금] [교내] 2026-1학기 유니포인트장학금 신청 안내(2026.07.13. 9",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/426226/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.06.26",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국가장학금] 2026학년도 2학기 주거안정장학금(1차) 학생 신청기간 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/424619/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.05.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내장학금] 2026-1학기 교내장학금(4차) 신청 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/424617/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.05.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국가장학금] 2026학년도 2학기 국가근로장학금(1차) 학생 신청기간 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/424615/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.05.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 1학기 발전기금 장학금 데이터과학과  추천 명단",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/423449/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.04.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내장학금] 2026-1학기 인천대사랑장학금 신청 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/423059/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.04.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내장학금] 2026-1학기 (재)인천대학교발전기금 장학금 신청 안내(~4/23(목) 1",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/422546/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.04.09",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[희망사다리Ⅰ유형] 2026년 1학기 중소기업 취업연계 장학금(희망사다리Ⅰ유형) 신규장학생",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/421491/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.03.20",
           "relevant": true,
           "matched_dept": null
         }
