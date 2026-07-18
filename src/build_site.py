@@ -35,6 +35,8 @@ STYLE = """
   --ink: #3d5261;
   --ink-soft: #7c8f9a;
   --title: #3b3b3b;
+  --lavender: #9a8fc2;
+  --lavender-pale: #ece8f5;
 }
 
 body {
@@ -85,21 +87,6 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
 .tab-btn.active { background: linear-gradient(135deg, var(--sky) 0%, var(--sky-dark) 100%); color: #fff; border-color: transparent; box-shadow: 0 4px 10px rgba(79, 127, 156, 0.35); }
 .tab-btn .count { font-size: 11px; opacity: 0.85; }
 
-.site-block { margin-top: 8px; }
-.site-block.empty-in-tab { display: none; }
-.site-block h2 {
-  font-family: 'Jua', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  color: var(--sky-dark);
-  background: var(--sky-pale);
-  display: inline-block;
-  padding: 6px 14px;
-  border-radius: 999px;
-  margin: 12px 0 12px;
-}
-.site-block h2::before { content: '🏫 '; }
-
 .notice-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
 .notice-item {
   background: #fff;
@@ -116,6 +103,7 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
 .notice-link:active { opacity: 0.7; }
 
 .meta { display: inline-block; color: var(--ink-soft); font-size: 11.5px; background: var(--sky-pale); padding: 2px 9px; border-radius: 999px; margin-bottom: 8px; }
+.source-tag { display: inline-block; color: #5d5285; font-size: 11.5px; background: var(--lavender-pale); padding: 2px 9px; border-radius: 999px; margin-left: 4px; margin-bottom: 8px; }
 .dept-tag { display: inline-block; color: #a3607a; font-size: 11.5px; background: var(--pink-pale); padding: 2px 9px; border-radius: 999px; margin-left: 4px; margin-bottom: 8px; }
 
 .btn-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
@@ -236,14 +224,6 @@ READ_STATE_SCRIPT = """
       if (countEl) countEl.textContent = ' (' + counts[tab] + ')';
     });
 
-    document.querySelectorAll('.site-block').forEach(function (block) {
-      var anyVisible = Array.prototype.some.call(
-        block.querySelectorAll('.notice-item'),
-        function (li) { return matchesTab(li, activeTab); }
-      );
-      block.classList.toggle('empty-in-tab', !anyVisible);
-    });
-
     var emptyMsg = document.getElementById('empty-msg');
     if (emptyMsg) emptyMsg.style.display = counts[activeTab] === 0 ? '' : 'none';
   }
@@ -315,12 +295,14 @@ def render_item(n):
     link = html.escape(n["link"])
     writer = html.escape(n["writer"])
     date = html.escape(n["date"])
+    source = html.escape(n["site"])
     relevant = "true" if n["relevant"] else "false"
     dept_tag = f"<span class='dept-tag'>🏷️ {html.escape(n['matched_dept'])}</span>" if n.get("matched_dept") else ""
     return (
         f"<li class='notice-item' data-link='{link}' data-relevant='{relevant}'>"
         f"<a href='{link}' target='_blank' rel='noopener' class='notice-link'>{title}</a>"
-        f"<span class='meta'>{writer} · {date}</span>{dept_tag}"
+        f"<span class='meta'>{writer} · {date}</span>"
+        f"<span class='source-tag'>🏫 {source}</span>{dept_tag}"
         f"<div class='btn-row'>"
         f"<button type='button' class='mark-read-btn'>✅ 읽음으로 표시</button>"
         f"<button type='button' class='star-btn'>☆ 즐겨찾기</button>"
@@ -330,27 +312,28 @@ def render_item(n):
     )
 
 
-def render_site(site):
-    parts = [f"<div class='site-block'><h2>{html.escape(site['name'])}</h2>"]
-
-    if site.get("error"):
-        parts.append(f"<p class='error'>수집 실패: {html.escape(site['error'])}</p></div>")
-        return "\n".join(parts)
-
-    notices = site["notices"]
-    if not notices:
-        parts.append("<p>아직 수집된 공지가 없습니다.</p></div>")
-        return "\n".join(parts)
-
-    parts.append("<ul class='notice-list'>" + "\n".join(render_item(n) for n in notices) + "</ul></div>")
-    return "\n".join(parts)
-
-
 def build():
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     meta = data["meta"]
-    sites_html = "\n".join(render_site(s) for s in data["sites"])
     keywords = html.escape(", ".join(meta.get("my_keywords", []))) or "(없음)"
+
+    error_parts = []
+    all_notices = []
+    for site in data["sites"]:
+        if site.get("error"):
+            error_parts.append(f"<p class='error'>{html.escape(site['name'])} 수집 실패: {html.escape(site['error'])}</p>")
+            continue
+        for n in site["notices"]:
+            all_notices.append({**n, "site": site["name"]})
+
+    # 사이트 구분 없이 하나로 합치고, 날짜(YYYY.MM.DD) 최신순으로 정렬한다.
+    all_notices.sort(key=lambda n: n["date"], reverse=True)
+
+    errors_html = "\n".join(error_parts)
+    if all_notices:
+        notices_html = "<ul class='notice-list'>" + "\n".join(render_item(n) for n in all_notices) + "</ul>"
+    else:
+        notices_html = "<p>아직 수집된 공지가 없습니다.</p>"
 
     tabs_html = "\n".join(
         f"<button type='button' class='tab-btn{' active' if tab_id == 'unread' else ''}' data-tab='{tab_id}'>"
@@ -377,8 +360,9 @@ def build():
 <span class="update-bar">🕐 {html.escape(meta.get('last_updated', ''))} 기준 · {keywords}</span>
 </div>
 <div class="tabs">{tabs_html}</div>
+{errors_html}
 <p id="empty-msg" class="empty-msg">🎉 이 탭에는 표시할 공지가 없어요!</p>
-{sites_html}
+{notices_html}
 </div>
 <script>{READ_STATE_SCRIPT}</script>
 </body>
