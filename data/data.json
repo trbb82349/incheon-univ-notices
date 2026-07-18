@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-18 17:03",
+    "last_updated": "2026-07-18 18:59",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -490,6 +490,21 @@
           "link": "https://www.inu.ac.kr/bbs/inu/2006/426396/artclView",
           "writer": "기초교육과",
           "date": "2026.06.30",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "데이터과학과 홈페이지 공지사항",
+      "url": "https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1",
+      "notices": [
+        {
+          "title": "2026년도 4대폭력 예방교육 실시 안내(~12/31(목)까지)",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/424611/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.05.27",
           "relevant": true,
           "matched_dept": null
         }

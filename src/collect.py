@@ -34,14 +34,16 @@ REQUEST_DELAY_SEC = 1.0  # 요청 사이마다 너무 빠르게 보내지 않기
 MAX_INCREMENTAL_PAGES = 15  # 업데이트할 때 새 글을 찾으려고 페이지를 넘길 때의 안전 상한
 MAX_BOOTSTRAP_PAGES = 30  # 사이트를 처음 추가할 때 기간이 겹치는 글을 찾으려고 넘길 때의 안전 상한
 RECENT_DAYS = 3  # 이 기간 안에 올라온 글은 제목에 기간이 없어도 일단 "최근 글"로 포함
-BOOTSTRAP_MAX_LOOKBACK_DAYS = 30  # 이보다 오래된 글은 기간이 적혀 있어도 무시(오래된 글의 기간 오탐 방지)
 MAX_STORED_PER_SITE = 300  # 사이트 하나당 보관하는 공지 최대 개수 (계속 쌓이기만 하는 것 방지)
 
 # 공지 제목/작성부서에서 "OO학과", "OO학부", "OO전공" 형태의 학과 이름을 찾는 패턴
 DEPT_PATTERN = re.compile(r"[가-힣]+(?:학과|학부|전공)")
 
-# 제목에서 "월/일" 하나를 찾는 조각: 7/20, 7.20, 7월 20일 모두 허용
-_MD = r"(\d{1,2})\s*(?:[./]|월)\s*(\d{1,2})\s*일?"
+# 제목에서 "월/일" 하나를 찾는 조각: 7/20, 7.20, 7월 20일, 7/20(월) 모두 허용
+# (뒤에 붙는 "(월)" 같은 요일 표시는 건너뛴다 - 안 그러면 "7/20(월) ~ 8/21(금)"에서
+#  시작일 7/20을 놓치고 "~8/21"만 마감일로 잘못 읽어서, 아직 시작 전인 기간을
+#  이미 시작한 것으로 착각하는 문제가 있었다.)
+_MD = r"(\d{1,2})\s*(?:[./]|월)\s*(\d{1,2})\s*일?(?:\([가-힣]\))?"
 PERIOD_RANGE_WORDS = re.compile(rf"{_MD}\s*부터\s*{_MD}\s*까지")
 PERIOD_RANGE_TILDE = re.compile(rf"{_MD}\s*[~\-∼～]\s*{_MD}")
 PERIOD_DEADLINE_TILDE = re.compile(rf"[~∼～]\s*{_MD}")
@@ -137,7 +139,13 @@ def period_covers_today(title, posted, today):
 
 
 def is_bootstrap_relevant(row, today):
-    """사이트를 처음 추가할 때, 이 글을 초기 목록에 포함할지 정한다."""
+    """사이트를 처음 추가할 때, 이 글을 초기 목록에 포함할지 정한다.
+
+    "최근 글"이거나 "제목에 적힌 기간에 오늘이 포함되는 글"이면 포함한다.
+    글이 며칠 전 것인지는 상관하지 않는다 — 학과 홈페이지처럼 상단에 고정해두고
+    학기 내내 걸어두는 공지(예: "~12/31까지")는 올라온 지 몇 달이 지났어도
+    지금도 유효할 수 있기 때문이다. (제목에 아무 기간도 안 적혀 있는 오래된 글은
+    period_covers_today가 None을 돌려주므로 자연스럽게 제외된다.)"""
     try:
         posted = datetime.strptime(row["date"], "%Y.%m.%d").date()
     except ValueError:
@@ -145,9 +153,6 @@ def is_bootstrap_relevant(row, today):
 
     if (today - posted).days <= RECENT_DAYS:
         return True  # 최근 며칠 안에 올라온 글은 기간 언급이 없어도 포함
-
-    if (today - posted).days > BOOTSTRAP_MAX_LOOKBACK_DAYS:
-        return False  # 너무 오래된 글은 기간 오탐 방지 차원에서 더 보지 않음
 
     return period_covers_today(row["title"], posted, today) is True
 
@@ -192,11 +197,48 @@ def scrape_inu_standard(url):
     return notices
 
 
+def scrape_inu_js_link(url):
+    """인천대 게시판 템플릿의 변형: 제목 링크가 실제 주소(href) 대신
+    data-site-id / data-fnct-no / data-bbs-artcl-seq 속성 + 자바스크립트로 이동한다
+    (예: 데이터과학과 홈페이지). 그 속성들을 조합해서 실제 글 주소를 직접 만든다."""
+    resp = requests.get(url, headers=HEADERS, timeout=15)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+    parts = urlsplit(url)
+    origin = f"{parts.scheme}://{parts.netloc}"
+
+    notices = []
+    for row in soup.select("table.board-table tbody tr"):
+        link_tag = row.select_one("td.td-subject a.js-view-artcl")
+        if link_tag is None:
+            continue
+        site_id = link_tag.get("data-site-id", "")
+        fnct_no = link_tag.get("data-fnct-no", "")
+        artcl_seq = link_tag.get("data-bbs-artcl-seq", "")
+        if not (site_id and fnct_no and artcl_seq):
+            continue
+        title_tag = link_tag.select_one("strong")
+        title = (title_tag or link_tag).get_text(strip=True)
+        link = f"{origin}/bbs/{site_id}/{fnct_no}/{artcl_seq}/artclView"
+        writer_tag = row.select_one("td.td-write")
+        date_tag = row.select_one("td.td-date")
+        notices.append(
+            {
+                "title": title,
+                "link": link,
+                "writer": writer_tag.get_text(strip=True) if writer_tag else "",
+                "date": date_tag.get_text(strip=True) if date_tag else "",
+            }
+        )
+    return notices
+
+
 # 사이트별 파서 등록. sites.csv의 parser 칸에 적힌 이름으로 찾는다.
 # 새 사이트가 다른 구조를 쓰면 함수를 하나 더 만들어 여기에 등록하면 된다.
 # 파서는 "게시판 목록 페이지 URL 1개"를 받아 그 페이지에 있는 공지 목록을 반환한다.
 PARSERS = {
     "inu_standard": scrape_inu_standard,
+    "inu_js_link": scrape_inu_js_link,
 }
 
 
@@ -210,13 +252,23 @@ def with_page(url, page):
 
 def bootstrap_notices(fetch_page, base_url, today):
     """사이트를 처음 추가할 때: 최근 글 + 제목의 신청/행사 기간에 오늘이 포함되는 글을
-    페이지를 넘겨가며 찾는다. 어느 페이지에 해당하는 글이 하나도 없으면 그 뒤는 안 본다."""
+    페이지를 넘겨가며 찾는다. 어느 페이지에 새로 찾은 글이 하나도 없으면 그 뒤는 안 본다.
+
+    일부 게시판은 "상단 고정(공지)" 글이 모든 페이지 맨 위에 똑같이 반복해서 나온다.
+    그런 글을 페이지마다 중복으로 담지 않도록, 이번 실행에서 이미 담은 링크는 건너뛴다."""
     collected = []
+    seen_links = set()
     for page in range(1, MAX_BOOTSTRAP_PAGES + 1):
         rows = fetch_page(with_page(base_url, page))
         if not rows:
             break
-        matches = [r for r in rows if is_bootstrap_relevant(r, today)]
+        matches = []
+        for r in rows:
+            if r["link"] in seen_links:
+                continue  # 상단 고정 글 등, 이미 이번 실행에서 담은 글
+            if is_bootstrap_relevant(r, today):
+                seen_links.add(r["link"])
+                matches.append(r)
         collected.extend(matches)
         if not matches:
             break
@@ -228,22 +280,23 @@ def bootstrap_notices(fetch_page, base_url, today):
 
 
 def fetch_incremental_notices(fetch_page, base_url, known_links):
-    """업데이트할 때: 이미 알고 있는 글을 만날 때까지만 페이지를 넘기며 그 앞의(더 최신인)
-    새 글들을 가져온다."""
+    """업데이트할 때: 새로 나온 글만 찾아서 가져온다. 어느 페이지에서도 새 글을 하나도
+    못 찾으면 그 지점에서 멈춘다 (첫 글이 이미 아는 글이라고 바로 멈추지는 않는다 —
+    상단 고정 글이 항상 맨 위에 반복되는 게시판도 있기 때문)."""
     collected = []
+    seen_links = set()
     for page in range(1, MAX_INCREMENTAL_PAGES + 1):
         rows = fetch_page(with_page(base_url, page))
         if not rows:
             break
         page_new = []
-        reached_boundary = False
         for r in rows:
-            if r["link"] in known_links:
-                reached_boundary = True
-                break
+            if r["link"] in known_links or r["link"] in seen_links:
+                continue
+            seen_links.add(r["link"])
             page_new.append(r)
         collected.extend(page_new)
-        if reached_boundary:
+        if not page_new:
             break
         if page < MAX_INCREMENTAL_PAGES:
             time.sleep(REQUEST_DELAY_SEC)
@@ -282,7 +335,9 @@ def collect_site(site, my_keywords, existing_site, today):
         print(f"  {site['name']}: 새 공지 없음")
 
     # 새 글 + 기존 글을 합치고, 최신 키워드 기준으로 관련 여부를 다시 계산한다.
-    merged = new_rows + prev_notices
+    # (중복 방지: 혹시 new_rows에 기존과 겹치는 링크가 섞여 있어도 한 번만 남긴다.)
+    existing_links = {n["link"] for n in prev_notices}
+    merged = [n for n in new_rows if n["link"] not in existing_links] + prev_notices
     notices = []
     for n in merged[:MAX_STORED_PER_SITE]:
         relevant, matched_dept = classify_relevance(n["title"], n["writer"], my_keywords)
