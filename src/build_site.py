@@ -22,18 +22,19 @@ STYLE = """
 * { box-sizing: border-box; }
 
 :root {
-  --sky: #4fc3f7;
-  --sky-dark: #0288d1;
-  --sky-pale: #e6f7ff;
-  --sky-mid: #cdeeff;
-  --pink: #ff8fab;
-  --pink-pale: #ffe3ec;
-  --gold: #ffca28;
-  --gold-pale: #fff3cd;
-  --green: #66bb6a;
-  --green-pale: #e3f7e5;
-  --ink: #2c4a5e;
-  --ink-soft: #6d8a9c;
+  --sky: #86c2dc;
+  --sky-dark: #4f7f9c;
+  --sky-pale: #eaf3f7;
+  --sky-mid: #d6e7ee;
+  --pink: #dda6b4;
+  --pink-pale: #f4e7ea;
+  --gold: #ddc07d;
+  --gold-pale: #f4eeda;
+  --green: #8db892;
+  --green-pale: #e7f0e7;
+  --ink: #3d5261;
+  --ink-soft: #7c8f9a;
+  --title: #3b3b3b;
 }
 
 body {
@@ -51,9 +52,9 @@ body {
   text-align: center;
   padding: 22px 16px 18px;
   margin-bottom: 18px;
-  background: linear-gradient(135deg, var(--sky) 0%, #7fd3ff 100%);
+  background: linear-gradient(135deg, var(--sky) 0%, #a9d0e0 100%);
   border-radius: 22px;
-  box-shadow: 0 8px 20px rgba(79, 195, 247, 0.35);
+  box-shadow: 0 8px 20px rgba(134, 194, 220, 0.35);
   color: #fff;
 }
 h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 0 0 4px; letter-spacing: -0.5px; }
@@ -81,7 +82,7 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
   transition: transform 0.1s ease, background 0.15s ease;
 }
 .tab-btn:active { transform: scale(0.96); }
-.tab-btn.active { background: linear-gradient(135deg, var(--sky) 0%, var(--sky-dark) 100%); color: #fff; border-color: transparent; box-shadow: 0 4px 10px rgba(2, 136, 209, 0.35); }
+.tab-btn.active { background: linear-gradient(135deg, var(--sky) 0%, var(--sky-dark) 100%); color: #fff; border-color: transparent; box-shadow: 0 4px 10px rgba(79, 127, 156, 0.35); }
 .tab-btn .count { font-size: 11px; opacity: 0.85; }
 
 .site-block { margin-top: 8px; }
@@ -104,18 +105,18 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
   background: #fff;
   border-radius: 16px;
   padding: 14px 16px;
-  box-shadow: 0 3px 10px rgba(79, 195, 247, 0.14);
+  box-shadow: 0 3px 10px rgba(134, 194, 220, 0.16);
   border: 1px solid var(--sky-pale);
 }
 .notice-item.tab-hidden { display: none; }
 .notice-item.is-read { background: #f6f9fb; opacity: 0.72; }
 .notice-item.is-read .notice-link { text-decoration: line-through; }
 
-.notice-link { display: block; color: var(--sky-dark); text-decoration: none; font-weight: 600; font-size: 15px; line-height: 1.4; margin-bottom: 6px; }
+.notice-link { display: block; color: var(--title); text-decoration: none; font-weight: 600; font-size: 15px; line-height: 1.4; margin-bottom: 6px; }
 .notice-link:active { opacity: 0.7; }
 
 .meta { display: inline-block; color: var(--ink-soft); font-size: 11.5px; background: var(--sky-pale); padding: 2px 9px; border-radius: 999px; margin-bottom: 8px; }
-.dept-tag { display: inline-block; color: #c2185b; font-size: 11.5px; background: var(--pink-pale); padding: 2px 9px; border-radius: 999px; margin-left: 4px; margin-bottom: 8px; }
+.dept-tag { display: inline-block; color: #a3607a; font-size: 11.5px; background: var(--pink-pale); padding: 2px 9px; border-radius: 999px; margin-left: 4px; margin-bottom: 8px; }
 
 .btn-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
 .notice-item button {
@@ -128,9 +129,9 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
   transition: transform 0.1s ease;
 }
 .notice-item button:active { transform: scale(0.94); }
-.mark-read-btn { background: var(--green-pale); color: #2e7d32; }
-.star-btn { background: var(--gold-pale); color: #8a6400; }
-.star-btn.is-active { background: var(--gold); color: #5c4200; }
+.mark-read-btn { background: var(--green-pale); color: #4d7355; }
+.star-btn { background: var(--gold-pale); color: #7a6640; }
+.star-btn.is-active { background: var(--gold); color: #5c4a28; }
 .mark-relevant-btn { background: var(--sky-pale); color: var(--sky-dark); }
 
 .empty-msg { text-align: center; color: var(--ink-soft); font-size: 14px; padding: 40px 20px; background: #fff; border-radius: 16px; border: 1px dashed var(--sky-mid); }
@@ -138,7 +139,7 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
 
 @media (min-width: 620px) {
   body { padding: 24px 0; }
-  .app-shell { background: #fff; border-radius: 28px; box-shadow: 0 12px 40px rgba(79, 195, 247, 0.25); padding: 28px 28px 40px; }
+  .app-shell { background: #fff; border-radius: 28px; box-shadow: 0 12px 40px rgba(134, 194, 220, 0.25); padding: 28px 28px 40px; }
 }
 
 @media (max-width: 360px) {
