@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-19 16:38",
+    "last_updated": "2026-07-20 18:47",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,110 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "인천대학교 이공계 연구생활장려금 지원사업단 채용 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427222/artclView",
+          "writer": "이공계연구생활장려금지원사업단",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[산학협력단] 2026년 하계방학 및 2026-2학기 국가근로 장학생 모집 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427219/artclView",
+          "writer": "산학협력단",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[공학교육혁신센터] 성균관대 주관 창의혁신 DNA 취업캠프(심화)참가학생 모집 (~7/30.목,마감)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427217/artclView",
+          "writer": "공학교육혁신센터",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[후기산업사회연구소] 『후기산업사회연구』 제10호 논문투고 연장 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427214/artclView",
+          "writer": "후기산업사회연구소",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[인문학연구소] 2026학년도 2학기 국가근로장학생 모집(~7/27(월) 오후 5시까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427210/artclView",
+          "writer": "인문학연구소",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[혁신인력개발센터] [26.08.10~09.21] 『바이오의약품 제조 및 품질관리 양성과정』 취업연계 국비지원교육생 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427204/artclView",
+          "writer": "혁신인력개발센터",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[에너지화학공학과] 2026학년도 2학기 에너지화학공학과 국가근로장학생 모집 (3명)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427201/artclView",
+          "writer": "에너지화학공학과",
+          "date": "2026.07.20",
+          "relevant": false,
+          "matched_dept": "에너지화학공학과"
+        },
+        {
+          "title": "[장애학생지원센터] 「2026년 (수도권) 장애대학생 취업캠프」 장애학생 모집 안내 (~ 8.07.(금)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427199/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[학산도서관] 2026학년도 2학기 국가근로장학생 모집 안내(~7/27)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427198/artclView",
+          "writer": "학술정보과",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[학산도서관] 2026학년도 2학기 교내봉사장학생 모집 안내(~7/27)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427195/artclView",
+          "writer": "학술정보과",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 인천대학교 도시과학대학 도시환경공학부 건설환경공학전공 조교 채용 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427190/artclView",
+          "writer": "도시과학대학",
+          "date": "2026.07.20",
+          "relevant": false,
+          "matched_dept": "건설환경공학전공, 도시환경공학부"
+        },
+        {
+          "title": "2026년 인천대학교 동북아국제통상물류학부 조교 채용 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427183/artclView",
+          "writer": "동북아국제통상물류학부 행정실",
+          "date": "2026.07.20",
+          "relevant": false,
+          "matched_dept": "동북아국제통상물류학부"
+        },
+        {
+          "title": "2026년 대한민국 인재상 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427182/artclView",
+          "writer": "학생지원과",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[HUSS 포용사회사업단] 2026년도 하계방학 및 2학기 국가근로장학생 선발 결과",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427172/artclView",
@@ -1235,6 +1339,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "notices": [
         {
+          "title": "FOCUS Access 오픈액세스 및 논문출판비용(APC) 지원  및 Wiley Flip 저널 전환 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13760",
+          "writer": "장*경",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
           "title": "2026. 7. 17.(금) 제헌절 휴관 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13755",
           "writer": "김*준",
@@ -1402,12 +1514,21 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='dorm.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/dorm/1521/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='dorm.inu.ac.kr', port=443) at 0x7f325b64e7d0>, 'Connection to dorm.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": null
     },
     {
       "name": "에타 정보게시판",
       "url": "https://everytime.kr/259118",
-      "notices": [],
+      "notices": [
+        {
+          "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-07-20",
+          "writer": "정기 알림",
+          "date": "2026.07.20",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
       "error": null
     },
     {

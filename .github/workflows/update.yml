@@ -2,7 +2,8 @@ name: 자동 업데이트
 
 on:
   schedule:
-    - cron: '0 23 * * *'   # 매일 08:00 KST (= 23:00 UTC 전날)
+    - cron: '7 23 * * *'   # 매일 약 08:07 KST (= 23:07 UTC 전날). 정각(0분)은 GitHub가
+                            # 혼잡 시간대로 안내해서 지연/누락 위험이 있어 일부러 피함
   workflow_dispatch:
 
 concurrency:

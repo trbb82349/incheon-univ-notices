@@ -375,9 +375,17 @@ def bootstrap_notices(fetch_page, base_url, today):
 
 
 def fetch_incremental_notices(fetch_page, base_url, known_links):
-    """업데이트할 때: 새로 나온 글만 찾아서 가져온다. 어느 페이지에서도 새 글을 하나도
-    못 찾으면 그 지점에서 멈춘다 (첫 글이 이미 아는 글이라고 바로 멈추지는 않는다 —
-    상단 고정 글이 항상 맨 위에 반복되는 게시판도 있기 때문)."""
+    """업데이트할 때: 새로 나온 글만 찾아서 가져온다. 한 페이지 안에 이미 아는 글이
+    하나라도 섞여 있으면 그 페이지가 "새 글과 예전 글의 경계"라고 보고, 그 페이지에서
+    새로 찾은 것까지만 담고 멈춘다 (첫 글이 이미 아는 글이라고 페이지 안에서 바로
+    멈추지는 않는다 — 상단 고정 글이 맨 위에 있는 게시판도 있어서, 그 아래 새 글이
+    있는지는 페이지 끝까지 확인한다).
+
+    이렇게 "페이지 전체가 새 글일 때만 다음 페이지로 넘어가는" 방식이 필요한 이유:
+    사이트를 처음 등록할 때 1페이지만 시작점으로 채워둔 경우, 2페이지 이후는 한 번도
+    저장한 적이 없는 "미지의 영역"이라서 known_links에 없다. 예전 방식대로 "한 페이지가
+    통째로 새 글일 때만" 멈추면, 이런 사이트는 2페이지부터는 계속 "새 글처럼" 보여서
+    안전 상한(MAX_INCREMENTAL_PAGES)까지 옛날 글을 몽땅 긁어올 수 있었다."""
     collected = []
     seen_links = set()
     for page in range(1, MAX_INCREMENTAL_PAGES + 1):
@@ -385,13 +393,17 @@ def fetch_incremental_notices(fetch_page, base_url, known_links):
         if not rows:
             break
         page_new = []
+        hit_known = False
         for r in rows:
-            if r["link"] in known_links or r["link"] in seen_links:
+            if r["link"] in known_links:
+                hit_known = True
+                continue
+            if r["link"] in seen_links:
                 continue
             seen_links.add(r["link"])
             page_new.append(r)
         collected.extend(page_new)
-        if not page_new:
+        if hit_known or not page_new:
             break
         if page < MAX_INCREMENTAL_PAGES:
             time.sleep(REQUEST_DELAY_SEC)
