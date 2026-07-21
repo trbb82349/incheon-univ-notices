@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-21 09:19",
+    "last_updated": "2026-07-21 11:43",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,46 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "2026학년도 2학기 단국대학교 학점교류 안내(~8. 26.(수) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427237/artclView",
+          "writer": "학사과",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[2026년 8월 졸업예정자] 졸업사정 진행현황 확인 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427236/artclView",
+          "writer": "학사과",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 성결대학교 학점교류 안내(~8. 7.(금) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427232/artclView",
+          "writer": "학사과",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 협성대학교 학점교류 안내(~8. 6.(목) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427231/artclView",
+          "writer": "학사과",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 경기대학교 학점교류 안내(~8. 4.(화) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427229/artclView",
+          "writer": "학사과",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "인천대학교 이공계 연구생활장려금 지원사업단 채용 공고",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427222/artclView",
@@ -1514,7 +1554,7 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='dorm.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/dorm/1521/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='dorm.inu.ac.kr', port=443) at 0x7f57d038e450>, 'Connection to dorm.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "에타 정보게시판",
