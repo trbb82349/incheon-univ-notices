@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-21 16:57",
+    "last_updated": "2026-07-22 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,14 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[AI/SW교육원] 교내봉사장학생 모집( ~7월  27일 17:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427276/artclView",
+          "writer": "AI/SW 교육원",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026-2027 슬로바키아 정부초청 장학생 선발 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427274/artclView",
@@ -1535,6 +1543,14 @@
       "name": "에타 동아리/학회",
       "url": "https://everytime.kr/418891",
       "notices": [
+        {
+          "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-07-22",
+          "writer": "정기 알림",
+          "date": "2026.07.22",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-07-18",
