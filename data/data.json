@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-21 11:43",
+    "last_updated": "2026-07-21 16:57",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,38 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "2026-2027 슬로바키아 정부초청 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427274/artclView",
+          "writer": "국제교류과",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[AI/SW교육원] 2026년 2학기 국가근로장학생 모집(~7/27(월) 오후 5시까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427271/artclView",
+          "writer": "AI/SW 교육원",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[AI멘토링] 2026년 대학생 청소년 AI 교육지원장학금 멘토 추가 모집 안내(~7/26)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427269/artclView",
+          "writer": "학생지원과",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[생협/교외근로] 2026학년도2학기 국가근로장학생 모집 안내(~8/5(수))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427253/artclView",
+          "writer": "소비자생활협동조합",
+          "date": "2026.07.21",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 2학기 단국대학교 학점교류 안내(~8. 26.(수) 13:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427237/artclView",
