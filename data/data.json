@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-22 08:07",
+    "last_updated": "2026-07-22 16:57",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,110 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[융합학부] 2026-1학기 융합형 인재 장학금 신청 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427329/artclView",
+          "writer": "융합자유전공대학",
+          "date": "2026.07.22",
+          "relevant": false,
+          "matched_dept": "융합자유전공, 융합학부"
+        },
+        {
+          "title": "[감사과] 2026-2학기 감사과 국가근로장학생 모집 안내(~8/2(일)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427326/artclView",
+          "writer": "감사과",
+          "date": "2026.07.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[수학과]2026학년도2학기국가근로장학생(대학수학(1),(2)튜터)모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427323/artclView",
+          "writer": "수학과",
+          "date": "2026.07.22",
+          "relevant": false,
+          "matched_dept": "수학과"
+        },
+        {
+          "title": "[수학과] 2026학년도2학기국가근로장학생모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427322/artclView",
+          "writer": "수학과",
+          "date": "2026.07.22",
+          "relevant": false,
+          "matched_dept": "수학과"
+        },
+        {
+          "title": "[평생교육원] 2026 2학기 인천시민대학 시민라이프칼리지 인천대캠퍼스 수강생 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427321/artclView",
+          "writer": "평생교육원 교학과",
+          "date": "2026.07.22",
+          "relevant": false,
+          "matched_dept": "교학과"
+        },
+        {
+          "title": "2026 인천 ESG 임팩트 챌린지 (창업경진대회) 참여 기업 모집 (~7/17까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427319/artclView",
+          "writer": "창업지원단",
+          "date": "2026.07.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026-2학기 국제학생회(제32기) 모집 서류전형 합격자 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427313/artclView",
+          "writer": "국제교류과",
+          "date": "2026.07.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[정보통신공학과] 2026-1학기 하계방학 교내봉사장학생 선발 결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427312/artclView",
+          "writer": "정보통신공학과",
+          "date": "2026.07.22",
+          "relevant": false,
+          "matched_dept": "정보통신공학과"
+        },
+        {
+          "title": "[분자의생명전공]2026-2학기 국가근로장학생 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427308/artclView",
+          "writer": "생명과학부",
+          "date": "2026.07.22",
+          "relevant": false,
+          "matched_dept": "분자의생명전공, 생명과학부"
+        },
+        {
+          "title": "[현장실습지원센터] ﻿2026 여름방학 및 2학기 현장실습지원센터 국가근로장학생 모집 결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427307/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.07.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[재무회계과] 2026학년도 하계방학(8월) 국가근로장학생 모집 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427299/artclView",
+          "writer": "재무회계과",
+          "date": "2026.07.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[정보전산과] 2026학년도 2학기 교내봉사 장학생 모집 안내(~7/29)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427297/artclView",
+          "writer": "정보전산과",
+          "date": "2026.07.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[정보전산과] 2026학년도 2학기 국가근로장학생 모집 안내(~7/29)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427291/artclView",
+          "writer": "정보전산과",
+          "date": "2026.07.22",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[AI/SW교육원] 교내봉사장학생 모집( ~7월  27일 17:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427276/artclView",
@@ -1412,7 +1516,7 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7f34b9d407d0>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "학산도서관 공지사항",
