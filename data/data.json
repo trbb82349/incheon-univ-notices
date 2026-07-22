@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-22 16:57",
+    "last_updated": "2026-07-23 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -1516,7 +1516,7 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7f34b9d407d0>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": null
     },
     {
       "name": "학산도서관 공지사항",
@@ -1617,6 +1617,14 @@
       "name": "에타 정보게시판",
       "url": "https://everytime.kr/259118",
       "notices": [
+        {
+          "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-07-23",
+          "writer": "정기 알림",
+          "date": "2026.07.23",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-07-20",
