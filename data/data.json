@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-23 08:07",
+    "last_updated": "2026-07-23 17:00",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,70 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[평생교육원] 2026 K-컬처 상호문화 커뮤니티 국내 학생 및 국외 학생 참여자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427384/artclView",
+          "writer": "평생교육원 교학과",
+          "date": "2026.07.23",
+          "relevant": false,
+          "matched_dept": "교학과"
+        },
+        {
+          "title": "[정치외교학과] 2026-2학기 학과사무실 교내봉사장학생 모집 안내(~2026.07.30(목) 오전 10:00까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427377/artclView",
+          "writer": "정치외교학과",
+          "date": "2026.07.23",
+          "relevant": false,
+          "matched_dept": "정치외교학과"
+        },
+        {
+          "title": "2026학년도 2학기 교양 동일 교과목(재수강 대체과목) 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427376/artclView",
+          "writer": "기초교육과",
+          "date": "2026.07.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[공학교육혁신센터] 2026 AI X 첨단산업 공동 직무설명회 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427371/artclView",
+          "writer": "공학교육혁신센터",
+          "date": "2026.07.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[정치외교학과]2026-2학기 학과사무실 국가근로장학생 모집 안내(~2026.07.30(목) 오전 11:00까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427367/artclView",
+          "writer": "정치외교학과",
+          "date": "2026.07.23",
+          "relevant": false,
+          "matched_dept": "정치외교학과"
+        },
+        {
+          "title": "2026학년도 2학기 연세대학교 학점교류 안내(~7. 30.(목) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427362/artclView",
+          "writer": "학사과",
+          "date": "2026.07.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 2026-2학기 국가근로장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427360/artclView",
+          "writer": "국제교류과",
+          "date": "2026.07.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 2026-2학기 교내봉사장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427359/artclView",
+          "writer": "국제교류과",
+          "date": "2026.07.23",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[융합학부] 2026-1학기 융합형 인재 장학금 신청 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427329/artclView",
