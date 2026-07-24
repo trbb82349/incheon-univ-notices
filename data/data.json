@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-24 16:57",
+    "last_updated": "2026-07-25 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,22 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "2026학년도 2학기 전과 허가 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427449/artclView",
+          "writer": "학사과",
+          "date": "2026.07.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 학업재이수 신청 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427448/artclView",
+          "writer": "학사과",
+          "date": "2026.07.24",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 2학기 한동대학교 학점교류 안내(~7. 29.(수) 13:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427434/artclView",
@@ -1775,6 +1791,14 @@
       "name": "에타 동아리/학회",
       "url": "https://everytime.kr/418891",
       "notices": [
+        {
+          "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-07-25",
+          "writer": "정기 알림",
+          "date": "2026.07.25",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-07-22",
