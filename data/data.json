@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-24 08:07",
+    "last_updated": "2026-07-24 16:57",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,54 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "2026학년도 2학기 한동대학교 학점교류 안내(~7. 29.(수) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427434/artclView",
+          "writer": "학사과",
+          "date": "2026.07.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[인천국제개발협력센터] 기타계약직 채용 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427419/artclView",
+          "writer": "국제개발협력센터",
+          "date": "2026.07.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[창업지원단] 2026년 인천 청년 오프라인 마켓 참가자 모집(~7/26(일)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427417/artclView",
+          "writer": "창업지원단",
+          "date": "2026.07.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[장애학생지원센터] 취업 길라잡이~★ 맞춤형 온라인 컨설팅 장애학생 모집 안내 (~10.30.(금)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427416/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.07.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[KUSF 두드림-함께 프로그램 튜터 모집]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427411/artclView",
+          "writer": "스포츠과학부",
+          "date": "2026.07.24",
+          "relevant": false,
+          "matched_dept": "스포츠과학부"
+        },
+        {
+          "title": "[Recruitment] [Lifelong Education Center] Recruitment of Domestic and",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427403/artclView",
+          "writer": "평생교육원 교학과",
+          "date": "2026.07.24",
+          "relevant": false,
+          "matched_dept": "교학과"
+        },
         {
           "title": "[평생교육원] 2026 K-컬처 상호문화 커뮤니티 국내 학생 및 국외 학생 참여자 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427384/artclView",
