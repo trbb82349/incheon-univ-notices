@@ -39,6 +39,7 @@ MAX_INCREMENTAL_PAGES = 15  # 업데이트할 때 새 글을 찾으려고 페이
 MAX_BOOTSTRAP_PAGES = 30  # 사이트를 처음 추가할 때 기간이 겹치는 글을 찾으려고 넘길 때의 안전 상한
 RECENT_DAYS = 3  # 이 기간 안에 올라온 글은 제목에 기간이 없어도 일단 "최근 글"로 포함
 MAX_STORED_PER_SITE = 300  # 사이트 하나당 보관하는 공지 최대 개수 (계속 쌓이기만 하는 것 방지)
+NOTICE_MAX_AGE_DAYS = 90  # 공지가 "올라온 날짜" 기준 이 기간이 지나면 목록에서 제거 (약 3개월)
 
 # 공지 제목/작성부서에서 "OO학과", "OO학부", "OO전공" 형태의 학과 이름을 찾는 패턴
 DEPT_PATTERN = re.compile(r"[가-힣]+(?:학과|학부|전공)")
@@ -100,6 +101,31 @@ def build_reminder_notice(reminder, today):
     }
 
 
+def prune_old_notices(notices, today):
+    """공지가 "올라온 날짜"(제목/작성자가 아니라 date 필드) 기준으로 NOTICE_MAX_AGE_DAYS일이
+    지났으면 목록에서 뺀다. 사이트가 자동으로 갱신되는 시점(meta.last_updated)이 아니라
+    글 자체의 게시일 기준이라, 오래전에 저장해둔 글이 언제 다시 수집되든 상관없이 똑같이
+    적용된다.
+
+    다만 90일이 지났어도, 제목에 적힌 신청/행사 기간이 아직 유효하면(period_still_relevant)
+    남겨둔다 — 학과 홈페이지처럼 학기 내내 걸어두는 공지를 날짜만 보고 지워버리면
+    오히려 아직 유효한 공지를 놓치기 때문이다(is_bootstrap_relevant와 같은 이유).
+    날짜 형식을 못 읽는 글은 실수로 지우지 않도록 안전하게 남겨둔다."""
+    kept = []
+    for n in notices:
+        try:
+            posted = datetime.strptime(n["date"], "%Y.%m.%d").date()
+        except ValueError:
+            kept.append(n)
+            continue
+        age_days = (today - posted).days
+        if age_days <= NOTICE_MAX_AGE_DAYS:
+            kept.append(n)
+        elif period_still_relevant(n["title"], posted, today) is True:
+            kept.append(n)
+    return kept
+
+
 def collect_reminders(reminders, existing_by_name, today):
     """요일에 맞는 사이트마다 오늘 알림 카드가 필요하면 추가하고, 해당 안 되는 날에도
     이전에 만들어둔 카드들은 그대로 보존한다."""
@@ -113,6 +139,7 @@ def collect_reminders(reminders, existing_by_name, today):
             if not any(n["link"] == notice["link"] for n in notices):
                 notices = [notice] + notices
                 print(f"  {reminder['name']}: 오늘 알림 카드 추가")
+        notices = prune_old_notices(notices, today)
         results.append(
             {
                 "name": reminder["name"],
@@ -446,6 +473,7 @@ def collect_site(site, my_keywords, existing_site, today):
     # (중복 방지: 혹시 new_rows에 기존과 겹치는 링크가 섞여 있어도 한 번만 남긴다.)
     existing_links = {n["link"] for n in prev_notices}
     merged = [n for n in new_rows if n["link"] not in existing_links] + prev_notices
+    merged = prune_old_notices(merged, today)
     notices = []
     for n in merged[:MAX_STORED_PER_SITE]:
         relevant, matched_dept = classify_relevance(n["title"], n["writer"], my_keywords)
