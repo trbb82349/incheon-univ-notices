@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-28 13:01",
+    "last_updated": "2026-07-28 17:06",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,62 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[중국학술원] 2026-2학기 국가근로 장학생 모집 (8/7(금) 14:00까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427599/artclView",
+          "writer": "중국학술원",
+          "date": "2026.07.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회복지학과] 2026학년도 2학기 국가근로장학생 모집 (8/4(화) 오전 10시까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427584/artclView",
+          "writer": "사회복지학과",
+          "date": "2026.07.28",
+          "relevant": false,
+          "matched_dept": "사회복지학과"
+        },
+        {
+          "title": "[교육혁신과] 2026-2학기 국가근로장학생 모집 (~8/3)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427578/artclView",
+          "writer": "교육혁신과",
+          "date": "2026.07.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국어국문학과] 2026학년도 2학기 국가근로장학생 모집 (8/7(금) 오전 10시까지)(*근로지 사정으로 조기 선발 예정)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427565/artclView",
+          "writer": "국어국문학과",
+          "date": "2026.07.28",
+          "relevant": false,
+          "matched_dept": "국어국문학과"
+        },
+        {
+          "title": "[소비자학과] 2026-2학기 소비자학과 봉사(일반)장학생 선발 결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427563/artclView",
+          "writer": "소비자학과",
+          "date": "2026.07.28",
+          "relevant": false,
+          "matched_dept": "소비자학과"
+        },
+        {
+          "title": "[국어국문학과] 2026학년도 2학기 교내봉사장학생 모집 (8/7(금) 오전 10시까지)(*근로지 사정으로 조기 선발)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427562/artclView",
+          "writer": "국어국문학과",
+          "date": "2026.07.28",
+          "relevant": false,
+          "matched_dept": "국어국문학과"
+        },
+        {
+          "title": "[현장실습지원센터] 2026-2학기 현장교육실습 관련 경기도 대학생 드림링크 직무실습 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427560/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.07.28",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[교육대학원] 2026-2학기 교내봉사장학생 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427554/artclView",
