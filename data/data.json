@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-28 08:07",
+    "last_updated": "2026-07-28 12:12",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,22 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[교육대학원] 2026-2학기 교내봉사장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427554/artclView",
+          "writer": "교육대학원",
+          "date": "2026.07.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교육대학원] 2026-2학기 국가근로장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427553/artclView",
+          "writer": "교육대학원",
+          "date": "2026.07.28",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[건설환경공학전공] 2026-2학기 건설환경공학전공 학과 사무실 봉사장학생 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427530/artclView",
@@ -2040,6 +2056,33 @@
           "matched_dept": null
         }
       ],
+      "error": null
+    },
+    {
+      "name": "캠퍼스픽 공모전 게시판",
+      "url": "https://www.campuspick.com/contest",
+      "notices": [],
+      "error": null
+    },
+    {
+      "name": "캠퍼스픽 대외활동 게시판",
+      "url": "https://www.campuspick.com/activity",
+      "notices": [
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-07-28",
+          "writer": "정기 알림",
+          "date": "2026.07.28",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "캠퍼스픽 교육 게시판",
+      "url": "https://www.campuspick.com/education",
+      "notices": [],
       "error": null
     }
   ]

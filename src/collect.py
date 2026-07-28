@@ -28,7 +28,7 @@ KST = timezone(timedelta(hours=9))
 ROOT = Path(__file__).resolve().parent.parent
 SITES_CSV = ROOT / "input" / "sites.csv"
 KEYWORDS_TXT = ROOT / "input" / "my_keywords.txt"
-REMINDERS_CSV = ROOT / "input" / "everytime_reminders.csv"
+REMINDERS_CSV = ROOT / "input" / "shortcut_reminders.csv"
 DATA_FILE = ROOT / "data" / "data.json"
 
 WEEKDAY_KO = {"월": 0, "화": 1, "수": 2, "목": 3, "금": 4, "토": 5, "일": 6}
@@ -71,7 +71,8 @@ def load_my_keywords():
 def load_reminders():
     """월/목처럼 정해진 요일마다 '이 게시판 확인해보세요' 카드를 만들 대상 목록을 읽는다.
     실제 글을 긁어오는 게 아니라, 그 사이트로 가는 바로가기 알림이다(로그인이 필요한
-    에브리타임 같은 곳을 위한 것)."""
+    에브리타임, 또는 별도 스크래핑 없이 가볍게 안내만 하고 싶은 캠퍼스픽 같은 곳을
+    위한 것)."""
     if not REMINDERS_CSV.exists():
         return []
     with REMINDERS_CSV.open(encoding="utf-8") as f:
