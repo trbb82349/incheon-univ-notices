@@ -101,6 +101,29 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
   border-radius: 10px;
 }
 .source-list a:active { opacity: 0.7; }
+.source-group summary {
+  cursor: pointer;
+  color: var(--title);
+  font-size: 13.5px;
+  padding: 9px 12px;
+  background: var(--sky-pale);
+  border-radius: 10px;
+  list-style: none;
+}
+.source-group summary::-webkit-details-marker { display: none; }
+.source-group[open] summary { border-radius: 10px 10px 0 0; }
+.source-sublist { list-style: none; padding: 6px 0 2px 14px; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.source-sublist a {
+  display: block;
+  color: var(--title);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 8px 12px;
+  background: #fff;
+  border: 1px solid var(--sky-pale);
+  border-radius: 10px;
+}
+.source-sublist a:active { opacity: 0.7; }
 
 .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; justify-content: center; }
 .tab-btn {
@@ -452,6 +475,51 @@ def render_item(n):
     )
 
 
+# "에타 정보게시판" 같은 이름을 가진 사이트들을 "출처" 목록에서 하나의 접이식
+# 그룹으로 묶어서 보여주기 위한 이름 접두사 -> 그룹 이름 매핑.
+SOURCE_GROUP_PREFIXES = {
+    "에타 ": "에타 정보 공지",
+    "캠퍼스픽 ": "캠퍼스픽 정보 공지",
+}
+
+
+def build_source_items_html(sites):
+    """출처 패널에 들어갈 <li> 목록 HTML을 만든다. SOURCE_GROUP_PREFIXES에 해당하는
+    이름을 가진 사이트들은 <details>로 하나의 그룹으로 묶어서, 한 번 더 클릭해야
+    개별 링크가 펼쳐지도록 한다. 나머지는 기존처럼 낱개 링크로 나온다."""
+    parts = []
+    group_index = {}  # 그룹 이름 -> parts 안에서 그 그룹이 처음 등장한 위치
+    group_sites = {}  # 그룹 이름 -> 그 그룹에 속한 사이트 목록
+
+    for site in sites:
+        label = next(
+            (g for prefix, g in SOURCE_GROUP_PREFIXES.items() if site["name"].startswith(prefix)),
+            None,
+        )
+        if label is None:
+            parts.append(
+                f"<li><a href='{html.escape(site['url'])}' target='_blank' rel='noopener'>🏫 {html.escape(site['name'])}</a></li>"
+            )
+            continue
+        if label not in group_index:
+            group_index[label] = len(parts)
+            group_sites[label] = []
+            parts.append(None)  # 나중에 채울 자리
+        group_sites[label].append(site)
+
+    for label, idx in group_index.items():
+        sub_items = "\n".join(
+            f"<li><a href='{html.escape(s['url'])}' target='_blank' rel='noopener'>{html.escape(s['name'])}</a></li>"
+            for s in group_sites[label]
+        )
+        parts[idx] = (
+            f"<li><details class='source-group'><summary>🏫 {html.escape(label)}</summary>"
+            f"<ul class='source-sublist'>{sub_items}</ul></details></li>"
+        )
+
+    return "\n".join(parts)
+
+
 def build():
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     meta = data["meta"]
@@ -481,10 +549,7 @@ def build():
         for tab_id, label in TAB_LABELS
     )
 
-    source_items_html = "\n".join(
-        f"<li><a href='{html.escape(site['url'])}' target='_blank' rel='noopener'>🏫 {html.escape(site['name'])}</a></li>"
-        for site in data["sites"]
-    )
+    source_items_html = build_source_items_html(data["sites"])
 
     favicon = "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💙</text></svg>"
 

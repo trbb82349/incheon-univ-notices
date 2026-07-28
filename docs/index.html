@@ -90,6 +90,29 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
   border-radius: 10px;
 }
 .source-list a:active { opacity: 0.7; }
+.source-group summary {
+  cursor: pointer;
+  color: var(--title);
+  font-size: 13.5px;
+  padding: 9px 12px;
+  background: var(--sky-pale);
+  border-radius: 10px;
+  list-style: none;
+}
+.source-group summary::-webkit-details-marker { display: none; }
+.source-group[open] summary { border-radius: 10px 10px 0 0; }
+.source-sublist { list-style: none; padding: 6px 0 2px 14px; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.source-sublist a {
+  display: block;
+  color: var(--title);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 8px 12px;
+  background: #fff;
+  border: 1px solid var(--sky-pale);
+  border-radius: 10px;
+}
+.source-sublist a:active { opacity: 0.7; }
 
 .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; justify-content: center; }
 .tab-btn {
@@ -176,12 +199,12 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
 <li><a href='https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1' target='_blank' rel='noopener'>🏫 데이터과학과 홈페이지 공지사항</a></li>
 <li><a href='https://datascience.inu.ac.kr/bbs/datascience/1829/artclList.do?page=1' target='_blank' rel='noopener'>🏫 데이터과학과 장학게시판</a></li>
 <li><a href='https://lib.inu.ac.kr/library-guide/news/notice?page=1' target='_blank' rel='noopener'>🏫 학산도서관 공지사항</a></li>
-<li><a href='https://everytime.kr/259118' target='_blank' rel='noopener'>🏫 에타 정보게시판</a></li>
-<li><a href='https://everytime.kr/367564' target='_blank' rel='noopener'>🏫 에타 홍보게시판</a></li>
-<li><a href='https://everytime.kr/418891' target='_blank' rel='noopener'>🏫 에타 동아리/학회</a></li>
-<li><a href='https://www.campuspick.com/contest' target='_blank' rel='noopener'>🏫 캠퍼스픽 공모전 게시판</a></li>
-<li><a href='https://www.campuspick.com/activity' target='_blank' rel='noopener'>🏫 캠퍼스픽 대외활동 게시판</a></li>
-<li><a href='https://www.campuspick.com/education' target='_blank' rel='noopener'>🏫 캠퍼스픽 교육 게시판</a></li></ul>
+<li><details class='source-group'><summary>🏫 에타 정보 공지</summary><ul class='source-sublist'><li><a href='https://everytime.kr/259118' target='_blank' rel='noopener'>에타 정보게시판</a></li>
+<li><a href='https://everytime.kr/367564' target='_blank' rel='noopener'>에타 홍보게시판</a></li>
+<li><a href='https://everytime.kr/418891' target='_blank' rel='noopener'>에타 동아리/학회</a></li></ul></details></li>
+<li><details class='source-group'><summary>🏫 캠퍼스픽 정보 공지</summary><ul class='source-sublist'><li><a href='https://www.campuspick.com/contest' target='_blank' rel='noopener'>캠퍼스픽 공모전 게시판</a></li>
+<li><a href='https://www.campuspick.com/activity' target='_blank' rel='noopener'>캠퍼스픽 대외활동 게시판</a></li>
+<li><a href='https://www.campuspick.com/education' target='_blank' rel='noopener'>캠퍼스픽 교육 게시판</a></li></ul></details></li></ul>
 </div>
 <div class="tabs"><button type='button' class='tab-btn active' data-tab='unread'>📩 안 읽은 공지<span class='count'></span></button>
 <button type='button' class='tab-btn' data-tab='read'>✅ 읽은 공지<span class='count'></span></button>
