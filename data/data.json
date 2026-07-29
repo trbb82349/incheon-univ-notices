@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-29 08:07",
+    "last_updated": "2026-07-29 17:11",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,166 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[재정전략과] 2026-2 국가근로장학생 모집 안내(~8/5)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427698/artclView",
+          "writer": "재정전략과",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[안전관리과] 2026-2 교내봉사장학생 모집 안내(~8/5)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427690/artclView",
+          "writer": "안전관리과",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 전공심화트랙 이수 신청 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427689/artclView",
+          "writer": "학사과",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[안전관리과] 2026-2 국가근로장학생 모집 안내(~8/5)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427688/artclView",
+          "writer": "안전관리과",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[공자학원] 26-2학기 국가근로장학생 모집 안내 (~8/7[금] 15:00까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427687/artclView",
+          "writer": "공자학원",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[동북아물류대학원] 2026-2 교내봉사장학생 모집 안내(~8/5)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427686/artclView",
+          "writer": "동북아물류대학원",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[동북아물류대학원] 2026-2 국가근로장학생 모집 안내(~8/5)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427684/artclView",
+          "writer": "동북아물류대학원",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[해양학과] 2026-2 해양학과 교내봉사장학생 선발 안내 (~8/5)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427681/artclView",
+          "writer": "해양학과",
+          "date": "2026.07.29",
+          "relevant": false,
+          "matched_dept": "해양학과"
+        },
+        {
+          "title": "[해양학과] 2026-2 해양학과 국가근로장학생 모집 안내 (~8/5)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427680/artclView",
+          "writer": "해양학과",
+          "date": "2026.07.29",
+          "relevant": false,
+          "matched_dept": "해양학과"
+        },
+        {
+          "title": "[독어독문] 2026학년도 2학기 국가근로장학생 모집 안내(~2026.08.06.(목) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427678/artclView",
+          "writer": "독어독문학과",
+          "date": "2026.07.29",
+          "relevant": false,
+          "matched_dept": "독어독문학과"
+        },
+        {
+          "title": "[독어독문] 2026학년도 2학기 학과사무실  봉사장학생 모집 안내(~2026.08.06.(목) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427661/artclView",
+          "writer": "독어독문학과",
+          "date": "2026.07.29",
+          "relevant": false,
+          "matched_dept": "독어독문학과"
+        },
+        {
+          "title": "[코멘토]세종대학교와 함께하는 지역청년 ‘아이턴십 챌린지'",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427656/artclView",
+          "writer": "학생지원과",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[창업지원단] 2026-2학기 교내봉사장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427645/artclView",
+          "writer": "창업지원단",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[창업지원단] 2026-2학기 국가근로장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427644/artclView",
+          "writer": "창업지원단",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 2학기 학업재이수(이수학기 포기)시 국가장학금 및 학자금대출 유의사항 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427643/artclView",
+          "writer": "학생지원과",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내] 2026-1학기 학생장학금Ⅱ(INU 미래로·디딤돌·버팀목) 지급 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427641/artclView",
+          "writer": "학생지원과",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[인문문화예술기획] 2026-2학기 국가근로 장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427640/artclView",
+          "writer": "불어불문학과",
+          "date": "2026.07.29",
+          "relevant": false,
+          "matched_dept": "불어불문학과"
+        },
+        {
+          "title": "[불어불문] 2026-2학기 교내 봉사장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427639/artclView",
+          "writer": "불어불문학과",
+          "date": "2026.07.29",
+          "relevant": false,
+          "matched_dept": "불어불문학과"
+        },
+        {
+          "title": "26-2 학과사무실 봉사장학생 선발 완료",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427636/artclView",
+          "writer": "중어중국학과",
+          "date": "2026.07.29",
+          "relevant": false,
+          "matched_dept": "중어중국학과"
+        },
+        {
+          "title": "[융합자유전공대학] 2026학년도 2학기 국가근로장학생 모집 안내(~8/5)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427631/artclView",
+          "writer": "융합자유전공대학",
+          "date": "2026.07.29",
+          "relevant": false,
+          "matched_dept": "융합자유전공"
+        },
         {
           "title": "[혁신인력개발센터] 2026년도 2학기 국가근로장학생 모집공고(~8.14까지)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427568/artclView",
@@ -1637,7 +1797,7 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1825/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7f9a9d86d790>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "데이터과학과 장학게시판",
@@ -1692,12 +1852,20 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7f9a9d86f390>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "학산도서관 공지사항",
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "notices": [
+        {
+          "title": "2026년「작가와의 만남」 선호도 수요 조사",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13783",
+          "writer": "윤*아",
+          "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "FOCUS Access 오픈액세스 및 논문출판비용(APC) 지원  및 Wiley Flip 저널 전환 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13760",
