@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-07-30 09:05",
+    "last_updated": "2026-07-31 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,78 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[기계공학과]2026-2학기 국가근로장학생 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427742/artclView",
+          "writer": "기계공학과",
+          "date": "2026.07.30",
+          "relevant": false,
+          "matched_dept": "기계공학과"
+        },
+        {
+          "title": "[기계공학과]2026-2학기 교내봉사장학생 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427740/artclView",
+          "writer": "기계공학과",
+          "date": "2026.07.30",
+          "relevant": false,
+          "matched_dept": "기계공학과"
+        },
+        {
+          "title": "[법인법무과] 2026-2학기 교내봉사장학생 모집 안내 (~8/6까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427738/artclView",
+          "writer": "법인법무과",
+          "date": "2026.07.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 한서대학교 학점교류 안내(~8. 10.(월) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427737/artclView",
+          "writer": "학사과",
+          "date": "2026.07.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 대진대학교 학점교류 안내(~8. 13.(목) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427734/artclView",
+          "writer": "학사과",
+          "date": "2026.07.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[법인법무과] 2026-2학기 국가근로장학생 모집 안내 (~8/6까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427733/artclView",
+          "writer": "법인법무과",
+          "date": "2026.07.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 한세대학교 학점교류 안내(~8. 5.(수) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427731/artclView",
+          "writer": "학사과",
+          "date": "2026.07.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 한국항공대학교 학점교류 안내(~8. 6.(목) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427730/artclView",
+          "writer": "학사과",
+          "date": "2026.07.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "병원동원소집통지서 확인 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427719/artclView",
+          "writer": "홍보과",
+          "date": "2026.07.30",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[재정전략과] 2026-2 국가근로장학생 모집 안내(~8/5)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427698/artclView",
@@ -1859,6 +1931,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "notices": [
         {
+          "title": "[전자정보 이용교육] 2026년 7-8월 국내외 전자정보 온라인 교육 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13785",
+          "writer": "조*주",
+          "date": "2026.07.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
           "title": "2026년「작가와의 만남」 선호도 수요 조사",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13783",
           "writer": "윤*아",
@@ -2002,6 +2082,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-07-31",
+          "writer": "정기 알림",
+          "date": "2026.07.31",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-07-28",
           "writer": "정기 알림",
           "date": "2026.07.28",
@@ -2085,6 +2173,14 @@
       "name": "캠퍼스픽 대외활동 게시판",
       "url": "https://www.campuspick.com/activity",
       "notices": [
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-07-31",
+          "writer": "정기 알림",
+          "date": "2026.07.31",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 대외활동 게시판 보기",
           "link": "https://www.campuspick.com/activity?remind=2026-07-28",
