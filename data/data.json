@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-03 08:07",
+    "last_updated": "2026-08-03 09:05",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,14 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[입학관리과]2026-2학기 국가근로장학생 모집(~8/10)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/427884/artclView",
+          "writer": "입학관리과",
+          "date": "2026.08.03",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[인천강소특구사업단] 2026-2학기 국가근로장학생 모집 (~8/9)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/427854/artclView",
