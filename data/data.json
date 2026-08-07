@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-07 08:07",
+    "last_updated": "2026-08-07 10:42",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -13,6 +13,46 @@
       "name": "인천대 홈페이지 공지사항",
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "notices": [
+        {
+          "title": "[세무회계학과] 2026-2학기 봉사장학생 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/428279/artclView",
+          "writer": "세무회계학과",
+          "date": "2026.08.07",
+          "relevant": false,
+          "matched_dept": "세무회계학과"
+        },
+        {
+          "title": "[스포츠과학부]교내 봉사장학생 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/428277/artclView",
+          "writer": "스포츠과학부",
+          "date": "2026.08.07",
+          "relevant": false,
+          "matched_dept": "스포츠과학부"
+        },
+        {
+          "title": "[Global Trade & Service 학부]2026-2학기 학부사무실 교내봉사장학생 선발 결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/428274/artclView",
+          "writer": "Global Trade & Service학부",
+          "date": "2026.08.07",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[수학과]2026학년도2학기국가근로장학생 모집 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/428272/artclView",
+          "writer": "수학과",
+          "date": "2026.08.07",
+          "relevant": false,
+          "matched_dept": "수학과"
+        },
+        {
+          "title": "[학생지원과] 2026-2학기 학생지원과 국가근로장학생 모집 안내(~8/13(목)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/428266/artclView",
+          "writer": "학생지원과",
+          "date": "2026.08.07",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[경제학과] 2026학년도 2학기 교내봉사 장학생 모집(~8/14 금 오전 9시까지)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/428258/artclView",
@@ -2372,46 +2412,6 @@
           "date": "2026.07.10",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[창업지원단] 2026학년도 2학기 국가근로장학생 모집(~7/20(월)까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/426931/artclView",
-          "writer": "창업지원단",
-          "date": "2026.07.10",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 아주대학교 학점교류 안내(~8. 4.(화) 13:00)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/426919/artclView",
-          "writer": "학사과",
-          "date": "2026.07.10",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[국제교류과] 2026-2학기 국가근로장학생 모집 안내(~7/19(일) 23:59까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/426918/artclView",
-          "writer": "국제교류과",
-          "date": "2026.07.10",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[국제교류과] 2026-2학기 교내봉사장학생 모집 안내(~7/19(일) 23:59까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/426917/artclView",
-          "writer": "국제교류과",
-          "date": "2026.07.10",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[전기공학과]2026-2 국가근로장학생 모집(~7.24까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/426896/artclView",
-          "writer": "전기공학과",
-          "date": "2026.07.09",
-          "relevant": false,
-          "matched_dept": "전기공학과"
         }
       ],
       "error": null
@@ -2636,7 +2636,7 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7f5679331e10>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": null
     },
     {
       "name": "학산도서관 공지사항",
