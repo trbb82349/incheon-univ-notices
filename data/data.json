@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-08 08:40",
+    "last_updated": "2026-08-09 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2414,7 +2414,7 @@
           "matched_dept": "일본지역문화학과"
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='www.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/inu/2006/artclList.do?page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='www.inu.ac.kr', port=443): Failed to resolve 'www.inu.ac.kr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "데이터과학과 홈페이지 공지사항",
@@ -2581,7 +2581,7 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1825/artclList.do?page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='datascience.inu.ac.kr', port=443): Failed to resolve 'datascience.inu.ac.kr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "데이터과학과 장학게시판",
@@ -2636,7 +2636,7 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='datascience.inu.ac.kr', port=443): Failed to resolve 'datascience.inu.ac.kr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "학산도서관 공지사항",
@@ -2771,7 +2771,7 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='lib.inu.ac.kr', port=443): Max retries exceeded with url: /pyxis-api/1/bulletin-boards/1/bulletins?offset=0&max=10&nameOption=part&isSeq=false&onlyWriter=false (Caused by NameResolutionError(\"HTTPSConnection(host='lib.inu.ac.kr', port=443): Failed to resolve 'lib.inu.ac.kr' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "에타 정보게시판",
