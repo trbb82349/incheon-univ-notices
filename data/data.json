@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-09 08:36",
+    "last_updated": "2026-08-10 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2414,7 +2414,7 @@
           "matched_dept": "일본지역문화학과"
         }
       ],
-      "error": "HTTPSConnectionPool(host='www.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/inu/2006/artclList.do?page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='www.inu.ac.kr', port=443): Failed to resolve 'www.inu.ac.kr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": "404 Client Error: Not Found for url: https://portal.inu.ac.kr:444/enview/bbs/inu/2006/artclList.do?page=1"
     },
     {
       "name": "데이터과학과 홈페이지 공지사항",
@@ -2581,7 +2581,7 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1825/artclList.do?page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='datascience.inu.ac.kr', port=443): Failed to resolve 'datascience.inu.ac.kr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": "404 Client Error: Not Found for url: https://portal.inu.ac.kr:444/enview/bbs/datascience/1825/artclList.do?page=1"
     },
     {
       "name": "데이터과학과 장학게시판",
@@ -2636,7 +2636,7 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by NameResolutionError(\"HTTPSConnection(host='datascience.inu.ac.kr', port=443): Failed to resolve 'datascience.inu.ac.kr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": "HTTPSConnectionPool(host='portal.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='portal.inu.ac.kr', port=443) at 0x7fbb21abafd0>, 'Connection to portal.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "학산도서관 공지사항",
@@ -2771,12 +2771,20 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='lib.inu.ac.kr', port=443): Max retries exceeded with url: /pyxis-api/1/bulletin-boards/1/bulletins?offset=0&max=10&nameOption=part&isSeq=false&onlyWriter=false (Caused by NameResolutionError(\"HTTPSConnection(host='lib.inu.ac.kr', port=443): Failed to resolve 'lib.inu.ac.kr' ([Errno -3] Temporary failure in name resolution)\"))"
+      "error": null
     },
     {
       "name": "에타 정보게시판",
       "url": "https://everytime.kr/259118",
       "notices": [
+        {
+          "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-08-10",
+          "writer": "정기 알림",
+          "date": "2026.08.10",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-08-06",
@@ -2950,6 +2958,14 @@
       "name": "캠퍼스픽 공모전 게시판",
       "url": "https://www.campuspick.com/contest",
       "notices": [
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-08-10",
+          "writer": "정기 알림",
+          "date": "2026.08.10",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-08-06",
