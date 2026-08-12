@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-13 08:07",
+    "last_updated": "2026-08-13 08:51",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2555,17 +2555,9 @@
           "date": "2026.05.29",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[교외공모전] 제4회 문화체육관광 인공지능·데이터 활용 공모전 개최 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/424046/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.05.14",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1825/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7f0524b6eb50>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": null
     },
     {
       "name": "데이터과학과 장학게시판",
