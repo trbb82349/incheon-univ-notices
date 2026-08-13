@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-13 08:51",
+    "last_updated": "2026-08-14 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2414,7 +2414,7 @@
           "matched_dept": "수학과"
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='www.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/inu/2006/artclList.do?page=4 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.inu.ac.kr', port=443) at 0x7fc444c1d490>, 'Connection to www.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "데이터과학과 홈페이지 공지사항",
@@ -2618,6 +2618,14 @@
       "name": "학산도서관 공지사항",
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "notices": [
+        {
+          "title": "8/17(월) 광복절 대체휴일 학산도서관 휴관 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13820",
+          "writer": "김*준",
+          "date": "2026.08.13",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026-1학기 필독교양도서 마일리지 부여 및 2026-2학기 학점부여 대상자 확인",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13813",
@@ -2834,6 +2842,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-08-14",
+          "writer": "정기 알림",
+          "date": "2026.08.14",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-08-11",
           "writer": "정기 알림",
           "date": "2026.08.11",
@@ -3013,6 +3029,14 @@
       "name": "캠퍼스픽 대외활동 게시판",
       "url": "https://www.campuspick.com/activity",
       "notices": [
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-08-14",
+          "writer": "정기 알림",
+          "date": "2026.08.14",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 대외활동 게시판 보기",
           "link": "https://www.campuspick.com/activity?remind=2026-08-11",
