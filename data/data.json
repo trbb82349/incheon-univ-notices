@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-15 08:07",
+    "last_updated": "2026-08-15 08:29",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2414,7 +2414,7 @@
           "matched_dept": "수학과"
         }
       ],
-      "error": "HTTPSConnectionPool(host='www.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/inu/2006/artclList.do?page=4 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.inu.ac.kr', port=443) at 0x7fc529441e90>, 'Connection to www.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": "HTTPSConnectionPool(host='www.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/inu/2006/artclList.do?page=4 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.inu.ac.kr', port=443) at 0x7f291ddbd5d0>, 'Connection to www.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "데이터과학과 홈페이지 공지사항",
@@ -2557,7 +2557,7 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1825/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7fc529079ed0>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": null
     },
     {
       "name": "데이터과학과 장학게시판",
