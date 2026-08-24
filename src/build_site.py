@@ -90,6 +90,8 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
 }
 .source-panel[hidden] { display: none; }
 .source-panel-title { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 14px; color: var(--sky-dark); margin: 0 0 10px; }
+.source-section-label { font-size: 11.5px; color: var(--ink-soft); margin: 12px 0 6px; font-weight: 600; }
+.source-section-label:first-of-type { margin-top: 0; }
 .source-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
 .source-list a {
   display: block;
@@ -161,6 +163,7 @@ h1 { font-family: 'Jua', sans-serif; font-weight: 400; font-size: 24px; margin: 
 
 .meta { display: inline-block; color: var(--ink-soft); font-size: 11.5px; background: var(--sky-pale); padding: 2px 9px; border-radius: 999px; margin-bottom: 8px; }
 .source-tag { display: inline-block; color: #5d5285; font-size: 11.5px; background: var(--lavender-pale); padding: 2px 9px; border-radius: 999px; margin-left: 4px; margin-bottom: 8px; }
+.source-tag.external { color: #7a6640; background: var(--gold-pale); }
 .dept-tag { display: inline-block; color: #a3607a; font-size: 11.5px; background: var(--pink-pale); padding: 2px 9px; border-radius: 999px; margin-left: 4px; margin-bottom: 8px; }
 
 .btn-row { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
@@ -460,12 +463,15 @@ def render_item(n):
     date = html.escape(n["date"])
     source = html.escape(n["site"])
     relevant = "true" if n["relevant"] else "false"
+    is_external = n.get("group") != "인천대"
+    source_icon = "🎓" if is_external else "🏫"
+    source_class = "source-tag external" if is_external else "source-tag"
     dept_tag = f"<span class='dept-tag'>🏷️ {html.escape(n['matched_dept'])}</span>" if n.get("matched_dept") else ""
     return (
         f"<li class='notice-item' data-link='{link}' data-relevant='{relevant}'>"
         f"<a href='{link}' target='_blank' rel='noopener' class='notice-link'>{title}</a>"
         f"<span class='meta'>{writer} · {date}</span>"
-        f"<span class='source-tag'>🏫 {source}</span>{dept_tag}"
+        f"<span class='{source_class}'>{source_icon} {source}</span>{dept_tag}"
         f"<div class='btn-row'>"
         f"<button type='button' class='mark-read-btn'>✅ 읽음으로 표시</button>"
         f"<button type='button' class='star-btn'>☆ 즐겨찾기</button>"
@@ -483,10 +489,11 @@ SOURCE_GROUP_PREFIXES = {
 }
 
 
-def build_source_items_html(sites):
-    """출처 패널에 들어갈 <li> 목록 HTML을 만든다. SOURCE_GROUP_PREFIXES에 해당하는
-    이름을 가진 사이트들은 <details>로 하나의 그룹으로 묶어서, 한 번 더 클릭해야
-    개별 링크가 펼쳐지도록 한다. 나머지는 기존처럼 낱개 링크로 나온다."""
+def build_source_section_items(sites):
+    """사이트 목록 하나를 받아 출처 패널에 들어갈 <li> 목록 HTML을 만든다.
+    SOURCE_GROUP_PREFIXES에 해당하는 이름을 가진 사이트들은 <details>로 하나의
+    그룹으로 묶어서, 한 번 더 클릭해야 개별 링크가 펼쳐지도록 한다. 나머지는
+    기존처럼 낱개 링크로 나온다."""
     parts = []
     group_index = {}  # 그룹 이름 -> parts 안에서 그 그룹이 처음 등장한 위치
     group_sites = {}  # 그룹 이름 -> 그 그룹에 속한 사이트 목록
@@ -497,8 +504,9 @@ def build_source_items_html(sites):
             None,
         )
         if label is None:
+            icon = "🏫" if site.get("group", "인천대") == "인천대" else "🎓"
             parts.append(
-                f"<li><a href='{html.escape(site['url'])}' target='_blank' rel='noopener'>🏫 {html.escape(site['name'])}</a></li>"
+                f"<li><a href='{html.escape(site['url'])}' target='_blank' rel='noopener'>{icon} {html.escape(site['name'])}</a></li>"
             )
             continue
         if label not in group_index:
@@ -520,6 +528,25 @@ def build_source_items_html(sites):
     return "\n".join(parts)
 
 
+def build_source_items_html(sites):
+    """출처 패널 전체 HTML을 만든다. site["group"]("인천대" / "외부") 기준으로
+    섹션을 나눠서, 인천대와 관련 없는 사이트(예: 강화군장학회)는 별도 소제목 아래
+    구분해서 보여준다. "외부" 사이트가 하나도 없으면 소제목 없이 기존처럼 나온다."""
+    inu_sites = [s for s in sites if s.get("group", "인천대") == "인천대"]
+    external_sites = [s for s in sites if s.get("group", "인천대") != "인천대"]
+
+    if not external_sites:
+        return build_source_section_items(sites)
+
+    parts = []
+    if inu_sites:
+        parts.append("<li class='source-section-label'>🏫 인천대</li>")
+        parts.append(build_source_section_items(inu_sites))
+    parts.append("<li class='source-section-label'>🎓 인천대 외부</li>")
+    parts.append(build_source_section_items(external_sites))
+    return "\n".join(parts)
+
+
 def build():
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     meta = data["meta"]
@@ -532,7 +559,7 @@ def build():
             error_parts.append(f"<p class='error'>{html.escape(site['name'])} 수집 실패: {html.escape(site['error'])}</p>")
             continue
         for n in site["notices"]:
-            all_notices.append({**n, "site": site["name"]})
+            all_notices.append({**n, "site": site["name"], "group": site.get("group", "인천대")})
 
     # 사이트 구분 없이 하나로 합치고, 날짜(YYYY.MM.DD) 최신순으로 정렬한다.
     all_notices.sort(key=lambda n: n["date"], reverse=True)

@@ -144,6 +144,7 @@ def collect_reminders(reminders, existing_by_name, today):
             {
                 "name": reminder["name"],
                 "url": reminder["url"],
+                "group": "인천대",
                 "notices": notices[:MAX_STORED_PER_SITE],
                 "error": None,
             }
@@ -355,6 +356,43 @@ def scrape_lib_pyxis(url):
     return notices
 
 
+def scrape_imweb_board(url):
+    """imweb(아임웹) 빌더의 게시판 위젯 템플릿(li_board)을 쓰는 게시판 1페이지를 스크래핑한다
+    (예: 강화군장학회). 목록의 제목 링크에는 idx(글 번호) 말고도 q=(페이지/검색 상태를
+    base64로 담은 값)가 같이 붙는데, 이 q 값은 몇 페이지에서 긁었는지에 따라 매번 달라져서
+    그대로 저장하면 같은 글인데도 링크가 계속 바뀐 걸로 보여 중복 판정에 문제가 생긴다.
+    그래서 idx만 뽑아서 bmode=view&idx=...&t=board 형태로 새로 조합해 링크를 고정한다."""
+    resp = requests.get(url, headers=HEADERS, timeout=15)
+    resp.raise_for_status()
+    soup = BeautifulSoup(resp.text, "html.parser")
+    parts = urlsplit(url)
+    origin = f"{parts.scheme}://{parts.netloc}"
+    board_path = parts.path if parts.path.endswith("/") else parts.path + "/"
+
+    notices = []
+    for row in soup.select("div.li_board ul.li_body"):
+        link_tag = row.select_one("a.list_text_title")
+        if link_tag is None:
+            continue
+        m = re.search(r"idx=(\d+)", link_tag.get("href", ""))
+        if not m:
+            continue
+        title = link_tag.get_text(strip=True)
+        link = f"{origin}{board_path}?bmode=view&idx={m.group(1)}&t=board"
+        writer_tag = row.select_one("li.name")
+        date_tag = row.select_one("li.time")
+        date_text = date_tag.get_text(strip=True).replace("-", ".") if date_tag else ""
+        notices.append(
+            {
+                "title": title,
+                "link": link,
+                "writer": writer_tag.get_text(strip=True) if writer_tag else "",
+                "date": date_text,
+            }
+        )
+    return notices
+
+
 # 사이트별 파서 등록. sites.csv의 parser 칸에 적힌 이름으로 찾는다.
 # 새 사이트가 다른 구조를 쓰면 함수를 하나 더 만들어 여기에 등록하면 된다.
 # 파서는 "게시판 목록 페이지 URL 1개"를 받아 그 페이지에 있는 공지 목록을 반환한다.
@@ -362,6 +400,7 @@ PARSERS = {
     "inu_standard": scrape_inu_standard,
     "inu_js_link": scrape_inu_js_link,
     "inu_lib_pyxis": scrape_lib_pyxis,
+    "imweb_board": scrape_imweb_board,
 }
 
 
@@ -450,11 +489,12 @@ def fetch_new_notices(fetch_page, base_url, known_links, today):
 
 def collect_site(site, my_keywords, existing_site, today):
     parser = PARSERS.get(site.get("parser", "").strip())
+    group = site.get("group", "").strip() or "인천대"
     prev_notices = existing_site["notices"] if existing_site else []
 
     if parser is None:
         print(f"  [건너뜀] {site['name']}: 등록된 파서가 없음 ({site.get('parser')})")
-        return {"name": site["name"], "url": site["url"], "notices": prev_notices, "error": "파서 없음"}
+        return {"name": site["name"], "url": site["url"], "group": group, "notices": prev_notices, "error": "파서 없음"}
 
     known_links = {n["link"] for n in prev_notices}
 
@@ -462,7 +502,7 @@ def collect_site(site, my_keywords, existing_site, today):
         new_rows = fetch_new_notices(parser, site["url"], known_links, today)
     except requests.RequestException as e:
         print(f"  [경고] {site['name']} 요청 실패: {e} (기존 데이터 유지)")
-        return {"name": site["name"], "url": site["url"], "notices": prev_notices, "error": str(e)}
+        return {"name": site["name"], "url": site["url"], "group": group, "notices": prev_notices, "error": str(e)}
 
     if new_rows:
         print(f"  {site['name']}: 새 공지 {len(new_rows)}건 발견")
@@ -473,13 +513,17 @@ def collect_site(site, my_keywords, existing_site, today):
     # (중복 방지: 혹시 new_rows에 기존과 겹치는 링크가 섞여 있어도 한 번만 남긴다.)
     existing_links = {n["link"] for n in prev_notices}
     merged = [n for n in new_rows if n["link"] not in existing_links] + prev_notices
-    merged = prune_old_notices(merged, today)
+    # sites.csv의 prune 칸이 "keep"이면 90일 자동 삭제를 건너뛴다 (강화군장학회처럼
+    # 글이 뜸하게 올라오는 사이트는 90일 규칙을 그대로 적용하면 처음 채운 글이
+    # 금방 다 사라져버리기 때문). MAX_STORED_PER_SITE 상한은 그대로 적용된다.
+    if site.get("prune", "").strip() != "keep":
+        merged = prune_old_notices(merged, today)
     notices = []
     for n in merged[:MAX_STORED_PER_SITE]:
         relevant, matched_dept = classify_relevance(n["title"], n["writer"], my_keywords)
         notices.append({**n, "relevant": relevant, "matched_dept": matched_dept})
 
-    return {"name": site["name"], "url": site["url"], "notices": notices, "error": None}
+    return {"name": site["name"], "url": site["url"], "group": group, "notices": notices, "error": None}
 
 
 def main():
