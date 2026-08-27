@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-27 13:28",
+    "last_updated": "2026-08-28 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,110 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[홍보과] 2026-2학기 국가근로장학생 모집 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429426/artclView",
+          "writer": "홍보과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[홍보과] 2026-2학기 국가근로장학생 모집 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429425/artclView",
+          "writer": "홍보과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[홍보과] 2026-2학기 교내봉사장학생 모집 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429424/artclView",
+          "writer": "홍보과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[인천국제개발협력센터] 대체사무원 채용공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429417/artclView",
+          "writer": "국제개발협력센터",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교육혁신과] 2026학년도 INU LearnON 프로그램 안내 (클래스101 무제한 수강권)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429416/artclView",
+          "writer": "교육혁신과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[인천대학교 스마트물류시스템 혁신연구센터]  박사급연구원 채용 공고(~9.2.(수))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429411/artclView",
+          "writer": "산학협력단",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[희망사다리Ⅰ유형] 2026년 2학기 중소기업 취업연계 장학금(희망사다리Ⅰ유형) 신규장학생 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429407/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026년 2학기 푸른등대 기부장학금 신규장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429403/artclView",
+          "writer": "학생지원과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026년 익산사랑장학재단 익산사랑 장학생 선발 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429392/artclView",
+          "writer": "학생지원과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026년 (재)연수큰재장학재단 제12회 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429391/artclView",
+          "writer": "학생지원과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "희망사다리 장학생 대상 <2026 중견기업 일자리 박람회 > 홍보",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429384/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[학산도서관] 2026-2학기 국가근로장학생 추가모집 선발결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429381/artclView",
+          "writer": "학술정보과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[역사교육과] 2026학년도 2학기 교내봉사장학생 선발 결과 알림",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429380/artclView",
+          "writer": "역사교육과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[사회봉사] 서서울생명의전화 ‘제 17회 달빛 소나타’ 대학생 서포터즈 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429374/artclView",
@@ -2309,110 +2413,6 @@
           "date": "2026.08.06",
           "relevant": false,
           "matched_dept": "로봇시스템공학과"
-        },
-        {
-          "title": "[영어교육과] 2026-2학기 학과사무실 봉사장학생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428199/artclView",
-          "writer": "영어교육과",
-          "date": "2026.08.06",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[바이오-로봇시스템공학과] 2026-2학기 국가근로장학생 모집 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428198/artclView",
-          "writer": "바이오-로봇시스템공학과",
-          "date": "2026.08.06",
-          "relevant": false,
-          "matched_dept": "로봇시스템공학과"
-        },
-        {
-          "title": "[반도체협회] 2026 AI X 첨단산업 공동직무설명회 등록 안내(~8/21)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428195/artclView",
-          "writer": "차세대융합형반도체연구소",
-          "date": "2026.08.06",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[일어교육과] 2026-2학기 학과사무실 봉사장학생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428181/artclView",
-          "writer": "일어교육과",
-          "date": "2026.08.06",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[동북아발전연구원]2026-2학기 국가근로장학생 모집(~ 8/12까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428178/artclView",
-          "writer": "동북아국제통상물류학부 행정실",
-          "date": "2026.08.05",
-          "relevant": false,
-          "matched_dept": "동북아국제통상물류학부"
-        },
-        {
-          "title": "[동북아국제통상물류학부 행정실]2026-2학기 국가근로장학생 모집(~ 8/12까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428177/artclView",
-          "writer": "동북아국제통상물류학부 행정실",
-          "date": "2026.08.05",
-          "relevant": false,
-          "matched_dept": "동북아국제통상물류학부"
-        },
-        {
-          "title": "[동북아국제통상물류학부 행정실]2026-2학기 교내봉사장학생 모집(~ 8/12까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428171/artclView",
-          "writer": "동북아국제통상물류학부 행정실",
-          "date": "2026.08.05",
-          "relevant": false,
-          "matched_dept": "동북아국제통상물류학부"
-        },
-        {
-          "title": "2026학년도 2학기 교양 강좌별 최초 정원 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428166/artclView",
-          "writer": "학사과",
-          "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[건설환경공학전공] 2026-2학기 교내봉사장학생 최종 선발 결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428163/artclView",
-          "writer": "도시환경공학부",
-          "date": "2026.08.05",
-          "relevant": false,
-          "matched_dept": "건설환경공학전공, 도시환경공학부"
-        },
-        {
-          "title": "[건설환경공학전공] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428162/artclView",
-          "writer": "도시환경공학부",
-          "date": "2026.08.05",
-          "relevant": false,
-          "matched_dept": "건설환경공학전공, 도시환경공학부"
-        },
-        {
-          "title": "[생명과학기술대학 교학실] 2026-2학기 국가근로장학생 모집 안내 (~8/12 수)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428161/artclView",
-          "writer": "생명과학기술대학",
-          "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[생명과학기술대학 교학실] 2026-2학기 교내봉사장학생 모집 안내 (~8/12 수)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428159/artclView",
-          "writer": "생명과학기술대학",
-          "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[국가근로장학금] [소비자학과] 2026-2학기 국가근로장학생 선발 결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428151/artclView",
-          "writer": "소비자학과",
-          "date": "2026.08.05",
-          "relevant": false,
-          "matched_dept": "소비자학과"
         }
       ],
       "error": null
@@ -2557,30 +2557,6 @@
           "date": "2026.06.02",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 재입학 신청 안내(6/8~6/10)",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/424803/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.05.29",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도1학기 성적처리 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/424802/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.05.29",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[취업역량개발과] 2026년도 전공취업동아리 모집 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/424801/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.05.29",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2615,13 +2591,21 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7efd85ed0e90>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "학산도서관 공지사항",
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년 제11회 Reseña 최고의 서평 대회 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13856",
+          "writer": "이*화",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "학산도서관 「책배달 서비스」시행 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13855",
@@ -3032,6 +3016,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-08-28",
+          "writer": "정기 알림",
+          "date": "2026.08.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-08-25",
           "writer": "정기 알림",
           "date": "2026.08.25",
@@ -3310,6 +3302,14 @@
       "url": "https://www.campuspick.com/activity",
       "group": "인천대",
       "notices": [
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-08-28",
+          "writer": "정기 알림",
+          "date": "2026.08.28",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 대외활동 게시판 보기",
           "link": "https://www.campuspick.com/activity?remind=2026-08-25",
