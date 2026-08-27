@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-27 08:07",
+    "last_updated": "2026-08-27 13:28",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,46 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[사회봉사] 서서울생명의전화 ‘제 17회 달빛 소나타’ 대학생 서포터즈 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429374/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회봉사] 방화마을 행복이 꽃피는 축제 자원봉사자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429373/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회봉사] 2026년 서송병원 자원봉사자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429370/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[대외협력과] 2026-2학기 교내봉사장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429360/artclView",
+          "writer": "대외협력과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[대외협력과] 2026-2학기 국가근로장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429359/artclView",
+          "writer": "대외협력과",
+          "date": "2026.08.27",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[AI/SW교육원] 2026-2학기 교내봉사 장학생 추가 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429338/artclView",
@@ -2373,46 +2413,6 @@
           "date": "2026.08.05",
           "relevant": false,
           "matched_dept": "소비자학과"
-        },
-        {
-          "title": "[창업지원단] AWS X AI 실무 프로젝트 아카데미 참가자 모집(AWS 한국지사 실무진 직접 교육)(~8/16(일)까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428150/artclView",
-          "writer": "창업지원단",
-          "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[정보기술대학] 2026학년도 2학기 정보기술대학 국가근로장학생 모집 안내 (~8/13)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428146/artclView",
-          "writer": "정보기술대학",
-          "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[연구전략혁신과]2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428144/artclView",
-          "writer": "연구전략혁신과",
-          "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "(재안내) 2026년 2학기 외국인 유학생 코디네이터 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428140/artclView",
-          "writer": "국제지원과",
-          "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[정보기술대학] 2026학년도 2학기 정보기술대학(원) 교내봉사장학생 모집 안내 (~8/13)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428139/artclView",
-          "writer": "정보기술대학",
-          "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2615,7 +2615,7 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7ff86c2fb4d0>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": null
     },
     {
       "name": "학산도서관 공지사항",
