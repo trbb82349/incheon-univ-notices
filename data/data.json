@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-28 15:51",
+    "last_updated": "2026-08-29 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[환경공학전공]2026-2 국가근로장학생 모집결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429496/artclView",
+          "writer": "도시환경공학부",
+          "date": "2026.08.28",
+          "relevant": false,
+          "matched_dept": "도시환경공학부, 환경공학전공"
+        },
+        {
+          "title": "[사회봉사] 한국청소년재단 <시즌21> 사랑의 몰래산타대작전 「산타기획단」 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429486/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.08.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[예술체육대학 운동건강학부] 2026-2학기 봉사장학생 모집 결과 알림",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429483/artclView",
+          "writer": "운동건강학부",
+          "date": "2026.08.28",
+          "relevant": false,
+          "matched_dept": "운동건강학부"
+        },
         {
           "title": "2026학년도 2학기 영어졸업인증제 신청 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429479/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.08.07",
           "relevant": false,
           "matched_dept": "국어국문학과"
-        },
-        {
-          "title": "[산업경영공학과] 2026년도 2학기 국가근로 장학생 모집 안내(~8/14)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428287/artclView",
-          "writer": "산업경영공학과",
-          "date": "2026.08.07",
-          "relevant": false,
-          "matched_dept": "산업경영공학과"
-        },
-        {
-          "title": "[수학교육과] 2026-2 수학교육과 봉사장학생 모집_8월 17일(월) 13시까지",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428285/artclView",
-          "writer": "수학교육과",
-          "date": "2026.08.07",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[Global Trade & Service 학부]2026-2학기 학부사무실 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428282/artclView",
-          "writer": "Global Trade & Service학부",
-          "date": "2026.08.07",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2567,6 +2567,22 @@
       "group": "인천대",
       "notices": [
         {
+          "title": "[교외장학] 2026년 2학기 푸른등대 기부장학금 신규장학생 선발 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/429485/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.08.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[외부장학금] 2026년 2학기 중소기업 취업연계(희망사다리Ⅰ유형) 신규장학생 신청 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/429482/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.08.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
           "title": "[교내장학금] 2026-2학기 교내장학금(1차) 신청 안내(2026.07.06. 9시 ~",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/426469/artclView",
           "writer": "데이터과학과",
@@ -2591,7 +2607,7 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7fdea2b47d10>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": null
     },
     {
       "name": "학산도서관 공지사항",
@@ -3120,6 +3136,14 @@
       "notices": [
         {
           "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-08-29",
+          "writer": "정기 알림",
+          "date": "2026.08.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-08-26",
           "writer": "정기 알림",
           "date": "2026.08.26",
@@ -3390,6 +3414,14 @@
       "url": "https://www.campuspick.com/education",
       "group": "인천대",
       "notices": [
+        {
+          "title": "캠퍼스픽 교육 게시판 보기",
+          "link": "https://www.campuspick.com/education?remind=2026-08-29",
+          "writer": "정기 알림",
+          "date": "2026.08.29",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 교육 게시판 보기",
           "link": "https://www.campuspick.com/education?remind=2026-08-26",
