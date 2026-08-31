@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-31 08:07",
+    "last_updated": "2026-08-31 10:20",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,46 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[공학교육혁신센터] 『3D 모델링 및 3D 프린팅 교육 』 입문/기초과정 학생모집 안내(~9.13까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429512/artclView",
+          "writer": "공학교육혁신센터",
+          "date": "2026.08.31",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[입학관리과] 2026-2학기 교내봉사장학생 선발결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429510/artclView",
+          "writer": "입학관리과",
+          "date": "2026.08.31",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[정보통신공학과] 2026-2학기 국가근로장학생 추가 모집(~9/7)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429507/artclView",
+          "writer": "정보통신공학과",
+          "date": "2026.08.31",
+          "relevant": false,
+          "matched_dept": "정보통신공학과"
+        },
+        {
+          "title": "[평생교육원 교학과]2026년 인천대학교 평생교육원 계약직원(박사급연구원) 채용 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429503/artclView",
+          "writer": "평생교육원 교학과",
+          "date": "2026.08.31",
+          "relevant": false,
+          "matched_dept": "교학과"
+        },
+        {
+          "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(1차)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429502/artclView",
+          "writer": "재무회계과",
+          "date": "2026.08.31",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[환경공학전공]2026-2 국가근로장학생 모집결과",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429496/artclView",
@@ -2373,46 +2413,6 @@
           "date": "2026.08.07",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 국가장학금 감면 처리 관련 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428309/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.07",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "﻿[사회봉사] 삼산종합사회복지관 청년 커뮤니티 주도 봉사프로그램 “슬기로운 청년생활” 26년 하반기 참여자 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428299/artclView",
-          "writer": "대학생활지원과",
-          "date": "2026.08.07",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[사회봉사] 세종학당재단 <2026 세종학당 우수학습자 초청 연수> 행사 자원봉사자 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428294/artclView",
-          "writer": "대학생활지원과",
-          "date": "2026.08.07",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[국어국문학과] 2026학년도 2학기 교내봉사장학생 모집 결과 알림",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428290/artclView",
-          "writer": "국어국문학과",
-          "date": "2026.08.07",
-          "relevant": false,
-          "matched_dept": "국어국문학과"
-        },
-        {
-          "title": "[국어국문학과] 2026학년도 2학기 국가근로장학생 모집 결과 알림",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428289/artclView",
-          "writer": "국어국문학과",
-          "date": "2026.08.07",
-          "relevant": false,
-          "matched_dept": "국어국문학과"
         }
       ],
       "error": null
