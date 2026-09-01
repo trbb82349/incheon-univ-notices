@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-01 08:07",
+    "last_updated": "2026-09-01 10:46",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[대학생활상담센터] 9월 <나답게 관계하기 집단상담> 참여 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429683/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.09.01",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[방재연구센터] 2026-2학기 국가근로장학생 선발 결과 알림",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429624/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.08.11",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[공자학원] 26-2학기 국가근로장학생 추가 모집 안내 (~8/12[수] 15:00까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428379/artclView",
-          "writer": "공자학원",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2599,7 +2599,7 @@
           "matched_dept": null
         }
       ],
-      "error": "HTTPSConnectionPool(host='datascience.inu.ac.kr', port=443): Max retries exceeded with url: /bbs/datascience/1829/artclList.do?page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='datascience.inu.ac.kr', port=443) at 0x7f897cf01a90>, 'Connection to datascience.inu.ac.kr timed out. (connect timeout=15)'))"
+      "error": null
     },
     {
       "name": "학산도서관 공지사항",
