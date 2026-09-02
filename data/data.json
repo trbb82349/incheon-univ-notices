@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-02 09:58",
+    "last_updated": "2026-09-02 15:50",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,54 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[교육혁신과] 선배멘토링 멘티 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429907/artclView",
+          "writer": "교육혁신과",
+          "date": "2026.09.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "취업과 스펙을 한 번에! 2026학년도 2학기 산학연계형 매트릭스 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429906/artclView",
+          "writer": "교육혁신과",
+          "date": "2026.09.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 미국 유급인턴 모집안내(SAMKWANG USA)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429886/artclView",
+          "writer": "국제교류과",
+          "date": "2026.09.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026학년도 (재)포항시장학회 대학교 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429874/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 국가장학금 신청자 가구원 동의 마감 기한 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429870/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "「바다마라톤대회」 자원봉사자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429865/artclView",
+          "writer": "홍보과",
+          "date": "2026.09.02",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[사회봉사센터] 2026-2학기 17기 십시일밥 활동봉사자 모집(~9/4 금)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429805/artclView",
@@ -2365,54 +2413,6 @@
           "date": "2026.08.11",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[대외협력과] 2026-2학기 국가근로장학생 모집 안내(~8/18)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428436/artclView",
-          "writer": "대외협력과",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[산학협력단] 2026-2학기 국가근로 장학생 모집 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428432/artclView",
-          "writer": "산학협력단",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[국어국문] 26-2 국어국문학과 전공교과목 수강신청 안내(주/복수/부전공, 인문문화예술연계전공, 타학과 일반선택 등)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428429/artclView",
-          "writer": "국어국문학과",
-          "date": "2026.08.11",
-          "relevant": false,
-          "matched_dept": "국어국문학과, 부전공, 인문문화예술연계전공, 타학과"
-        },
-        {
-          "title": "[글로벌정경대학] 2026학년도 2학기 국가근로장학생 모집 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428414/artclView",
-          "writer": "글로벌정경대학",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[글로벌정경대학] 2026학년도 2학기 교내봉사장학생 모집 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428412/artclView",
-          "writer": "글로벌정경대학",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 등록금 납부 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428409/artclView",
-          "writer": "재무회계과",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2422,6 +2422,14 @@
       "url": "https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "데이터과학과 학생 소모임 BAI 1.5기를 모집",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/429900/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.09.02",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "📢 데이터과학과 내규",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/429738/artclView",
@@ -2638,6 +2646,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[필독/전자사물함] 2026-1학기 전자사물함 반납 및 2026-2학기 신규 배정 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13934",
+          "writer": "김*람",
+          "date": "2026.09.02",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026-2 INU 시네마 운영 안내 [9/1(화)~9/11(금)]",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13867",
@@ -3571,6 +3587,22 @@
           "link": "https://www.campuspick.com/education?remind=2026-07-29",
           "writer": "정기 알림",
           "date": "2026.07.29",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
+    },
+    {
+      "name": "교내비교과",
+      "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0002&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
+      "group": "인천대",
+      "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0002&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-09-02",
+          "writer": "정기 알림",
+          "date": "2026.09.02",
           "relevant": true,
           "matched_dept": null
         }
