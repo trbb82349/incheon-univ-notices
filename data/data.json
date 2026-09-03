@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-03 08:07",
+    "last_updated": "2026-09-03 10:02",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[공자학원] 26-2학기 국가근로장학생 추가 모집 안내 (~9/6[일]까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429944/artclView",
+          "writer": "공자학원",
+          "date": "2026.09.03",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[교육혁신과] 전공착륙 프로그램 - 1:1학습 상담 신청방법",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429934/artclView",
@@ -2402,14 +2410,6 @@
           "title": "[교내봉사장학생_화학과] 2026학년도 제2학기 화학과 교내봉사(일반)장학생 선발결과 알림",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/428449/artclView",
           "writer": "화학과",
-          "date": "2026.08.11",
-          "relevant": false,
-          "matched_dept": "화학과"
-        },
-        {
-          "title": "[화학과] 2026학년도 2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428443/artclView",
-          "writer": "화학과 임정은",
           "date": "2026.08.11",
           "relevant": false,
           "matched_dept": "화학과"
