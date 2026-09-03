@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-03 10:02",
+    "last_updated": "2026-09-04 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,46 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[국제지원과] 2026년 2학기 국가근로장학생 추가 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430006/artclView",
+          "writer": "국제지원과",
+          "date": "2026.09.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[창업지원단] 2026-2학기 교내봉사장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429996/artclView",
+          "writer": "창업지원단",
+          "date": "2026.09.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회봉사] 「2026년 제8회 대흥이네 마을축제」 자원봉사자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429974/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.09.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 독일 유급인턴 모집안내(Lee Global Logistics)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429965/artclView",
+          "writer": "국제교류과",
+          "date": "2026.09.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[인천국제개발협력센터] 2026년 하반기 국제개발협력센터 기간제계약직(영프로페셔널) 채용공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/429954/artclView",
+          "writer": "국제개발협력센터",
+          "date": "2026.09.03",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[공자학원] 26-2학기 국가근로장학생 추가 모집 안내 (~9/6[일]까지)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429944/artclView",
@@ -2373,46 +2413,6 @@
           "date": "2026.08.12",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 부.복수.연계 전공 허가 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428464/artclView",
-          "writer": "학사과",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[정보전산과] 2026학년도 2학기 AI:NU 학생 서포터즈 모집 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428461/artclView",
-          "writer": "정보전산과",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[현장맞춤형 실전문제연구단] 2026년도 2학기 국가근로장학생 모집 안내(~8/17(월)까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428454/artclView",
-          "writer": "전자공학부",
-          "date": "2026.08.11",
-          "relevant": false,
-          "matched_dept": "전자공학부"
-        },
-        {
-          "title": "[물리실험준비실] 2026-2 물리실험준비실 국가근로장학생 모집 공고(~2026. 8. 18.(화) 17시까지 이메일 제출)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428453/artclView",
-          "writer": "물리실험준비실",
-          "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교내봉사장학생_화학과] 2026학년도 제2학기 화학과 교내봉사(일반)장학생 선발결과 알림",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428449/artclView",
-          "writer": "화학과",
-          "date": "2026.08.11",
-          "relevant": false,
-          "matched_dept": "화학과"
         }
       ],
       "error": null
@@ -3078,6 +3078,14 @@
       "url": "https://everytime.kr/367564",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-09-04",
+          "writer": "정기 알림",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-09-01",
