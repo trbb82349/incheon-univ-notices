@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-04 08:07",
+    "last_updated": "2026-09-04 09:54",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[보건진료소] 2026년 9월 사랑의 헌혈 운동 안내 - 2026. 9. 14.(월)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430025/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026학년도 2학기 유한재단 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430017/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[국제지원과] 2026년 2학기 국가근로장학생 추가 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430006/artclView",
@@ -2394,22 +2410,6 @@
           "title": "[안전관리과] 2026-2학기 국가근로장학생 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/428473/artclView",
           "writer": "안전관리과",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[안전관리과] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428472/artclView",
-          "writer": "안전관리과",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[체육진흥원] 2026-2학기 국가근로장학생(체육시설 예약관리) 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428471/artclView",
-          "writer": "체육진흥원",
           "date": "2026.08.12",
           "relevant": true,
           "matched_dept": null
