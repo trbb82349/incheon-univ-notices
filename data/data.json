@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-04 09:54",
+    "last_updated": "2026-09-05 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,62 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[보건진료소] 2026 건강증진 프로그램 - 「2026 유니워크 챌린지」 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430086/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026 청년주간행사(연수청년 힐링데이) 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430078/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026-2학기 대학수학(2) 튜터시간표",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430077/artclView",
+          "writer": "수학과",
+          "date": "2026.09.04",
+          "relevant": false,
+          "matched_dept": "수학과"
+        },
+        {
+          "title": "2026학년도 2학기 수강포기 신청 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430054/artclView",
+          "writer": "학사과",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내봉사장학금] 2026학년도 2학기 생활원 야간생활조교 장학생(대학원생) 선발 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430051/artclView",
+          "writer": "생활원",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026 GES-U 대학생 이스포츠 대회 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430031/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "김포시노인종합복지관 「온라인 홍보 서포터즈 1기」 모집 안내(~9/10(목)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430029/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[보건진료소] 2026년 9월 사랑의 헌혈 운동 안내 - 2026. 9. 14.(월)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430025/artclView",
@@ -2357,62 +2413,6 @@
           "date": "2026.08.12",
           "relevant": false,
           "matched_dept": "융합자유전공"
-        },
-        {
-          "title": "[학사과] 2026학년도 2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428486/artclView",
-          "writer": "학사과",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[데이터과학과] 2026-2학기 데이터과학과 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428483/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[데이터과학과] 2026-2학기 데이터과학과 교내봉사장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428482/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[공과대학] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428480/artclView",
-          "writer": "공과대학",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[공과대학] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428477/artclView",
-          "writer": "공과대학",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026년 인천대학교 공동기기원 대체사무원(계약직원) 채용 공고 (~8/26(수)16시까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428474/artclView",
-          "writer": "공동기기원",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[안전관리과] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428473/artclView",
-          "writer": "안전관리과",
-          "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2422,6 +2422,14 @@
       "url": "https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026학년도 2학기 수강포기 신청 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/430058/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "데이터과학과 학생 소모임 BAI 1.5기를 모집",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/429900/artclView",
@@ -2630,6 +2638,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년 9월 국내외 전자정보 온라인 이용교육 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13971",
+          "writer": "조*주",
+          "date": "2026.09.04",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[필독/전자사물함] 2026-1학기 전자사물함 반납 및 2026-2학기 신규 배정 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13934",
@@ -3198,6 +3214,14 @@
       "url": "https://everytime.kr/418891",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-09-05",
+          "writer": "정기 알림",
+          "date": "2026.09.05",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-09-02",
