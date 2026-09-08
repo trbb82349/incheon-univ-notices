@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-08 08:07",
+    "last_updated": "2026-09-08 10:06",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[공자학원] 2026학년도 2학기 국가근로장학생 추가 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430196/artclView",
+          "writer": "공자학원",
+          "date": "2026.09.08",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[창업지원단] 2026년 스타트업 칼리지 창업동아리 2차 모집(~9.13(일) 24시까지❗)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430192/artclView",
+          "writer": "창업지원단",
+          "date": "2026.09.08",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 대학생 청소년 AI 교육지원장학금 멘토 모집(2개 기관, 4명)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430179/artclView",
@@ -2397,22 +2413,6 @@
           "date": "2026.08.12",
           "relevant": false,
           "matched_dept": "해양학과"
-        },
-        {
-          "title": "[해양학과] 2026-2학기 학과 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428539/artclView",
-          "writer": "해양학과",
-          "date": "2026.08.12",
-          "relevant": false,
-          "matched_dept": "해양학과"
-        },
-        {
-          "title": "[HUSS 포용사회사업단] 2026하계방학 및 2학기 국가근로장학생 선발 결과안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428538/artclView",
-          "writer": "HUSS포용사회이니셔티브학부",
-          "date": "2026.08.12",
-          "relevant": false,
-          "matched_dept": "포용사회이니셔티브학부"
         }
       ],
       "error": null
