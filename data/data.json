@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-10 09:58",
+    "last_updated": "2026-09-11 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[국제교류과] 미국 유급인턴 모집안내(Elevator Disco)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430388/artclView",
+          "writer": "국제교류과",
+          "date": "2026.09.10",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026학년도 2학기 유한재단(생활비) 신규장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430373/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.10",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회봉사센터]2026년 51기 월드프렌즈코리아(WFK) 청년봉사단 단원 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430369/artclView",
+          "writer": "사회봉사센터",
+          "date": "2026.09.10",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[정보통신공학과] 2026-2학기 국가근로장학생 추가 모집 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430363/artclView",
+          "writer": "정보통신공학과",
+          "date": "2026.09.10",
+          "relevant": false,
+          "matched_dept": "정보통신공학과"
+        },
         {
           "title": "[사회봉사] 2026 월드비전 Global 6K for Water 캠페인 자원봉사자 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430332/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.13",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[AI멘토링] 2026학년도 대학생 청소년 AI 교육지원장학금 멘토 추가 모집(~8/21)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428591/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.13",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[사회복지학과] 2026-2학기 국가근로장학생 선발 결과 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428584/artclView",
-          "writer": "사회복지학과",
-          "date": "2026.08.13",
-          "relevant": false,
-          "matched_dept": "사회복지학과"
-        },
-        {
-          "title": "[동북아국제통상물류학부 학부사무실] 2026학년도 2학기 교내봉사장학생 선발 결과 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428583/artclView",
-          "writer": "동북아국제통상물류학부",
-          "date": "2026.08.13",
-          "relevant": false,
-          "matched_dept": "동북아국제통상물류학부"
-        },
-        {
-          "title": "[동북아국제통상물류학부 학부사무실] 2026학년도 2학기 국가근로장학생 선발 결과 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428582/artclView",
-          "writer": "동북아국제통상물류학부",
-          "date": "2026.08.13",
-          "relevant": false,
-          "matched_dept": "동북아국제통상물류학부"
         }
       ],
       "error": null
@@ -2638,6 +2638,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[전자사물함] 전자사물함 위 개인물품 정리 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/14022",
+          "writer": "김*람",
+          "date": "2026.09.10",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026 팝업 북 라운지(Book Lounge) 운영 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14008",
@@ -2885,14 +2893,6 @@
           "date": "2026.06.17",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[필독] 2026년도 하계방학 도서관 운영시간 안내(보강주간 안내 포함)",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13671",
-          "writer": "김*준",
-          "date": "2026.06.12",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3126,6 +3126,14 @@
       "url": "https://everytime.kr/367564",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-09-11",
+          "writer": "정기 알림",
+          "date": "2026.09.11",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-09-08",
