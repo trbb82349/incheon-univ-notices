@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-14 08:07",
+    "last_updated": "2026-09-14 09:54",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2895,7 +2895,7 @@
           "matched_dept": null
         }
       ],
-      "error": null
+      "error": "HTTPSConnectionPool(host='lib.inu.ac.kr', port=443): Max retries exceeded with url: /pyxis-api/1/bulletin-boards/1/bulletins?offset=0&max=10&nameOption=part&isSeq=false&onlyWriter=false (Caused by ConnectTimeoutError(<HTTPSConnection(host='lib.inu.ac.kr', port=443) at 0x7f88b5572a90>, 'Connection to lib.inu.ac.kr timed out. (connect timeout=15)'))"
     },
     {
       "name": "강화군장학회 공지사항",
