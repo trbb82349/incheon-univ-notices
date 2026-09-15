@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-15 10:21",
+    "last_updated": "2026-09-16 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[AI멘토링] 2026학년도 대학생 청소년 AI 교육지원장학금 멘토 모집(3개 기관/10명)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430554/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.15",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 2차 폐강 교과목 및 수강신청 변경 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430537/artclView",
+          "writer": "학사과",
+          "date": "2026.09.15",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "-2027년 상반기 파견-  일본 간사이국제공항 인턴프로그램 모집안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430531/artclView",
+          "writer": "국제교류과",
+          "date": "2026.09.15",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년도 인천대학교 학부 재학생 대상 4회차(10~11월) 전화영어 수강생 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430523/artclView",
+          "writer": "국제교류과",
+          "date": "2026.09.15",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "인천대학교 구성원 단동훼리 특별 기획 상품 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430516/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.14",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[체육진흥원] 2026-2학기 국가근로장학생(스포츠 퍼포먼스 분석 및 컨디셔닝) 모집 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428638/artclView",
-          "writer": "체육진흥원",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[체육진흥원] 2026-2학기 교내봉사장학생(운동경기부 재활관리) 모집 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428633/artclView",
-          "writer": "체육진흥원",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외 53개 근로지, 96명] 2026-2학기 국가근로장학생 2차 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428630/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[입학관리과]2026-2학기 국가근로장학생 선발 결과 수정 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428629/artclView",
-          "writer": "입학관리과",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2571,14 +2571,6 @@
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/425937/artclView",
           "writer": "데이터과학과",
           "date": "2026.06.22",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 조기졸업 희망자 신청 안내(7/20(월) ~ 8/21(금) 까지)",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/425712/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.06.17",
           "relevant": true,
           "matched_dept": null
         }
@@ -2891,14 +2883,6 @@
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13703",
           "writer": "조*주",
           "date": "2026.06.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "이룸관 개인학습캐럴(7-8월) <대학원생> 이용 신청 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13678",
-          "writer": "조*주",
-          "date": "2026.06.17",
           "relevant": true,
           "matched_dept": null
         }
@@ -3288,6 +3272,14 @@
       "notices": [
         {
           "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-09-16",
+          "writer": "정기 알림",
+          "date": "2026.09.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-09-12",
           "writer": "정기 알림",
           "date": "2026.09.12",
@@ -3662,6 +3654,14 @@
       "url": "https://www.campuspick.com/education",
       "group": "인천대",
       "notices": [
+        {
+          "title": "캠퍼스픽 교육 게시판 보기",
+          "link": "https://www.campuspick.com/education?remind=2026-09-16",
+          "writer": "정기 알림",
+          "date": "2026.09.16",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 교육 게시판 보기",
           "link": "https://www.campuspick.com/education?remind=2026-09-09",
