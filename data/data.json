@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-16 08:07",
+    "last_updated": "2026-09-16 10:17",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[재외동포청] 코리안 페스티벌, 클래식부터 대중가요까지 음악으로 만나는 화합의 무대!",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430588/artclView",
+          "writer": "홍보과",
+          "date": "2026.09.16",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[AI멘토링] 2026학년도 대학생 청소년 AI 교육지원장학금 멘토 모집(3개 기관/10명)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430554/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.08.14",
           "relevant": false,
           "matched_dept": "동북아국제통상물류학부"
-        },
-        {
-          "title": "[체육진흥원] 2026학년도 2학기 체육진흥원 스포츠과학 측정보조 국가근로장학생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428639/artclView",
-          "writer": "체육진흥원",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
