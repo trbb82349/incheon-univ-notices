@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-17 08:07",
+    "last_updated": "2026-09-17 10:17",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[평생교육원 교학과] 2026-2학기 국가근로 장학생 추가 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430628/artclView",
+          "writer": "평생교육원 교학과",
+          "date": "2026.09.17",
+          "relevant": false,
+          "matched_dept": "교학과"
+        },
         {
           "title": "[재외동포청] 코리안 페스티벌, 클래식부터 대중가요까지 음악으로 만나는 화합의 무대!",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430588/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.08.14",
           "relevant": false,
           "matched_dept": "포용사회이니셔티브학부"
-        },
-        {
-          "title": "[동북아국제통상물류학부 행정실]2026-2학기 교내봉사장학생 모집 선발 결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428645/artclView",
-          "writer": "동북아국제통상물류학부 행정실",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "동북아국제통상물류학부"
         }
       ],
       "error": null
