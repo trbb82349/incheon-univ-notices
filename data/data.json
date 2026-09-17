@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-17 10:17",
+    "last_updated": "2026-09-18 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,78 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년 제8차 인천대학교 계약직원(대체사무원) 채용 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430694/artclView",
+          "writer": "인력개발과",
+          "date": "2026.09.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 미국 내 엔지니어링 기업 유급인턴 모집안내(~10.09.까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430690/artclView",
+          "writer": "국제교류과",
+          "date": "2026.09.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 출결 및 공결 사항 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430689/artclView",
+          "writer": "학사과",
+          "date": "2026.09.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[융합자유전공대학] 자유전공학부 생활밀착형 멘토링 I&U CONNECT 멘토 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430683/artclView",
+          "writer": "융합자유전공대학",
+          "date": "2026.09.17",
+          "relevant": false,
+          "matched_dept": "융합자유전공, 자유전공학부"
+        },
+        {
+          "title": "[교외장학] 2026년 하반기 춘천인재육성장학재단 봄내장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430679/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[희망사다리Ⅱ] 2026년 2학기 고졸 후학습자 장학사업(희망사다리Ⅱ유형) 신규장학생 신청 접수 안내(기한연장)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430675/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026 인천개항장 국가유산 야행",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430674/artclView",
+          "writer": "홍보과",
+          "date": "2026.09.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2027 독일 정부초청(DAAD) 섬머코스 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430635/artclView",
+          "writer": "국제교류과",
+          "date": "2026.09.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[한국어교육센터]2026년 여름학기 어학연수생 '짝꿍 ' 모집(10기)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430631/artclView",
+          "writer": "국제지원과",
+          "date": "2026.09.17",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[평생교육원 교학과] 2026-2학기 국가근로 장학생 추가 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430628/artclView",
@@ -2341,78 +2413,6 @@
           "date": "2026.08.14",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[물리학과] 2026-2 국가근로장학생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428680/artclView",
-          "writer": "물리학과",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "물리학과"
-        },
-        {
-          "title": "[경제학과] 2026학년도 2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428673/artclView",
-          "writer": "경제학과",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "경제학과"
-        },
-        {
-          "title": "[창업지원단] 2026년 스타트업 칼리지 창업동아리 2차 모집(~9.13(일) 24시까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428666/artclView",
-          "writer": "창업지원단",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[총무과] 2026-2학기 총무과 교내봉사장학생 모집 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428663/artclView",
-          "writer": "총무과",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[총무과] 2026-2학기 총무과 및 방범근로 국가근로 장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428662/artclView",
-          "writer": "총무과",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[공연예술학과]2026-2학기 국가근로장학금 모집 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428658/artclView",
-          "writer": "공연예술학과",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "공연예술학과"
-        },
-        {
-          "title": "[동북아발전연구원]2026-2학기 국가근로장학생 모집 선발 결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428650/artclView",
-          "writer": "동북아국제통상물류학부 행정실",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "동북아국제통상물류학부"
-        },
-        {
-          "title": "[동북아국제통상물류학부 행정실]2026-2학기 국가근로장학생 모집 선발 결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428648/artclView",
-          "writer": "동북아국제통상물류학부 행정실",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "동북아국제통상물류학부"
-        },
-        {
-          "title": "[HUSS] 2026학년도 2학기 개설교과목 및 온라인 강좌 수강방법 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428647/artclView",
-          "writer": "HUSS포용사회이니셔티브학부",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "포용사회이니셔티브학부"
         }
       ],
       "error": null
@@ -3134,6 +3134,14 @@
       "url": "https://everytime.kr/367564",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-09-18",
+          "writer": "정기 알림",
+          "date": "2026.09.18",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-09-15",
