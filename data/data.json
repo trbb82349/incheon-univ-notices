@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-18 10:12",
+    "last_updated": "2026-09-19 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "한빛종합사회복지관 바자회 대학생 자원봉사자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430816/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.18",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[총무과] 2026-2학기 총무과 방범근로 국가근로 장학생 추가 모집 공고(~9/25)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430765/artclView",
+          "writer": "총무과",
+          "date": "2026.09.18",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026-2학기 국가장학금Ⅰ유형 지급일정 및 방법 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430713/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.18",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[사회봉사] 세종특별시「2026 한글런(run)」 자원봉사자 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430699/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.08.14",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[정보통신공학과] 2026학기 2학기 국가근로장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428687/artclView",
-          "writer": "정보통신공학과",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "정보통신공학과"
-        },
-        {
-          "title": "[창의인재개발학과] 2026-2학기 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428683/artclView",
-          "writer": "창의인재개발학과",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "창의인재개발학과"
-        },
-        {
-          "title": "[창의인재개발학과] 2026-2학기 봉사장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428682/artclView",
-          "writer": "창의인재개발학과",
-          "date": "2026.08.14",
-          "relevant": false,
-          "matched_dept": "창의인재개발학과"
         }
       ],
       "error": null
@@ -3286,6 +3286,14 @@
       "url": "https://everytime.kr/418891",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-09-19",
+          "writer": "정기 알림",
+          "date": "2026.09.19",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-09-16",
