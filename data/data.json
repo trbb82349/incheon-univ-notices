@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-20 09:57",
+    "last_updated": "2026-09-21 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2565,14 +2565,6 @@
           "date": "2026.07.01",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "2027년 1학기 파견교환학생 모집 사전 온라인 설명회 개최 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/425937/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.06.22",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2982,6 +2974,14 @@
       "url": "https://everytime.kr/259118",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-09-21",
+          "writer": "정기 알림",
+          "date": "2026.09.21",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-09-17",
@@ -3448,6 +3448,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-09-21",
+          "writer": "정기 알림",
+          "date": "2026.09.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-09-17",
           "writer": "정기 알림",
           "date": "2026.09.17",
@@ -3798,6 +3806,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
       "group": "인천대",
       "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-09-21",
+          "writer": "정기 알림",
+          "date": "2026.09.21",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "교내비교과 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-09-17",
