@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-21 08:07",
+    "last_updated": "2026-09-21 09:59",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[도시과학연구원] 2026-2학기 국가근로장학생 모집 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430836/artclView",
+          "writer": "도시환경공학부",
+          "date": "2026.09.21",
+          "relevant": false,
+          "matched_dept": "도시환경공학부"
+        },
+        {
+          "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(4차)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430833/artclView",
+          "writer": "재무회계과",
+          "date": "2026.09.21",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "한빛종합사회복지관 바자회 대학생 자원봉사자 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430816/artclView",
@@ -2394,22 +2410,6 @@
           "title": "[중국학술원] 2026-2학기 교내 봉사장학생 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/428691/artclView",
           "writer": "중국학술원",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[사회과학대학] 2026학년도 2학기 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428690/artclView",
-          "writer": "사회과학대학",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026학년도 세종이도인재장학금 핵심인재육성 장학사업 특기적성 분야 접수 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428689/artclView",
-          "writer": "학생지원과",
           "date": "2026.08.14",
           "relevant": true,
           "matched_dept": null
