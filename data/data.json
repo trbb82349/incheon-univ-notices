@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-22 08:07",
+    "last_updated": "2026-09-22 10:32",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[생협] 2026-2학기 국가근로장학생 추가모집 선발결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430921/artclView",
+          "writer": "소비자생활협동조합",
+          "date": "2026.09.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "「2026 연수 꿈이음길 러닝대회」 참가자 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430916/artclView",
+          "writer": "홍보과",
+          "date": "2026.09.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[평생교육원 교학과]2026년 제3차 인천대학교 평생교육원  박사급연구원 채용 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430909/artclView",
+          "writer": "평생교육원 교학과",
+          "date": "2026.09.22",
+          "relevant": false,
+          "matched_dept": "교학과"
+        },
         {
           "title": "[체육진흥원] 2026-2학기 교내봉사장학생(운동경기부 재활관리) 추가 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430900/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.08.18",
           "relevant": false,
           "matched_dept": "생명공학부, 생명공학전공"
-        },
-        {
-          "title": "[유아교육과] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428726/artclView",
-          "writer": "유아교육과",
-          "date": "2026.08.18",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교육혁신과] 2026학년도 배움한마당 발표세션 참여신청 안내(8/19(수)09:00~9/4(금)16:00)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428724/artclView",
-          "writer": "교육혁신과",
-          "date": "2026.08.18",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[예비군연대] 2026-2학기 국가근로장학생 모집결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428719/artclView",
-          "writer": "총무과",
-          "date": "2026.08.18",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2622,6 +2622,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "추석연휴기간 도서관 휴관 안내[9.24.(목) ~ 9.27.(일)]",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/14085",
+          "writer": "김*준",
+          "date": "2026.09.22",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[전자사물함] 전자사물함 상부 개인물품 보관 금지 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14082",
