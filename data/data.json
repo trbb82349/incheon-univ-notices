@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-23 08:07",
+    "last_updated": "2026-09-23 10:23",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[2026-2학기 1차 모의토익 시험 안내]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430961/artclView",
+          "writer": "기초교육과",
+          "date": "2026.09.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[2026-2학기 1차 모의토익스피킹 시험 안내]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/430960/artclView",
+          "writer": "기초교육과",
+          "date": "2026.09.23",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[국제교류과] -2027년 상반기 파견- 일본 간사이국제공항 인턴프로그램 모집안내(~10.19.(월)까지)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430947/artclView",
@@ -2397,22 +2413,6 @@
           "date": "2026.08.18",
           "relevant": false,
           "matched_dept": "수학과"
-        },
-        {
-          "title": "[윤리교육과] 2026-2학기 학과사무실 봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428752/artclView",
-          "writer": "윤리교육과",
-          "date": "2026.08.18",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[재정전략과] 2026학년도 2학기 국가근로장학생 선발 결과 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428746/artclView",
-          "writer": "재정전략과",
-          "date": "2026.08.18",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
