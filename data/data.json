@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-24 10:17",
+    "last_updated": "2026-09-25 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2597,22 +2597,6 @@
           "date": "2026.07.01",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[교내장학굼] 2026-1학기 교내장학금(학생장학금Ⅱ) 신청 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/426228/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.06.26",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교내장학금] [교내] 2026-1학기 유니포인트장학금 신청 안내(2026.07.13. 9",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/426226/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.06.26",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3150,6 +3134,14 @@
       "url": "https://everytime.kr/367564",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-09-25",
+          "writer": "정기 알림",
+          "date": "2026.09.25",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-09-22",
