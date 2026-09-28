@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-28 08:07",
+    "last_updated": "2026-09-28 10:31",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(5차)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431014/artclView",
+          "writer": "재무회계과",
+          "date": "2026.09.28",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[인문학연구소]인문학연구소가 쏜다쏜다쏜다! <책 선물 이벤트> 당첨자 및 도서수령 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430999/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.08.19",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[평생교육원 교학과] 2026-2학기 국가근로 장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428809/artclView",
-          "writer": "평생교육원 교학과",
-          "date": "2026.08.19",
-          "relevant": false,
-          "matched_dept": "교학과"
         }
       ],
       "error": null
@@ -2606,6 +2606,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년 제12회 INU 공학페스티벌 행사에 따른 소음공지",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/14094",
+          "writer": "김*호",
+          "date": "2026.09.28",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "추석연휴기간 도서관 휴관 안내[9.24.(목) ~ 9.27.(일)]",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14085",
