@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-29 08:07",
+    "last_updated": "2026-09-29 11:32",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[국제교류과] 미국유급인턴 모집안내(#421 Everest Trading Corp, #935 Binex Line)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431082/artclView",
+          "writer": "국제교류과",
+          "date": "2026.09.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[글로벌정경대학] 2026 Designing Incheon: 송도캠퍼스 & 제물포캠퍼스 인근  지역상권 활성화 AI 융합 챌린",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431078/artclView",
+          "writer": "글로벌정경대학",
+          "date": "2026.09.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[현장실습지원센터] 2026학년도 현장교육실습 1차 수기공모전 실시 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431073/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.09.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[인천대학교 산학협력단] 대체인력(기간제 직원) 채용 (~2026.10.11. )",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431072/artclView",
+          "writer": "산학협력단",
+          "date": "2026.09.29",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[앵커(RISE)] 2026년 「초광역 산학협력 기술혁신개발과제 2차」 시행 공고",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431063/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.19",
           "relevant": false,
           "matched_dept": "산업경영공학과"
-        },
-        {
-          "title": "[역사교육과] 2026학년도 2학기 교내봉사장학생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428861/artclView",
-          "writer": "역사교육과",
-          "date": "2026.08.19",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026년 인천대학교 현장실습지원센터 IPP사업단 기간제 계약직원 채용 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428860/artclView",
-          "writer": "현장실습지원센터",
-          "date": "2026.08.19",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[조형예술학부] 2026학년도 2학기 국가근로장학생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428853/artclView",
-          "writer": "조형예술학부",
-          "date": "2026.08.19",
-          "relevant": false,
-          "matched_dept": "조형예술학부"
-        },
-        {
-          "title": "2027년 1학기 해외자매대학 파견교환학생 모집안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428846/artclView",
-          "writer": "국제교류과",
-          "date": "2026.08.19",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
