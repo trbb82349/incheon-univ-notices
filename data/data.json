@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-30 10:58",
+    "last_updated": "2026-10-01 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[한국장학재단] 희망사다리 장학생 대상 대전 일자리 박람회 홍보",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431180/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.09.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[공학교육혁신센터] 공동 직무설명회(현대자동차_3D프린팅)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431179/artclView",
+          "writer": "공학교육혁신센터",
+          "date": "2026.09.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[학생지원과] 2026-2학기 교내봉사장학생(디자인) 추가 모집 안내(~10/5(월))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431174/artclView",
+          "writer": "학생지원과",
+          "date": "2026.09.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[도시과학연구원] 2026-2학기 도시과학연구원 국가근로장학생 선발 결과 알림",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431159/artclView",
+          "writer": "도시환경공학부",
+          "date": "2026.09.30",
+          "relevant": false,
+          "matched_dept": "도시환경공학부"
+        },
         {
           "title": "[녹색환경융합학과] 2026-2학기 녹색환경융합학과 교내봉사장학생 모집결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431145/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.20",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[인천대학교 산학협력단] 정규직(수습직원) 채용 (~2026.9.2.(수))",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428888/artclView",
-          "writer": "산학협력단",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[공동기기원] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428886/artclView",
-          "writer": "공동기기원",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "<2026학년도 2학기 열린사이버대학(OCU) 일정 및 개설강좌 현황, 수강료 납부기간, 수강취소 안내>",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428883/artclView",
-          "writer": "기초교육과",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[생협] 2026-2학기 국가근로장학생 선발결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428881/artclView",
-          "writer": "소비자생활협동조합",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2590,6 +2590,22 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년 인천대학교 학산도서관 이용자 만족도조사 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/14107",
+          "writer": "김*준",
+          "date": "2026.09.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "폴딩도어 수리 작업 예정",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/14105",
+          "writer": "사*실",
+          "date": "2026.09.30",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026년 10월 국내외 전자정보 온라인 이용교육 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14101",
@@ -2845,22 +2861,6 @@
           "date": "2026.07.03",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "경기 인천지역 대학도서관 방학중 열람실 공동이용 개방 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13733",
-          "writer": "김*준",
-          "date": "2026.07.02",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026 JCR relesase (2025 Journal Impact Factor) 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13725",
-          "writer": "장*경",
-          "date": "2026.07.02",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2958,6 +2958,14 @@
       "url": "https://everytime.kr/259118",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-10-01",
+          "writer": "정기 알림",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-09-28",
@@ -3496,6 +3504,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-10-01",
+          "writer": "정기 알림",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-09-28",
           "writer": "정기 알림",
           "date": "2026.09.28",
@@ -3902,6 +3918,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
       "group": "인천대",
       "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-10-01",
+          "writer": "정기 알림",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "교내비교과 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-09-28",
