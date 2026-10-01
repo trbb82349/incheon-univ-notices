@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-01 10:59",
+    "last_updated": "2026-10-02 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[졸업준비위원회] 2026학년도 2학기 졸업사진 촬영 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431269/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026년 hy사회복지재단 든든 학업지원금 신청 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431253/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내] 2026-2학기 교내장학금(3차) 신청 안내(2026.10.12. 9시~10.16. 18시)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431251/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026년 우양재단 동행 장학생 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431239/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[총무과] 2026-2학기 총무과(방범근로) 국가근로 장학생 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431217/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.20",
           "relevant": false,
           "matched_dept": "영어영문학과"
-        },
-        {
-          "title": "[학산도서관] 2026학년도 2학기 국가근로장학생 추가 모집 안내(~8/26)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428920/artclView",
-          "writer": "학술정보과",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[인천대학교 과학영재교육원] 2026년 2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428908/artclView",
-          "writer": "산학협력단",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[창업지원단] AWS X AI 실무 프로젝트 아카데미 참가자 모집(AWS 한국지사 실무진 직접 교육)(~8/20(목)까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428907/artclView",
-          "writer": "창업지원단",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[도시공학과] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428904/artclView",
-          "writer": "도시공학과",
-          "date": "2026.08.20",
-          "relevant": false,
-          "matched_dept": "도시공학과"
         }
       ],
       "error": null
@@ -2853,14 +2853,6 @@
           "date": "2026.07.16",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[ INU Great Books] 2026학년도 하계 고전읽기 토의 세미나 신청(~ 26. 7. 13일까지)",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13735",
-          "writer": "이*화",
-          "date": "2026.07.03",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3142,6 +3134,14 @@
       "url": "https://everytime.kr/367564",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-10-02",
+          "writer": "정기 알림",
+          "date": "2026.10.02",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-09-29",
