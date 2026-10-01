@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-01 08:07",
+    "last_updated": "2026-10-01 10:59",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[총무과] 2026-2학기 총무과(방범근로) 국가근로 장학생 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431217/artclView",
+          "writer": "총무과",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 인천대학교「초광역인재양성사업단(가칭)」전담직원 채용 공고(~10.11(일)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431215/artclView",
+          "writer": "RISE전략과",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "텀블러 세척기(LG 마이컵) 설치 안내 및 사용 협조 요청",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431211/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.01",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[한국장학재단] 희망사다리 장학생 대상 대전 일자리 박람회 홍보",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431180/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.08.20",
           "relevant": false,
           "matched_dept": "도시공학과"
-        },
-        {
-          "title": "[도시공학과] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428903/artclView",
-          "writer": "도시공학과",
-          "date": "2026.08.20",
-          "relevant": false,
-          "matched_dept": "도시공학과"
-        },
-        {
-          "title": "[혁신인력개발센터] 2026학년도 2학기  국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428899/artclView",
-          "writer": "산학협력단",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026년 제7기 경원장학재단 장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428898/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.20",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
