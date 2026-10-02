@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-02 08:07",
+    "last_updated": "2026-10-02 11:06",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[웹메일] 장기 미접속 계정 삭제 일정 연장 안내(10월 30일 삭제 예정)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431295/artclView",
+          "writer": "정보전산과",
+          "date": "2026.10.02",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[졸업준비위원회] 2026학년도 2학기 졸업사진 촬영 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431269/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.08.20",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[영어영문학과] 2026년도 2학기 교내봉사장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428937/artclView",
-          "writer": "영어영문학과",
-          "date": "2026.08.20",
-          "relevant": false,
-          "matched_dept": "영어영문학과"
         }
       ],
       "error": null
