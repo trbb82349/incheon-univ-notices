@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-05 10:47",
+    "last_updated": "2026-10-06 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2541,14 +2541,6 @@
           "date": "2026.05.27",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 부.복수.연계 전공 신청 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/426754/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.07.07",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3144,6 +3136,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-10-06",
+          "writer": "정기 알림",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-10-02",
           "writer": "정기 알림",
           "date": "2026.10.02",
@@ -3686,6 +3686,14 @@
       "url": "https://www.campuspick.com/activity",
       "group": "인천대",
       "notices": [
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-10-06",
+          "writer": "정기 알림",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 대외활동 게시판 보기",
           "link": "https://www.campuspick.com/activity?remind=2026-09-29",
