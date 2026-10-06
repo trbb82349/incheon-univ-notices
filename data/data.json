@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-06 08:07",
+    "last_updated": "2026-10-06 11:52",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,54 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[인문학연구소]인문학연구소가 쏜다쏜다쏜다! <책 선물 이벤트> 당첨자 및 도서수령 안내(~11/3)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431386/artclView",
+          "writer": "인문학연구소",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 인천광역시 청소년프로젝트팀 시민 참여형 시연보고회(2026년 10월 10일(토))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431385/artclView",
+          "writer": "정보통신공학과",
+          "date": "2026.10.06",
+          "relevant": false,
+          "matched_dept": "정보통신공학과"
+        },
+        {
+          "title": "2026-2학기 중간고사 시험기간 「천원의 저녁밥」 사업 안내(10/12(월)~16(금))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431381/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 인천대학교 학생 대상 TOE﻿FL 할인 신청 안내 및 홍보(~2027.02.28.까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431371/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[대학생활상담센터] 10월 마음안심버스 행사 안내 (10/13(화) 14시~16시]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431363/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[캠퍼스기획과] 2026-2학기 국가근로장학생 추가 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431360/artclView",
+          "writer": "캠퍼스기획과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[모집] [국제지원과] 2026-2 외국인 유학생과 함께하는 K-컬처토크 프로그램 참여자 모집(~10/7)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431347/artclView",
@@ -2365,54 +2413,6 @@
           "date": "2026.08.21",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[시설관리과] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428985/artclView",
-          "writer": "시설관리과",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교육혁신과] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428984/artclView",
-          "writer": "교육혁신과",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[정보전산과] 2026학년도 2학기 국가근로장학생 재모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428980/artclView",
-          "writer": "정보전산과",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026-2 물리튜터실 국가근로 재모집 ~8.31월 09:00",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428978/artclView",
-          "writer": "물리학과",
-          "date": "2026.08.21",
-          "relevant": false,
-          "matched_dept": "물리학과"
-        },
-        {
-          "title": "[산업경영공학과] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428977/artclView",
-          "writer": "산업경영공학과",
-          "date": "2026.08.21",
-          "relevant": false,
-          "matched_dept": "산업경영공학과"
-        },
-        {
-          "title": "[입학관리과] 2026-2학기 교내봉사장학생 모집 안내(~8/31)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428975/artclView",
-          "writer": "입학관리과",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2574,6 +2574,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026-2학기 중간고사 기간 중 운영연장 및 외부이용자 이용제한 안내(10/12~10/23, 2주간)",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/14119",
+          "writer": "사*실",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "10.5(월), 10.9.(금) 개천절 대체휴일 및 한글날 학산도서관 휴관 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14112",
