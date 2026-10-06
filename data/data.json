@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-06 11:52",
+    "last_updated": "2026-10-07 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,46 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[학산도서관] 2026-2학기 국가근로장학생 추가모집 선발결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431419/artclView",
+          "writer": "학술정보과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2027년도 아산사회복지재단 의생명과학분야 대학 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431400/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[학생지원과] 2026-2학기 교내봉사장학생(디자인) 추가 선발 결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431397/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2027년도 대산농촌재단 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431395/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2027년도 아산사회복지재단 북한이탈청소년 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431394/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.06",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[인문학연구소]인문학연구소가 쏜다쏜다쏜다! <책 선물 이벤트> 당첨자 및 도서수령 안내(~11/3)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431386/artclView",
@@ -2373,46 +2413,6 @@
           "date": "2026.08.21",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[정보기술대학] 2026학년도 2학기 정보기술대학 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428994/artclView",
-          "writer": "정보기술대학",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 HUSS 포용사회 × 사회구조 컨소시엄공유교과목 수강 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428993/artclView",
-          "writer": "HUSS포용사회이니셔티브학부",
-          "date": "2026.08.21",
-          "relevant": false,
-          "matched_dept": "포용사회이니셔티브학부"
-        },
-        {
-          "title": "[인천학연구원] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428989/artclView",
-          "writer": "인천학연구원",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[학군단] 2026-2학기 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428988/artclView",
-          "writer": "총무과",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[시설관리과] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428987/artclView",
-          "writer": "시설관리과",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3336,6 +3336,14 @@
       "notices": [
         {
           "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-10-07",
+          "writer": "정기 알림",
+          "date": "2026.10.07",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-10-03",
           "writer": "정기 알림",
           "date": "2026.10.03",
@@ -3830,6 +3838,14 @@
       "url": "https://www.campuspick.com/education",
       "group": "인천대",
       "notices": [
+        {
+          "title": "캠퍼스픽 교육 게시판 보기",
+          "link": "https://www.campuspick.com/education?remind=2026-10-07",
+          "writer": "정기 알림",
+          "date": "2026.10.07",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 교육 게시판 보기",
           "link": "https://www.campuspick.com/education?remind=2026-09-30",
