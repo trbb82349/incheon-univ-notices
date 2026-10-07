@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-07 11:13",
+    "last_updated": "2026-10-08 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[대학혁신] 2026년 대학혁신지원사업 학생 우수참여사례 공모전 참가 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431499/artclView",
+          "writer": "대학혁신사업과",
+          "date": "2026.10.07",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[공자학원] 제11회 중국어 능력 경진대회 안내(~11. 22.(일)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431487/artclView",
+          "writer": "공자학원",
+          "date": "2026.10.07",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국가근로장학금] [수학과]2026학년도2학기국가근로장학생(대학수학(1),(2)튜터) 추가모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431480/artclView",
+          "writer": "수학과",
+          "date": "2026.10.07",
+          "relevant": false,
+          "matched_dept": "수학과"
+        },
+        {
+          "title": "[기초교육원] 2026-2학기 글쓰기 클리닉 신청 안내 (~12.24. 목)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431475/artclView",
+          "writer": "기초교육과",
+          "date": "2026.10.07",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "제27기 인천대학교 학생 홍보대사 드림이 모집 공고(~10/30)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431443/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.21",
           "relevant": false,
           "matched_dept": "기계공학과"
-        },
-        {
-          "title": "[인력개발과] 2026학년도 2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429006/artclView",
-          "writer": "인력개발과",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026 인천국제환경기술컨펙스 공공기관 상담회 신청 안내(선착순 마감)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429004/artclView",
-          "writer": "창업지원단",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[기계공학과] 2026-2학기 교내봉사장학생 선발결과 알림",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429003/artclView",
-          "writer": "기계공학과",
-          "date": "2026.08.21",
-          "relevant": false,
-          "matched_dept": "기계공학과"
-        },
-        {
-          "title": "[인문학연구소]전자책 출간 워크숍: 나만의 첫 전자책 출간하기 수강생 모집 안내(~9월14일까지 신청)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428998/artclView",
-          "writer": "인문학연구소",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2950,6 +2950,14 @@
       "url": "https://everytime.kr/259118",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-10-08",
+          "writer": "정기 알림",
+          "date": "2026.10.08",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-10-05",
@@ -3536,6 +3544,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-10-08",
+          "writer": "정기 알림",
+          "date": "2026.10.08",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-10-05",
           "writer": "정기 알림",
           "date": "2026.10.05",
@@ -3974,6 +3990,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
       "group": "인천대",
       "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-10-08",
+          "writer": "정기 알림",
+          "date": "2026.10.08",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "교내비교과 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-10-05",
