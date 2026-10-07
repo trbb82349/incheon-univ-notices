@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-07 08:07",
+    "last_updated": "2026-10-07 11:13",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "제27기 인천대학교 학생 홍보대사 드림이 모집 공고(~10/30)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431443/artclView",
+          "writer": "홍보과",
+          "date": "2026.10.07",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[학산도서관] 2026-2학기 국가근로장학생 추가모집 선발결과",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431419/artclView",
@@ -2402,14 +2410,6 @@
           "title": "[인문학연구소]전자책 출간 워크숍: 나만의 첫 전자책 출간하기 수강생 모집 안내(~9월14일까지 신청)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/428998/artclView",
           "writer": "인문학연구소",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[정보기술대학] 2026학년도 2학기 정보기술대학(원) 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/428996/artclView",
-          "writer": "정보기술대학",
           "date": "2026.08.21",
           "relevant": true,
           "matched_dept": null
