@@ -4104,6 +4104,94 @@
         }
       ],
       "error": null
+    },
+    {
+      "name": "스타인유 소그룹 공지사항",
+      "url": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do",
+      "group": "인천대",
+      "notices": [
+        {
+          "title": "★2026-2학기 전공착륙프로그램 선배멘토링 공지사항",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1005236",
+          "writer": "이혜지",
+          "date": "2026.10.08",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[2학기 소그룹, AI STEP] 전문가 피드백 신청 일정 및 방법",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1005235",
+          "writer": "이혜지",
+          "date": "2026.10.08",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[2학기] 소그룹 학습지원 프로그램 AI 특강 영상 및 공지사항 전달",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1005234",
+          "writer": "이혜지",
+          "date": "2026.10.08",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "★ 2026-2학기 소그룹 학습지원 프로그램 선정 그룹 발표 ★",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1005224",
+          "writer": "이혜지",
+          "date": "2026.10.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026-2학기 소그룹 학습지원 프로그램(AI 튜터링) 모집중(~9/30까지)",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1005211",
+          "writer": "이혜지",
+          "date": "2026.09.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[필독] ★프로그램 종료 및 기프티콘 지급 완료★",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1005015",
+          "writer": "이혜지",
+          "date": "2026.07.07",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[필독] 소그룹 학습지원 프로그램 최종 이수 조건 및기프티콘 지급 일정",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1004947",
+          "writer": "이혜지",
+          "date": "2026.06.15",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "★중요공지★ 기프티콘 발송 관련 핸드폰 번호 확인 요청",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1004869",
+          "writer": "이혜지",
+          "date": "2026.05.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[필독] 소그룹학습지원프로그램 1차 중간활동보고서 제출 안내 및 FAQ (기한: 5/3)",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1004838",
+          "writer": "이혜지",
+          "date": "2026.04.29",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[AI STEP] 튜티 필수! 학습전략검사 실행 및 학습상담 안내",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/view.do?dataSeq=1004814",
+          "writer": "이혜지",
+          "date": "2026.04.20",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
+      "error": null
     }
   ]
 }

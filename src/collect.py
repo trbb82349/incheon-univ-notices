@@ -139,7 +139,10 @@ def collect_reminders(reminders, existing_by_name, today):
             if not any(n["link"] == notice["link"] for n in notices):
                 notices = [notice] + notices
                 print(f"  {reminder['name']}: 오늘 알림 카드 추가")
-        notices = prune_old_notices(notices, today)
+        # 90일 규칙은 바로가기 카드에만 적용한다. import_starinu.py로 직접 넣은 실제 글은
+        # 글이 뜸한 게시판이라 강화군장학회(prune=keep)처럼 남겨둔다.
+        kept_cards = prune_old_notices([n for n in notices if "remind=" in n["link"]], today)
+        notices = [n for n in notices if "remind=" not in n["link"] or n in kept_cards]
         results.append(
             {
                 "name": reminder["name"],
