@@ -66,6 +66,20 @@ incheon-univ-notices/
 - [ ] 다른 인천대 공지 사이트 추가
 - [ ] 필터링 정확도 다듬기
 
+## 정기 관리 (토큰 만료)
+
+cron-job.org가 매일 08:07 KST에 자동 업데이트를 실행시킬 때 GitHub 토큰을 쓴다. 이 토큰이 만료되면 cron-job.org 실행이 실패하고, GitHub 자체 예약 실행(`schedule`, 늦은 오전쯤)에만 의존하게 된다.
+
+- **토큰 이름**: `인천 공지 일정표` (세밀한 권한 토큰, 이 저장소의 Actions 읽기/쓰기 권한만 있음)
+- **토큰 페이지**: https://github.com/settings/personal-access-tokens/17242579
+- **현재 만료일**: **2027-10-12 00:00 KST** (= 2027-10-11 15:00 UTC). 2026-10-12에 재생성함
+- **갱신 방법** (만료 안내 메일이 오면):
+  1. 토큰 페이지에서 "토큰 재생성" → 새 만료일 선택 → 새 토큰 복사 (화면에 한 번만 보임)
+  2. 재생성하는 순간 옛 토큰은 바로 못 쓰므로, 곧바로 cron-job.org 해당 작업의 고급(Advanced) 설정 → 헤더 `Authorization: Bearer ...`를 새 토큰으로 바꿔 저장
+  3. cron-job.org에서 Test run → 응답 헤더 `github-authentication-token-expiration`이 새 만료일로 나오면 성공. GitHub Actions 실행 기록에 `workflow_dispatch` 실행이 success로 생겼는지도 확인
+- **API 버전 교체 (2028-03-10 전까지)**: 지금 쓰는 GitHub API 버전 `2022-11-28`이 2028-03-10에 종료된다(응답 헤더 `Deprecation`/`Sunset` 안내). 2027-10 토큰 갱신 때 cron-job.org 헤더의 `X-GitHub-Api-Version`도 그때의 최신 버전으로 같이 바꾼다.
+- 토큰 값은 채팅·파일·커밋에 절대 붙여넣지 않는다.
+
 ## 수집 방식
 
 - **사이트를 처음 추가했을 때** (그 사이트 기록이 아직 하나도 없을 때):
