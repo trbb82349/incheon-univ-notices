@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-12 23:33",
+    "last_updated": "2026-10-13 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -3176,6 +3176,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-10-13",
+          "writer": "정기 알림",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-10-09",
           "writer": "정기 알림",
           "date": "2026.10.09",
@@ -3768,6 +3776,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-10-13",
+          "writer": "정기 알림",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
           "link": "https://www.campuspick.com/activity?remind=2026-10-06",
           "writer": "정기 알림",
           "date": "2026.10.06",
@@ -4149,7 +4165,16 @@
       "name": "스타인유 소그룹 공지사항",
       "url": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do",
       "group": "인천대",
-      "notices": [],
+      "notices": [
+        {
+          "title": "스타인유 소그룹 공지사항 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do?remind=2026-10-13",
+          "writer": "정기 알림",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        }
+      ],
       "error": null
     }
   ]
