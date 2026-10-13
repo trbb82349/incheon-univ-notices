@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-13 12:28",
+    "last_updated": "2026-10-14 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[국제지원과] 2026-2학기 K-컬처토크 프로그램 문화파트너 선발 결과",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431749/artclView",
+          "writer": "국제지원과",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 2027 KF 글로벌 챌린저 해외 인턴십 프로그램 참가자 모집 홍보(~10.29.(목) 18:00까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431737/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 베트남 유급인턴 모집안내(신라모노그램, 쉐라톤 메리어트 호텔)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431713/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계 계절학기 충북대학교 학점교류 안내(~10. 20.(화) 17:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431709/artclView",
+          "writer": "학사과",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[평생교육원] 인천의 섬과 바다, 그리고 환경을 위한 해양정화활동 참여자 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431679/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.24",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[발전기금] 2026년 2학기 (재)인천대학교발전기금 근로장학생 선발 결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429162/artclView",
-          "writer": "(재)인천대학 발전기금",
-          "date": "2026.08.24",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[KOICA기후학위연수사업단] 2026학년도 2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429161/artclView",
-          "writer": "산학협력단",
-          "date": "2026.08.24",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[수학교육과] 2026-2 수학교육과 봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429148/artclView",
-          "writer": "수학교육과",
-          "date": "2026.08.24",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[과학영재교육연구소] 2026학년도 2학기 국가근로장학생 선발 결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429145/artclView",
-          "writer": "과학영재교육연구소",
-          "date": "2026.08.24",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2422,6 +2422,14 @@
       "url": "https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "데이터과학인의 밤 공모전 및 학생 자율 부스 모집",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/431754/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.10.14",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "(2027년 2월 졸업 희망자) 2026-2학기 데이터과학과 졸업논문 제출 안내(~11/3",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/431551/artclView",
@@ -3384,6 +3392,14 @@
       "notices": [
         {
           "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-10-14",
+          "writer": "정기 알림",
+          "date": "2026.10.14",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-10-10",
           "writer": "정기 알림",
           "date": "2026.10.10",
@@ -3918,6 +3934,14 @@
       "url": "https://www.campuspick.com/education",
       "group": "인천대",
       "notices": [
+        {
+          "title": "캠퍼스픽 교육 게시판 보기",
+          "link": "https://www.campuspick.com/education?remind=2026-10-14",
+          "writer": "정기 알림",
+          "date": "2026.10.14",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 교육 게시판 보기",
           "link": "https://www.campuspick.com/education?remind=2026-10-07",
