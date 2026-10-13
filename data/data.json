@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-13 08:07",
+    "last_updated": "2026-10-13 12:28",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[평생교육원] 인천의 섬과 바다, 그리고 환경을 위한 해양정화활동 참여자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431679/artclView",
+          "writer": "사회봉사센터",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[생협] 2026-2학기 국가근로장학생 추가모집 선발결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431674/artclView",
+          "writer": "소비자생활협동조합",
+          "date": "2026.10.13",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[평생교육원] K-컬처 창작:자담(談) 5인 연사 온·오프라인 특강 무료 참가 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431673/artclView",
@@ -2394,22 +2410,6 @@
           "title": "[과학영재교육연구소] 2026학년도 2학기 국가근로장학생 선발 결과",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429145/artclView",
           "writer": "과학영재교육연구소",
-          "date": "2026.08.24",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 인천대학교 통학버스 및 셔틀버스 운행 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429143/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.24",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[입학관리과] 2026-2학기 국가근로장학생 추가 모집(~9/1)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429139/artclView",
-          "writer": "입학관리과",
           "date": "2026.08.24",
           "relevant": true,
           "matched_dept": null
