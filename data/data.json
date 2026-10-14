@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-14 08:07",
+    "last_updated": "2026-10-14 10:46",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[교내] 2026-2학기 인천대사랑장학금 신청 안내(2026.10.26. 9시 ~ 10.30. 18시)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431762/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.14",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[주거안정] 2026-2학기 주거안정장학금 지급 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431761/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.14",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[국제지원과] 2026-2학기 K-컬처토크 프로그램 문화파트너 선발 결과",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431749/artclView",
@@ -2394,22 +2410,6 @@
           "title": "[대학원혁신과] 2026-2학기 대학원혁신과 교내 봉사장학생 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429167/artclView",
           "writer": "대학원혁신과",
-          "date": "2026.08.24",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[해운항만물류전문인력양성사업단] 2026 하반기 산학연계 인턴십 참가자(교육생) 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429166/artclView",
-          "writer": "해운항만물류전문인력양성사업단",
-          "date": "2026.08.24",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[해운항만물류전문인력양성사업단] 2026년 상반기 산학연계 인턴십 사업단 설명회&성과공유회 개최 및 참석 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429165/artclView",
-          "writer": "해운항만물류전문인력양성사업단",
           "date": "2026.08.24",
           "relevant": true,
           "matched_dept": null
