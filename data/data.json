@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-15 08:07",
+    "last_updated": "2026-10-15 10:22",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[사회봉사] 사단법인 마음이 예쁜 사람들 2027 GHP 해외봉사단 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431829/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.10.15",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026년 제4차 평생교육사 자격증 발급 신청 안내 (~10/22)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431808/artclView",
@@ -2401,14 +2409,6 @@
         {
           "title": "[경영대학]2026학년도 2학기 교내봉사장학생 선발 결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429175/artclView",
-          "writer": "경영대학",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[경영대학]2026학년도 2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429174/artclView",
           "writer": "경영대학",
           "date": "2026.08.25",
           "relevant": true,
