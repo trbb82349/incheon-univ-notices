@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-16 10:09",
+    "last_updated": "2026-10-17 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,46 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "제6회 인천아트쇼 2026 자원봉사자 모집 안내(~10/30)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431954/artclView",
+          "writer": "대외협력과",
+          "date": "2026.10.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회봉사] 2026년 훈맹정음 반포 100주년 기념식 자원봉사자 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431949/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.10.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회과학대학] 2026년 「사회문제 해결을 위한 아이디어 경진대회」 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431908/artclView",
+          "writer": "사회과학대학",
+          "date": "2026.10.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2027년도 한국지도자육성장학재단 신규장학생 후보자 선발 안내(~11/4 23:59까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431888/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "창의적 물류인재 양성을 위한 「제2회 물류AI해커톤대회」 개최 및 참가 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431881/artclView",
+          "writer": "동북아국제통상물류학부",
+          "date": "2026.10.16",
+          "relevant": false,
+          "matched_dept": "동북아국제통상물류학부"
+        },
         {
           "title": "2026년도 제11회 인천대 문학상 공모 심사 결과 공지",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431872/artclView",
@@ -2373,46 +2413,6 @@
           "date": "2026.08.25",
           "relevant": false,
           "matched_dept": "공연예술학과"
-        },
-        {
-          "title": "[산학협력단] 2026-2학기 산학협력단 근로장학생 선발결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429194/artclView",
-          "writer": "산학협력단",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[공학교육혁신센터] 2026-2학기 메이커스페이스 근로장학생 선발결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429189/artclView",
-          "writer": "공학교육혁신센터",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[지역동행플랫폼] 2026학년도 2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429186/artclView",
-          "writer": "지역동행플랫폼",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[사범대학] 2026학년도 2학기 사범대학 국가근로장학생 선발결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429184/artclView",
-          "writer": "사범대학",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[사범대학] 2026학년도 2학기 사범대학 교내봉사장학생 선발결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429183/artclView",
-          "writer": "사범대학",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3400,6 +3400,14 @@
       "notices": [
         {
           "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-10-17",
+          "writer": "정기 알림",
+          "date": "2026.10.17",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-10-14",
           "writer": "정기 알림",
           "date": "2026.10.14",
@@ -3595,14 +3603,6 @@
           "link": "https://everytime.kr/418891?remind=2026-07-22",
           "writer": "정기 알림",
           "date": "2026.07.22",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 동아리/학회 보기",
-          "link": "https://everytime.kr/418891?remind=2026-07-18",
-          "writer": "정기 알림",
-          "date": "2026.07.18",
           "relevant": true,
           "matched_dept": null
         }
