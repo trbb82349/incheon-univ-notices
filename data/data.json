@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-19 08:07",
+    "last_updated": "2026-10-19 10:01",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(8차)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431969/artclView",
+          "writer": "재무회계과",
+          "date": "2026.10.19",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "제6회 인천아트쇼 2026 자원봉사자 모집 안내(~10/30)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431954/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.08.25",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[공연예술학과]2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429209/artclView",
-          "writer": "공연예술학과",
-          "date": "2026.08.25",
-          "relevant": false,
-          "matched_dept": "공연예술학과"
         }
       ],
       "error": null
