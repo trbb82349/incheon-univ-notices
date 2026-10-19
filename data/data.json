@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-19 10:01",
+    "last_updated": "2026-10-20 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,54 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[재무회계과] 2026학년도 2학기 교내봉사장학생 추가 모집(1명)[~10/26(월)]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432019/artclView",
+          "writer": "재무회계과",
+          "date": "2026.10.19",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[보건진료소] 2026년 9월 사랑의 헌혈 운동 안내 - 2026. 10. 27.(화)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432018/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.19",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "인천노동권익센터 정책포럼 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432012/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.19",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[창업지원단] Openclaw로 보는 오픈소스 AI 에이전트 현재와 미래_교육 참가자 모집(~10/27(화)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432006/artclView",
+          "writer": "창업지원단",
+          "date": "2026.10.19",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회봉사] 영덕군의 산불피해 극복을 위한 \"진달래심기와 함께하는 착한여행 - 영덕 희망심기 투어\"  참여자",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432003/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.10.19",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "제27기 인천대학교 학생 홍보대사 드림이 모집 공고(~10/30)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/431989/artclView",
+          "writer": "홍보과",
+          "date": "2026.10.19",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(8차)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/431969/artclView",
@@ -2365,54 +2413,6 @@
           "date": "2026.08.25",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[자연과학대학]2026-2학기 교내봉사장학생 모집결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429239/artclView",
-          "writer": "자연과학대학",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[전체교수회] 2026년 2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429236/artclView",
-          "writer": "전체교수회",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[정보통신공학과] 2026-2학기 국가근로장학생 추가 모집(~8/30)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429229/artclView",
-          "writer": "정보통신공학과",
-          "date": "2026.08.25",
-          "relevant": false,
-          "matched_dept": "정보통신공학과"
-        },
-        {
-          "title": "[후기산업사회연구소] 2026-2 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429228/artclView",
-          "writer": "경제학과",
-          "date": "2026.08.25",
-          "relevant": false,
-          "matched_dept": "경제학과"
-        },
-        {
-          "title": "[정보통신공학과] 2026-2학기 국가근로장학생 선발 결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429226/artclView",
-          "writer": "정보통신공학과",
-          "date": "2026.08.25",
-          "relevant": false,
-          "matched_dept": "정보통신공학과"
-        },
-        {
-          "title": "[문화자치위원회] 26-2학기 문화자치위원회 운영위원(국가근로장학생) 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429225/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2422,6 +2422,14 @@
       "url": "https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026학년도 2학기 부.복수.연계전공 포기신청 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/432022/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.10.20",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "데이터과학인의 밤 공모전 및 학생 자율 부스 모집",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/431754/artclView",
@@ -2567,6 +2575,22 @@
       "group": "인천대",
       "notices": [
         {
+          "title": "[교내장학금] 2026-2학기 (재)인천대학교발전기금 장학금 신청 안내(~11//10(화)",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/432024/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.10.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교내장학금] 2026-1학기 인천대사랑(도전/열정) 장학금 신청( 10/26(월) 9시",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/432023/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.10.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
           "title": "[교내장학금] 2026-2학기 교내장학금(3차) 신청 안내(2026.10.12. 9시~10",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/431593/artclView",
           "writer": "데이터과학과",
@@ -2598,6 +2622,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년도 학산도서관 「천선란 작가 북토크」(11월5일) 사전접수 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/14161",
+          "writer": "장*경",
+          "date": "2026.10.19",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026-2학기 중간고사 기간 중 운영연장 및 외부이용자 이용제한 안내(10/12~10/23, 2주간)",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14119",
@@ -3176,6 +3208,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-10-20",
+          "writer": "정기 알림",
+          "date": "2026.10.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-10-16",
           "writer": "정기 알림",
           "date": "2026.10.16",
@@ -3371,14 +3411,6 @@
           "link": "https://everytime.kr/367564?remind=2026-07-24",
           "writer": "정기 알림",
           "date": "2026.07.24",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 홍보게시판 보기",
-          "link": "https://everytime.kr/367564?remind=2026-07-21",
-          "writer": "정기 알림",
-          "date": "2026.07.21",
           "relevant": true,
           "matched_dept": null
         }
@@ -3808,6 +3840,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-10-20",
+          "writer": "정기 알림",
+          "date": "2026.10.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
           "link": "https://www.campuspick.com/activity?remind=2026-10-13",
           "writer": "정기 알림",
           "date": "2026.10.13",
@@ -4222,6 +4262,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do",
       "group": "인천대",
       "notices": [
+        {
+          "title": "스타인유 소그룹 공지사항 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do?remind=2026-10-20",
+          "writer": "정기 알림",
+          "date": "2026.10.20",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "스타인유 소그룹 공지사항 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do?remind=2026-10-13",
