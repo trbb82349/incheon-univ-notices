@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-21 08:07",
+    "last_updated": "2026-10-21 10:26",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2027년 2월말 퇴직교원 정부포상 및 장관표창 추천 대상자 공개검증 실시(~2026.10.25.)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432084/artclView",
+          "writer": "교무과",
+          "date": "2026.10.21",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2027 전국 대학생 자작 미래자동차 경진대회 참가 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432076/artclView",
+          "writer": "RISE전략과",
+          "date": "2026.10.21",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 동계 계절학기 국립부경대학교 학점교류 안내(~10. 29.(목) 13:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432068/artclView",
@@ -2393,22 +2409,6 @@
         {
           "title": "[교외장학] 2026년도 하반기 (재)달서인재육성장학재단 장학생 선발 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429296/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.26",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026년 하반기 울산연구원 장학생 선발계획 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429295/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.26",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026년 2학기 통영시 대학생 등록금 전액 지원사업 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429294/artclView",
           "writer": "학생지원과",
           "date": "2026.08.26",
           "relevant": true,
