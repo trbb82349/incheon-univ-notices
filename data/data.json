@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-22 10:25",
+    "last_updated": "2026-10-23 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[국제교류과] 2026년 동계방학 호주 단기 인턴 프로그램 모집안내(~11.1.(일) 18:00까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432159/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 2026년 동계방학 일본 단기직무연수 프로그램 모집안내(~11.4.(수) 17:00까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432158/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[대학혁신] 인천대학교 대학혁신지원사업 뉴스레터 배포 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432117/artclView",
+          "writer": "대학혁신사업과",
+          "date": "2026.10.21",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 동계 계절학기 한신대학교 학점교류 안내(~11. 3.(화) 13:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432137/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.08.27",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[대외협력과] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429359/artclView",
-          "writer": "대외협력과",
-          "date": "2026.08.27",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[AI/SW교육원] 2026-2학기 교내봉사 장학생 추가 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429338/artclView",
-          "writer": "AI/SW 교육원",
-          "date": "2026.08.26",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "(생명과학전공) 2026-2학기 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429325/artclView",
-          "writer": "생명과학부",
-          "date": "2026.08.26",
-          "relevant": false,
-          "matched_dept": "생명과학부, 생명과학전공"
         }
       ],
       "error": null
@@ -3216,6 +3216,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-10-23",
+          "writer": "정기 알림",
+          "date": "2026.10.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-10-20",
           "writer": "정기 알림",
           "date": "2026.10.20",
@@ -3411,14 +3419,6 @@
           "link": "https://everytime.kr/367564?remind=2026-07-28",
           "writer": "정기 알림",
           "date": "2026.07.28",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 홍보게시판 보기",
-          "link": "https://everytime.kr/367564?remind=2026-07-24",
-          "writer": "정기 알림",
-          "date": "2026.07.24",
           "relevant": true,
           "matched_dept": null
         }
