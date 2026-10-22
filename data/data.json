@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-22 08:07",
+    "last_updated": "2026-10-22 10:25",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026학년도 동계 계절학기 한신대학교 학점교류 안내(~11. 3.(화) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432137/artclView",
+          "writer": "학사과",
+          "date": "2026.10.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계 계절학기 숙명여자대학교 학점교류 안내(~11. 2.(월) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432136/artclView",
+          "writer": "학사과",
+          "date": "2026.10.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 2026년 2학기 푸른등대 기부장학금(2차) 신규장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432135/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.22",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회봉사] 시립문래청소년센터‘2027 시립문래청소년센터 동계 해외봉사단 6기(인도네시아편)’ 참가자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432133/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.10.22",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[학산도서관] 2026-2학기 국가근로장학생 추가모집 선발결과",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432123/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.26",
           "relevant": false,
           "matched_dept": "생명과학부, 생명과학전공"
-        },
-        {
-          "title": "(생명과학전공) 2026-2학기 국가근로장학생 추가 모집 (1명)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429323/artclView",
-          "writer": "생명과학부",
-          "date": "2026.08.26",
-          "relevant": false,
-          "matched_dept": "생명과학부, 생명과학전공"
-        },
-        {
-          "title": "[도시과학대학] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429313/artclView",
-          "writer": "도시과학대학",
-          "date": "2026.08.26",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[도시과학대학] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429311/artclView",
-          "writer": "도시과학대학",
-          "date": "2026.08.26",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[대청교] 대학생 청소년교육지원장학금 선발 멘토 기관등록신청서 제출 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429310/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.26",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
