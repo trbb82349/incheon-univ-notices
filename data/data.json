@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-25 09:59",
+    "last_updated": "2026-10-26 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2543,22 +2543,6 @@
           "matched_dept": null
         },
         {
-          "title": "2026학년도 2학기 학업재이수 신청 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/427476/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.07.27",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 교양 동일 교과목(재수강 대체과목) 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/427473/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.07.27",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
           "title": "2026년도 4대폭력 예방교육 실시 안내(~12/31(목)까지)",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/424611/artclView",
           "writer": "데이터과학과",
@@ -3000,6 +2984,14 @@
       "notices": [
         {
           "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-10-26",
+          "writer": "정기 알림",
+          "date": "2026.10.26",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-10-22",
           "writer": "정기 알림",
           "date": "2026.10.22",
@@ -3195,14 +3187,6 @@
           "link": "https://everytime.kr/259118?remind=2026-07-30",
           "writer": "정기 알림",
           "date": "2026.07.30",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 정보게시판 보기",
-          "link": "https://everytime.kr/259118?remind=2026-07-27",
-          "writer": "정기 알림",
-          "date": "2026.07.27",
           "relevant": true,
           "matched_dept": null
         }
@@ -3646,6 +3630,14 @@
       "url": "https://www.campuspick.com/contest",
       "group": "인천대",
       "notices": [
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-10-26",
+          "writer": "정기 알림",
+          "date": "2026.10.26",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-10-22",
@@ -4158,6 +4150,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
       "group": "인천대",
       "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-10-26",
+          "writer": "정기 알림",
+          "date": "2026.10.26",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "교내비교과 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-10-22",
