@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-26 08:07",
+    "last_updated": "2026-10-26 10:05",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(9차 최종)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432262/artclView",
+          "writer": "재무회계과",
+          "date": "2026.10.26",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 하반기 생협 매장 만족도조사 (잇츠미 쿠폰 1만 원)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432246/artclView",
+          "writer": "소비자생활협동조합",
+          "date": "2026.10.26",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[긴급공지] HUSS 포용사회이니셔티브학부 HUSS LMS 서비스 일시 중단 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432237/artclView",
@@ -2393,22 +2409,6 @@
         {
           "title": "[교외장학] 2026년 2학기 푸른등대 기부장학금 신규장학생 선발 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429403/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.27",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026년 익산사랑장학재단 익산사랑 장학생 선발 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429392/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.27",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026년 (재)연수큰재장학재단 제12회 장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429391/artclView",
           "writer": "학생지원과",
           "date": "2026.08.27",
           "relevant": true,
