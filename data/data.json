@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-27 08:07",
+    "last_updated": "2026-10-27 10:58",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[국제교류과] 미국유급인턴 모집안내(Samkee America, Inc)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432316/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026 천원의 아침밥 만족도 설문조사 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432314/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[평생교육원 교학과]2026년 제2차 인천대학교 평생교육원 산학협력중점교수 채용 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432311/artclView",
+          "writer": "평생교육원 교학과",
+          "date": "2026.10.27",
+          "relevant": false,
+          "matched_dept": "교학과"
+        },
         {
           "title": "2026학년도 동계 계절학기 아주대학교 학점교류 안내(~11. 24.(화) 13:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432308/artclView",
@@ -2387,30 +2411,6 @@
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429428/artclView",
           "writer": "기초교육과",
           "date": "2026.08.28",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[생협] 2026-2학기 국가근로장학생 추가모집 선발결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429427/artclView",
-          "writer": "소비자생활협동조합",
-          "date": "2026.08.28",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[홍보과] 2026-2학기 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429426/artclView",
-          "writer": "홍보과",
-          "date": "2026.08.27",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[홍보과] 2026-2학기 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429425/artclView",
-          "writer": "홍보과",
-          "date": "2026.08.27",
           "relevant": true,
           "matched_dept": null
         }
