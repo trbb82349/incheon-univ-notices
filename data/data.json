@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-27 10:58",
+    "last_updated": "2026-10-28 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2027년 세종학당 문화인턴 파견 사업 설명회 개최 안내 및 홍보(11.11.(수) 15:00 ~ 16:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432373/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 겨울계절학기 영어졸업인증 대체수업 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432371/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[대학생활상담센터] 11월 <불안해도 괜찮아 집단상담> 참여 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432350/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.10.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 미국 유급인턴(총5건) 모집안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432344/artclView",
+          "writer": "국제교류과",
+          "date": "2026.10.27",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[국제교류과] 미국유급인턴 모집안내(Samkee America, Inc)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432316/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.28",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[캠퍼스기획과] 2026-2학기 교내봉사장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429444/artclView",
-          "writer": "캠퍼스기획과",
-          "date": "2026.08.28",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[캠퍼스기획과] 2026-2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429443/artclView",
-          "writer": "캠퍼스기획과",
-          "date": "2026.08.28",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[기초교육과] 2026년 2학기 기초교육과 교내봉사장학생 선발결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429429/artclView",
-          "writer": "기초교육과",
-          "date": "2026.08.28",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[기초교육과] 2026년 2학기 기초교육과 국가근로장학생 선발결과안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429428/artclView",
-          "writer": "기초교육과",
-          "date": "2026.08.28",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2606,6 +2606,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년 11월 국내외 전자정보 온라인 이용교육 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/14182",
+          "writer": "조*주",
+          "date": "2026.10.27",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "이룸관 개인학습캐럴(11-12월) <대학원생> 이용 신청 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14167",
@@ -2875,14 +2883,6 @@
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13785",
           "writer": "조*주",
           "date": "2026.07.30",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026년「작가와의 만남」 선호도 수요 조사",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13783",
-          "writer": "윤*아",
-          "date": "2026.07.29",
           "relevant": true,
           "matched_dept": null
         }
@@ -3416,6 +3416,14 @@
       "notices": [
         {
           "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-10-28",
+          "writer": "정기 알림",
+          "date": "2026.10.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-10-24",
           "writer": "정기 알림",
           "date": "2026.10.24",
@@ -3611,14 +3619,6 @@
           "link": "https://everytime.kr/418891?remind=2026-08-01",
           "writer": "정기 알림",
           "date": "2026.08.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 동아리/학회 보기",
-          "link": "https://everytime.kr/418891?remind=2026-07-29",
-          "writer": "정기 알림",
-          "date": "2026.07.29",
           "relevant": true,
           "matched_dept": null
         }
@@ -4000,6 +4000,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 교육 게시판 보기",
+          "link": "https://www.campuspick.com/education?remind=2026-10-28",
+          "writer": "정기 알림",
+          "date": "2026.10.28",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 교육 게시판 보기",
           "link": "https://www.campuspick.com/education?remind=2026-10-21",
           "writer": "정기 알림",
           "date": "2026.10.21",
@@ -4131,14 +4139,6 @@
           "link": "https://www.campuspick.com/education?remind=2026-08-01",
           "writer": "정기 알림",
           "date": "2026.08.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 교육 게시판 보기",
-          "link": "https://www.campuspick.com/education?remind=2026-07-29",
-          "writer": "정기 알림",
-          "date": "2026.07.29",
           "relevant": true,
           "matched_dept": null
         }
