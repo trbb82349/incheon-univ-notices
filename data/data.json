@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-30 11:30",
+    "last_updated": "2026-10-31 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[교외장학] 2026년도 통영시 저소득 대학생 장학금 지원대상자 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432538/artclView",
+          "writer": "학생지원과",
+          "date": "2026.10.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 현장교육실습 수기공모전 결과 안내(1차)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432531/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.10.30",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "「인천대학교 8경 공모전」 안내(~11/9)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432530/artclView",
+          "writer": "홍보과",
+          "date": "2026.10.30",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 동계 계절학기 영남대학교 학점교류 안내(~11. 11.(수) 13:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432484/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.08.31",
           "relevant": false,
           "matched_dept": "교학과"
-        },
-        {
-          "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(1차)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429502/artclView",
-          "writer": "재무회계과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[환경공학전공]2026-2 국가근로장학생 모집결과",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429496/artclView",
-          "writer": "도시환경공학부",
-          "date": "2026.08.28",
-          "relevant": false,
-          "matched_dept": "도시환경공학부, 환경공학전공"
-        },
-        {
-          "title": "[사회봉사] 한국청소년재단 <시즌21> 사랑의 몰래산타대작전 「산타기획단」 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429486/artclView",
-          "writer": "대학생활지원과",
-          "date": "2026.08.28",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3680,6 +3680,14 @@
       "notices": [
         {
           "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-10-31",
+          "writer": "정기 알림",
+          "date": "2026.10.31",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-10-28",
           "writer": "정기 알림",
           "date": "2026.10.28",
@@ -3875,14 +3883,6 @@
           "link": "https://everytime.kr/418891?remind=2026-08-05",
           "writer": "정기 알림",
           "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 동아리/학회 보기",
-          "link": "https://everytime.kr/418891?remind=2026-08-01",
-          "writer": "정기 알림",
-          "date": "2026.08.01",
           "relevant": true,
           "matched_dept": null
         }
@@ -4387,14 +4387,6 @@
           "link": "https://www.campuspick.com/education?remind=2026-08-05",
           "writer": "정기 알림",
           "date": "2026.08.05",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 교육 게시판 보기",
-          "link": "https://www.campuspick.com/education?remind=2026-08-01",
-          "writer": "정기 알림",
-          "date": "2026.08.01",
           "relevant": true,
           "matched_dept": null
         }
