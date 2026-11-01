@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-01 11:03",
+    "last_updated": "2026-11-02 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -3248,6 +3248,14 @@
       "notices": [
         {
           "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-11-02",
+          "writer": "정기 알림",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-10-29",
           "writer": "정기 알림",
           "date": "2026.10.29",
@@ -3443,14 +3451,6 @@
           "link": "https://everytime.kr/259118?remind=2026-08-06",
           "writer": "정기 알림",
           "date": "2026.08.06",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 정보게시판 보기",
-          "link": "https://everytime.kr/259118?remind=2026-08-03",
-          "writer": "정기 알림",
-          "date": "2026.08.03",
           "relevant": true,
           "matched_dept": null
         }
@@ -3896,6 +3896,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-11-02",
+          "writer": "정기 알림",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-10-29",
           "writer": "정기 알림",
           "date": "2026.10.29",
@@ -4091,14 +4099,6 @@
           "link": "https://www.campuspick.com/contest?remind=2026-08-06",
           "writer": "정기 알림",
           "date": "2026.08.06",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 공모전 게시판 보기",
-          "link": "https://www.campuspick.com/contest?remind=2026-08-03",
-          "writer": "정기 알림",
-          "date": "2026.08.03",
           "relevant": true,
           "matched_dept": null
         }
@@ -4398,6 +4398,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
       "group": "인천대",
       "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-11-02",
+          "writer": "정기 알림",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "교내비교과 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-10-29",
