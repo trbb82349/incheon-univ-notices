@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-02 11:18",
+    "last_updated": "2026-11-03 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,46 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[후기산업사회연구소] 2026-2 국가근로장학생 추가 모집 공고",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432603/artclView",
+          "writer": "후기산업사회연구소",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 미국유급인턴 모집안내(CJ Logistics America LLC, SBS International)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432590/artclView",
+          "writer": "국제교류과",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[2026년 초광역 성장엔진 인재육성사업(가칭)] 산학협력중점교수(비전임) 채용 공고(원서접수 ~ 11.13.)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432581/artclView",
+          "writer": "RISE전략과",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 인천대학교 도시건축학부 조교 대체인력 채용 공고(~11/17)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432579/artclView",
+          "writer": "도시건축학부",
+          "date": "2026.11.02",
+          "relevant": false,
+          "matched_dept": "도시건축학부"
+        },
+        {
+          "title": "인공지능대학 출범 기념 구성원 아이디어 공모전 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432574/artclView",
+          "writer": "임베디드시스템공학과",
+          "date": "2026.11.02",
+          "relevant": false,
+          "matched_dept": "임베디드시스템공학과"
+        },
         {
           "title": "[대학생활상담센터] (추첨을 통한 에어팟/메가커피 증정) 마음건강 이러닝(LMS) 의무교육 수강 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432566/artclView",
@@ -2373,46 +2413,6 @@
           "date": "2026.08.31",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "2026년 제6차 인천대학교 기관생명윤리위원회 정규심의 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429541/artclView",
-          "writer": "연구윤리센터",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[국제교류과] 미국 유급인턴 모집안내(Bankcard services)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429537/artclView",
-          "writer": "국제교류과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[현장맞춤형 실전문제연구단] 2026년도 2학기 국가근로장학생 모집 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429529/artclView",
-          "writer": "전자공학부",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "전자공학부"
-        },
-        {
-          "title": "(생명과학전공) 2026-2학기 국가근로장학생 모집 결과 안내 (추가모집)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429522/artclView",
-          "writer": "생명과학부",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "생명과학부, 생명과학전공"
-        },
-        {
-          "title": "[공학교육혁신센터] 『3D 모델링 및 3D 프린팅 교육 』 입문/기초과정 학생모집 안내(~9.13까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429512/artclView",
-          "writer": "공학교육혁신센터",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2871,22 +2871,6 @@
           "matched_dept": null
         },
         {
-          "title": "송도캠퍼스 정전에 따른 학산도서관 휴관 안내(2026.8.9. 08:00~19:00)",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/04z0aewl2hh9t6bl",
-          "writer": "김*준",
-          "date": "2026.08.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "EndNote 25 서지관리 프로그램 업데이트 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/cdd6mftosuodqikx",
-          "writer": "장*경",
-          "date": "2026.08.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
           "title": "2026년 11월 국내외 전자정보 온라인 이용교육 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14182",
           "writer": "조*주",
@@ -3131,22 +3115,6 @@
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13813",
           "writer": "이*화",
           "date": "2026.08.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "송도캠퍼스 정전에 따른 학산도서관 휴관 안내(2026.8.9. 08:00~19:00)",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13800",
-          "writer": "김*준",
-          "date": "2026.08.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "EndNote 25 서지관리 프로그램 업데이트 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13798",
-          "writer": "장*경",
-          "date": "2026.08.04",
           "relevant": true,
           "matched_dept": null
         }
@@ -3464,6 +3432,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-11-03",
+          "writer": "정기 알림",
+          "date": "2026.11.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-10-30",
           "writer": "정기 알림",
           "date": "2026.10.30",
@@ -3659,14 +3635,6 @@
           "link": "https://everytime.kr/367564?remind=2026-08-07",
           "writer": "정기 알림",
           "date": "2026.08.07",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 홍보게시판 보기",
-          "link": "https://everytime.kr/367564?remind=2026-08-04",
-          "writer": "정기 알림",
-          "date": "2026.08.04",
           "relevant": true,
           "matched_dept": null
         }
@@ -4112,6 +4080,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-11-03",
+          "writer": "정기 알림",
+          "date": "2026.11.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
           "link": "https://www.campuspick.com/activity?remind=2026-10-27",
           "writer": "정기 알림",
           "date": "2026.10.27",
@@ -4235,14 +4211,6 @@
           "link": "https://www.campuspick.com/activity?remind=2026-08-07",
           "writer": "정기 알림",
           "date": "2026.08.07",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 대외활동 게시판 보기",
-          "link": "https://www.campuspick.com/activity?remind=2026-08-04",
-          "writer": "정기 알림",
-          "date": "2026.08.04",
           "relevant": true,
           "matched_dept": null
         }
@@ -4558,6 +4526,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do",
       "group": "인천대",
       "notices": [
+        {
+          "title": "스타인유 소그룹 공지사항 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do?remind=2026-11-03",
+          "writer": "정기 알림",
+          "date": "2026.11.03",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "스타인유 소그룹 공지사항 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do?remind=2026-10-27",
