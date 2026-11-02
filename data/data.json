@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-02 08:07",
+    "last_updated": "2026-11-02 11:18",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[대학생활상담센터] (추첨을 통한 에어팟/메가커피 증정) 마음건강 이러닝(LMS) 의무교육 수강 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432566/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[취업역량개발과] 청년진로정보시스템 활용 및 설문조사 (~11.6.(금))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432565/artclView",
+          "writer": "취업역량개발과",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 겨울계절학기 현장교육실습생 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432555/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.11.02",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[교외장학] 2026년도 통영시 저소득 대학생 장학금 지원대상자 선발 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432538/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.08.31",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[입학관리과] 2026-2학기 교내봉사장학생 선발결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429510/artclView",
-          "writer": "입학관리과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[정보통신공학과] 2026-2학기 국가근로장학생 추가 모집(~9/7)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429507/artclView",
-          "writer": "정보통신공학과",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "정보통신공학과"
-        },
-        {
-          "title": "[평생교육원 교학과]2026년 인천대학교 평생교육원 계약직원(박사급연구원) 채용 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429503/artclView",
-          "writer": "평생교육원 교학과",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "교학과"
         }
       ],
       "error": null
