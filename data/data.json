@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-03 08:07",
+    "last_updated": "2026-11-03 12:53",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[AI멘토링] 2026학년도 대학생 청소년 AI 교육지원장학금 멘토 모집(~11/8, 12명)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432652/artclView",
+          "writer": "학생지원과",
+          "date": "2026.11.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[공학교육혁신센터] 『3D 모델링 및 3D 프린팅 교육 』 입문/기초과정 학생모집 안내(~ 11. 24.(화)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432629/artclView",
+          "writer": "공학교육혁신센터",
+          "date": "2026.11.03",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[국제교류과] 미국 일리노이공과대학 방문학생 설명회 개최 안내(11.5.(목) 14:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432615/artclView",
+          "writer": "국제교류과",
+          "date": "2026.11.03",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[후기산업사회연구소] 2026-2 국가근로장학생 추가 모집 공고",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432603/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.08.31",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "2026-2학기 재학생 기등록/기납부자 학자금대출 특별승인 신청 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429566/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[에너지화학공학과] 2026-2학기 국가근로장학생 선발결과 추가 알림",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429555/artclView",
-          "writer": "에너지화학공학과",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "에너지화학공학과"
-        },
-        {
-          "title": "[교내] 2026-2학기 교내장학금(2차) 신청 안내(2026.09.07. 9시~09.11. 18시)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429542/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2422,6 +2422,14 @@
       "url": "https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "📢 데이터과학과 졸업 논문 양식 및 표절검사 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/432648/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.11.03",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 2학기 부.복수.연계전공 포기신청 안내",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/432022/artclView",
