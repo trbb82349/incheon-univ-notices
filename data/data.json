@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-04 11:58",
+    "last_updated": "2026-11-05 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[외국인 학생 대상] 2026 뉴스1 ‘K-브랜드’ 글로벌 캠프 in 인천",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432739/artclView",
+          "writer": "학생지원과",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계 계절학기 대진대학교 학점교류 안내(~11. 17.(화) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432738/artclView",
+          "writer": "학사과",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계방학 기숙사생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432728/artclView",
+          "writer": "생활원",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "ChatGPT로 AI 독서토론 프로그램 운영 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432727/artclView",
+          "writer": "학술정보과",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 동계 계절학기 열린사이버대학(OCU) 학사일정 및 수강료 납부기간, 수강취소 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432700/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.08.31",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[인천광역시교육청]2026 공약이행평가단 주민배심원[대학생배심원] 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429622/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026년 (재)경주시장학회 장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429602/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[물리학과사무실] 2026-2학기 봉사장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429601/artclView",
-          "writer": "물리학과",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "물리학과"
-        },
-        {
-          "title": "[물리학과사무실] 2026-2학기 국가근로장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429596/artclView",
-          "writer": "물리학과",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "물리학과"
         }
       ],
       "error": null
@@ -2614,6 +2614,22 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "학산도서관 『Academic AI 특강』 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/acp20z5mmrf6pl42",
+          "writer": "조*주",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "ChatGPT로 AI 독서토론 프로그램 운영 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/7b8wd0mmtnm79lcj",
+          "writer": "김*호",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "학산도서관 CCTV 설치 공사로 인한 소음 발생 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/dlo4je06e4n5y3ol",
@@ -3224,6 +3240,14 @@
       "notices": [
         {
           "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-11-05",
+          "writer": "정기 알림",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-11-02",
           "writer": "정기 알림",
           "date": "2026.11.02",
@@ -3419,14 +3443,6 @@
           "link": "https://everytime.kr/259118?remind=2026-08-10",
           "writer": "정기 알림",
           "date": "2026.08.10",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 정보게시판 보기",
-          "link": "https://everytime.kr/259118?remind=2026-08-06",
-          "writer": "정기 알림",
-          "date": "2026.08.06",
           "relevant": true,
           "matched_dept": null
         }
@@ -3872,6 +3888,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-11-05",
+          "writer": "정기 알림",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-11-02",
           "writer": "정기 알림",
           "date": "2026.11.02",
@@ -4067,14 +4091,6 @@
           "link": "https://www.campuspick.com/contest?remind=2026-08-10",
           "writer": "정기 알림",
           "date": "2026.08.10",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 공모전 게시판 보기",
-          "link": "https://www.campuspick.com/contest?remind=2026-08-06",
-          "writer": "정기 알림",
-          "date": "2026.08.06",
           "relevant": true,
           "matched_dept": null
         }
@@ -4374,6 +4390,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
       "group": "인천대",
       "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-11-05",
+          "writer": "정기 알림",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "교내비교과 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-11-02",
