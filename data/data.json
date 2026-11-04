@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-04 08:07",
+    "last_updated": "2026-11-04 11:58",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,46 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026학년도 동계 계절학기 열린사이버대학(OCU) 학사일정 및 수강료 납부기간, 수강취소 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432700/artclView",
+          "writer": "기초교육과",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "<인천투데이> 인천지역 신입기자와 경력기자 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432699/artclView",
+          "writer": "홍보과",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "국립중앙청소년디딤센터 단기과정(힐링캠프) 2027년 1차 멘토(자원봉사단) 모집(~12/7)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432695/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[대학생활상담센터] 11월 마음안심버스 행사 안내 (11/11(수) 14시~16시]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432690/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[인천대생협] 12기 학생위원회 모집 (~11/15) ※생활비성 장학금 혜택",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432684/artclView",
+          "writer": "소비자생활협동조합",
+          "date": "2026.11.04",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[AI멘토링] 2026학년도 대학생 청소년 AI 교육지원장학금 멘토 모집(~11/8, 12명)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432652/artclView",
@@ -2373,46 +2413,6 @@
           "date": "2026.08.31",
           "relevant": false,
           "matched_dept": "물리학과"
-        },
-        {
-          "title": "[물리공동실험실] 2026-2학기 국가근로장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429594/artclView",
-          "writer": "물리학과",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "물리학과"
-        },
-        {
-          "title": "[물리튜터] 2026-2학기 국가근로장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429593/artclView",
-          "writer": "물리학과",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "물리학과"
-        },
-        {
-          "title": "[희망사다리Ⅱ유형] 2026년 2학기 고졸 후학습자 장학사업(희망사다리 Ⅱ유형) 신규장학생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429581/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[디자인학부] 2026학년도 2학기 국가근로장학생 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429579/artclView",
-          "writer": "디자인학부",
-          "date": "2026.08.31",
-          "relevant": false,
-          "matched_dept": "디자인학부"
-        },
-        {
-          "title": "2026년 2학기 재학생 한국장학재단 기등록(등록금 완납)자 업로드 일정 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429574/artclView",
-          "writer": "학생지원과",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
