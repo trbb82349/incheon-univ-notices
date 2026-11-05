@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-05 12:23",
+    "last_updated": "2026-11-06 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,38 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년도 인천대학교 학부 재학생 대상 5회차(12-1월) 전화영어 수강생 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432808/artclView",
+          "writer": "국제교류과",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[AI/SW교육원]INU 소셜 AI 임팩트 챌린지 참여를 위한 사전교육 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432797/artclView",
+          "writer": "AI/SW 교육원",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "(초광역 인재육성) 글로벌 창업인재 지원 - CES 2027 참관단 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432785/artclView",
+          "writer": "창업지원단",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계 계절학기 가톨릭대학교 학점교류 안내(~11. 10.(화) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432784/artclView",
+          "writer": "학사과",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[AI/SW교육원] 2026-2학기 AI 전문가 초청특강_네비웍스 (원준희대표)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432776/artclView",
@@ -2381,38 +2413,6 @@
           "date": "2026.09.01",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[인문학연구소]전자책 출간 워크숍: 나만의 첫 전자책 출간하기 수강생 모집 안내(~9월14일까지 신청)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429709/artclView",
-          "writer": "인문학연구소",
-          "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026학년도 두을장학재단 제29기 장학생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429691/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026 월드비전 Global 6K for Water 캠페인 자원봉사자 모집(~9/16(수))",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429689/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[대학생활상담센터] 9월 <나답게 관계하기 집단상담> 참여 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429683/artclView",
-          "writer": "대학생활지원과",
-          "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3456,6 +3456,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-11-06",
+          "writer": "정기 알림",
+          "date": "2026.11.06",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-11-03",
           "writer": "정기 알림",
           "date": "2026.11.03",
@@ -3651,14 +3659,6 @@
           "link": "https://everytime.kr/367564?remind=2026-08-11",
           "writer": "정기 알림",
           "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 홍보게시판 보기",
-          "link": "https://everytime.kr/367564?remind=2026-08-07",
-          "writer": "정기 알림",
-          "date": "2026.08.07",
           "relevant": true,
           "matched_dept": null
         }
@@ -4227,14 +4227,6 @@
           "link": "https://www.campuspick.com/activity?remind=2026-08-11",
           "writer": "정기 알림",
           "date": "2026.08.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 대외활동 게시판 보기",
-          "link": "https://www.campuspick.com/activity?remind=2026-08-07",
-          "writer": "정기 알림",
-          "date": "2026.08.07",
           "relevant": true,
           "matched_dept": null
         }
