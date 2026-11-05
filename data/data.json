@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-05 08:07",
+    "last_updated": "2026-11-05 12:23",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[AI/SW교육원] 2026-2학기 AI 전문가 초청특강_네비웍스 (원준희대표)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432776/artclView",
+          "writer": "AI/SW 교육원",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "기후에너지환경부 「국립생물자원관 대학생 현장실습(2027년 동계, 38기)」 참가자 모집 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432758/artclView",
+          "writer": "현장실습지원센터",
+          "date": "2026.11.05",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[외국인 학생 대상] 2026 뉴스1 ‘K-브랜드’ 글로벌 캠프 in 인천",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432739/artclView",
@@ -2395,22 +2411,6 @@
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429683/artclView",
           "writer": "대학생활지원과",
           "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[방재연구센터] 2026-2학기 국가근로장학생 선발 결과 알림",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429624/artclView",
-          "writer": "산학협력단",
-          "date": "2026.08.31",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 재수강(수기) 신청 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429623/artclView",
-          "writer": "학사과",
-          "date": "2026.08.31",
           "relevant": true,
           "matched_dept": null
         }
