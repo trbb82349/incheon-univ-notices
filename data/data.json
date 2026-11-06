@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-06 08:07",
+    "last_updated": "2026-11-06 12:20",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[대학일자리플러스센터] 2026학년도 동계 계절학기 한신대학교 학점교류 안내(~11. 12.(목) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432817/artclView",
+          "writer": "학사과",
+          "date": "2026.11.06",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026년도 인천대학교 학부 재학생 대상 5회차(12-1월) 전화영어 수강생 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432808/artclView",
@@ -2402,14 +2410,6 @@
           "title": "[국제교류과] 미국 유급인턴 모집안내(FNS USA)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429723/artclView",
           "writer": "국제교류과",
-          "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[창업지원단] 2026년 스타트업 칼리지 창업동아리 2차 모집(~9.13(일) 24시까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429710/artclView",
-          "writer": "창업지원단",
           "date": "2026.09.01",
           "relevant": true,
           "matched_dept": null
