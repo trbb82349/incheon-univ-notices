@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-09 08:07",
+    "last_updated": "2026-11-09 11:32",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[사회봉사] 한국청소년재단 사랑의 몰래산타 대작전 산타봉사단(일반산타/팀장산타) 모집",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432884/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.11.09",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[사회봉사] 미국수어(ASL) 교육 프로그램 추가 모집(~11/11 수)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432881/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.11.09",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[창업지원단] 2026 제2회 유니컬쳐 아이디어 챌린지 모집 + 제1회 ART X AI 메이커톤 (~11.22(일)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432857/artclView",
+          "writer": "창업지원단",
+          "date": "2026.11.09",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 동계 계절학기 숭실대학교 학점교류 안내(~11. 23.(월) 13:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432847/artclView",
@@ -2387,30 +2411,6 @@
           "link": "https://www.inu.ac.kr/bbs/inu/2006/429865/artclView",
           "writer": "홍보과",
           "date": "2026.09.02",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[사회봉사센터] 2026-2학기 17기 십시일밥 활동봉사자 모집(~9/4 금)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429805/artclView",
-          "writer": "대학생활지원과",
-          "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[사회봉사] 새생명장기기증운동본부 생명나눔주간9주년 기념식 자원봉사자 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429786/artclView",
-          "writer": "대학생활지원과",
-          "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2027-2028 스위스 정부초청 장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429780/artclView",
-          "writer": "국제교류과",
-          "date": "2026.09.01",
           "relevant": true,
           "matched_dept": null
         }
