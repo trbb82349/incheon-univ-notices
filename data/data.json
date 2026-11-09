@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-09 11:32",
+    "last_updated": "2026-11-10 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,46 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2027학년도 1학기 재입학 신청 안내(11/11~11/13)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432914/artclView",
+          "writer": "학사과",
+          "date": "2026.11.09",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[대학혁신] 2026 대학혁신지원사업 참여학생 사례영상 경진대회 참여 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432912/artclView",
+          "writer": "대학혁신사업과",
+          "date": "2026.11.09",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[HUSS 포용사회이니셔티브] 2026 창업 인사이트 데이 by HUSS (~11.12(목)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432899/artclView",
+          "writer": "HUSS 포용사회사업단",
+          "date": "2026.11.09",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026 인천대학교-재능대학교 AI 게임잼(With NC AI VARCO)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432898/artclView",
+          "writer": "RISE전략과",
+          "date": "2026.11.09",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계 계절학기 운영 종합 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432897/artclView",
+          "writer": "학사과",
+          "date": "2026.11.09",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[사회봉사] 한국청소년재단 사랑의 몰래산타 대작전 산타봉사단(일반산타/팀장산타) 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432884/artclView",
@@ -2373,46 +2413,6 @@
           "date": "2026.09.02",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "취업과 스펙을 한 번에! 2026학년도 2학기 산학연계형 매트릭스 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429906/artclView",
-          "writer": "교육혁신과",
-          "date": "2026.09.02",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[국제교류과] 미국 유급인턴 모집안내(SAMKWANG USA)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429886/artclView",
-          "writer": "국제교류과",
-          "date": "2026.09.02",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026학년도 (재)포항시장학회 대학교 장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429874/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.02",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 국가장학금 신청자 가구원 동의 마감 기한 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429870/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.02",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "「바다마라톤대회」 자원봉사자 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429865/artclView",
-          "writer": "홍보과",
-          "date": "2026.09.02",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3456,6 +3456,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-11-10",
+          "writer": "정기 알림",
+          "date": "2026.11.10",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-11-06",
           "writer": "정기 알림",
           "date": "2026.11.06",
@@ -3651,14 +3659,6 @@
           "link": "https://everytime.kr/367564?remind=2026-08-14",
           "writer": "정기 알림",
           "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 홍보게시판 보기",
-          "link": "https://everytime.kr/367564?remind=2026-08-11",
-          "writer": "정기 알림",
-          "date": "2026.08.11",
           "relevant": true,
           "matched_dept": null
         }
@@ -4104,6 +4104,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 대외활동 게시판 보기",
+          "link": "https://www.campuspick.com/activity?remind=2026-11-10",
+          "writer": "정기 알림",
+          "date": "2026.11.10",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 대외활동 게시판 보기",
           "link": "https://www.campuspick.com/activity?remind=2026-11-03",
           "writer": "정기 알림",
           "date": "2026.11.03",
@@ -4219,14 +4227,6 @@
           "link": "https://www.campuspick.com/activity?remind=2026-08-14",
           "writer": "정기 알림",
           "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 대외활동 게시판 보기",
-          "link": "https://www.campuspick.com/activity?remind=2026-08-11",
-          "writer": "정기 알림",
-          "date": "2026.08.11",
           "relevant": true,
           "matched_dept": null
         }
@@ -4550,6 +4550,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do",
       "group": "인천대",
       "notices": [
+        {
+          "title": "스타인유 소그룹 공지사항 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do?remind=2026-11-10",
+          "writer": "정기 알림",
+          "date": "2026.11.10",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "스타인유 소그룹 공지사항 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/comm/board/9527a0c7675872f1058cf3435aa8c4df/index.do?remind=2026-11-03",
