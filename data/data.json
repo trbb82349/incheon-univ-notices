@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-10 08:07",
+    "last_updated": "2026-11-10 13:33",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[장애학생지원센터] 「취업 Jump UP!! 미래 취업 트렌드 특강」 학생 모집 안내(~11.20.(금)까지)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/432939/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.11.10",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2027학년도 1학기 재입학 신청 안내(11/11~11/13)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432914/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.09.02",
           "relevant": false,
           "matched_dept": "포용사회이니셔티브학부"
-        },
-        {
-          "title": "[교육혁신과] 선배멘토링 멘티 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/429907/artclView",
-          "writer": "교육혁신과",
-          "date": "2026.09.02",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
