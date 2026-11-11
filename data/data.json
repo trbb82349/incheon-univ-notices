@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-11 11:40",
+    "last_updated": "2026-11-12 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[국제교류과] 2026 INU Global Study Abroad Fair 행사 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433000/artclView",
+          "writer": "국제교류과",
+          "date": "2026.11.11",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[생협] 2026-2학기 국가근로장학생 추가모집(~11/22까지)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/432990/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.09.04",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[국제지원과] 2026년 2학기 국가근로장학생 추가 선발 결과 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430006/artclView",
-          "writer": "국제지원과",
-          "date": "2026.09.03",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2887,14 +2887,6 @@
           "matched_dept": null
         },
         {
-          "title": "8/17(월) 광복절 대체휴일 학산도서관 휴관 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/bo32bvse02xe4kgv",
-          "writer": "김*준",
-          "date": "2026.08.13",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
           "title": "2026년 11월 국내외 전자정보 온라인 이용교육 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14182",
           "writer": "조*주",
@@ -3125,14 +3117,6 @@
           "date": "2026.08.14",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "8/17(월) 광복절 대체휴일 학산도서관 휴관 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13820",
-          "writer": "김*준",
-          "date": "2026.08.13",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -3230,6 +3214,14 @@
       "url": "https://everytime.kr/259118",
       "group": "인천대",
       "notices": [
+        {
+          "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-11-12",
+          "writer": "정기 알림",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-11-09",
@@ -3427,14 +3419,6 @@
           "link": "https://everytime.kr/259118?remind=2026-08-17",
           "writer": "정기 알림",
           "date": "2026.08.17",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 정보게시판 보기",
-          "link": "https://everytime.kr/259118?remind=2026-08-13",
-          "writer": "정기 알림",
-          "date": "2026.08.13",
           "relevant": true,
           "matched_dept": null
         }
@@ -3880,6 +3864,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-11-12",
+          "writer": "정기 알림",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-11-09",
           "writer": "정기 알림",
           "date": "2026.11.09",
@@ -4075,14 +4067,6 @@
           "link": "https://www.campuspick.com/contest?remind=2026-08-17",
           "writer": "정기 알림",
           "date": "2026.08.17",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 공모전 게시판 보기",
-          "link": "https://www.campuspick.com/contest?remind=2026-08-13",
-          "writer": "정기 알림",
-          "date": "2026.08.13",
           "relevant": true,
           "matched_dept": null
         }
@@ -4366,6 +4350,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
       "group": "인천대",
       "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-11-12",
+          "writer": "정기 알림",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "교내비교과 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-11-09",
