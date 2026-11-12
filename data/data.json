@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-12 12:43",
+    "last_updated": "2026-11-13 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[학산도서관] 2026학년도 2학기 교내봉사장학생 추가모집 안내(~11/19)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433059/artclView",
+          "writer": "학술정보과",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[google] 인천대 젬최몇 시즌3 참여 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433051/artclView",
+          "writer": "학생지원과",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 동계 계절학기 인하대학교 학점교류 안내(~12. 18.(금) 13:00)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433045/artclView",
@@ -2397,22 +2413,6 @@
           "date": "2026.09.04",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "2026 청년주간행사(연수청년 힐링데이) 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430078/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026-2학기 대학수학(2) 튜터시간표",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430077/artclView",
-          "writer": "수학과",
-          "date": "2026.09.04",
-          "relevant": false,
-          "matched_dept": "수학과"
         }
       ],
       "error": null
@@ -2614,6 +2614,22 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년 제11회 Reseña, 최고의 서평 대회 수상작 발표(16일 11시 예정)",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/kxxkosea0qkx2v97",
+          "writer": "이*화",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026년 2학기 DVD 신간 자료 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/3tjmtoj2sip13wcp",
+          "writer": "김*빈",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026 INU Global Study Abroad Fair 행사에 따른 소음 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/cvaum9irvi4j1g44",
@@ -2887,14 +2903,6 @@
           "matched_dept": null
         },
         {
-          "title": "2026년 하반기 테마인문고전특강 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/pf7bledi6t102c8o",
-          "writer": "이*화",
-          "date": "2026.08.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
           "title": "2026년 11월 국내외 전자정보 온라인 이용교육 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14182",
           "writer": "조*주",
@@ -3115,14 +3123,6 @@
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13836",
           "writer": "조*주",
           "date": "2026.08.19",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026년 하반기 테마인문고전특강 안내",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13825",
-          "writer": "이*화",
-          "date": "2026.08.14",
           "relevant": true,
           "matched_dept": null
         }
@@ -3440,6 +3440,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-11-13",
+          "writer": "정기 알림",
+          "date": "2026.11.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-11-10",
           "writer": "정기 알림",
           "date": "2026.11.10",
@@ -3635,14 +3643,6 @@
           "link": "https://everytime.kr/367564?remind=2026-08-18",
           "writer": "정기 알림",
           "date": "2026.08.18",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 홍보게시판 보기",
-          "link": "https://everytime.kr/367564?remind=2026-08-14",
-          "writer": "정기 알림",
-          "date": "2026.08.14",
           "relevant": true,
           "matched_dept": null
         }
@@ -4203,14 +4203,6 @@
           "link": "https://www.campuspick.com/activity?remind=2026-08-18",
           "writer": "정기 알림",
           "date": "2026.08.18",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 대외활동 게시판 보기",
-          "link": "https://www.campuspick.com/activity?remind=2026-08-14",
-          "writer": "정기 알림",
-          "date": "2026.08.14",
           "relevant": true,
           "matched_dept": null
         }
