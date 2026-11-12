@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-12 08:07",
+    "last_updated": "2026-11-12 12:43",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,54 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026학년도 동계 계절학기 인하대학교 학점교류 안내(~12. 18.(금) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433045/artclView",
+          "writer": "학사과",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계 계절학기 평택대학교 학점교류 안내(~11. 23.(월) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433044/artclView",
+          "writer": "학사과",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[2026-2학기 2차 모의토익 시험 안내]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433043/artclView",
+          "writer": "기초교육과",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계 계절학기 수원대학교 학점교류 안내(~11. 24.(화) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433042/artclView",
+          "writer": "학사과",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[2026-2학기 2차 모의토익스피킹 시험 안내]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433041/artclView",
+          "writer": "기초교육과",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[생협]41호관 바이오컴플렉스 주차장 이벤트 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433035/artclView",
+          "writer": "소비자생활협동조합",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[국제교류과] 2026 INU Global Study Abroad Fair 행사 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433000/artclView",
@@ -2365,54 +2413,6 @@
           "date": "2026.09.04",
           "relevant": false,
           "matched_dept": "수학과"
-        },
-        {
-          "title": "2026학년도 2학기 수강포기 신청 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430054/artclView",
-          "writer": "학사과",
-          "date": "2026.09.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교내봉사장학금] 2026학년도 2학기 생활원 야간생활조교 장학생(대학원생) 선발 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430051/artclView",
-          "writer": "생활원",
-          "date": "2026.09.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026 GES-U 대학생 이스포츠 대회 모집 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430031/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "김포시노인종합복지관 「온라인 홍보 서포터즈 1기」 모집 안내(~9/10(목)까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430029/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[보건진료소] 2026년 9월 사랑의 헌혈 운동 안내 - 2026. 9. 14.(월)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430025/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.04",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026학년도 2학기 유한재단 장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430017/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.04",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2614,6 +2614,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026 INU Global Study Abroad Fair 행사에 따른 소음 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/cvaum9irvi4j1g44",
+          "writer": "김*호",
+          "date": "2026.11.12",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026년 학산도서관 「천선란 작가 북토크」공결 확인서 발급 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/wdaru0tg4j9bvqo3",
