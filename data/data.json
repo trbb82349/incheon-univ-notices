@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-13 08:07",
+    "last_updated": "2026-11-13 12:20",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[보건진료소] 2026년 11월 사랑의 헌혈 운동 안내 - 2026. 11. 17.(화)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433082/artclView",
+          "writer": "학생지원과",
+          "date": "2026.11.13",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 겨울계절학기 HUSS 포용사회이니셔티브 교과목 개설 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433066/artclView",
+          "writer": "HUSS포용사회이니셔티브학부",
+          "date": "2026.11.13",
+          "relevant": false,
+          "matched_dept": "포용사회이니셔티브학부"
+        },
+        {
+          "title": "2026학년도 동계 계절학기 수강신청 및 개설교과목 안내(11/13 수정)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433063/artclView",
+          "writer": "학사과",
+          "date": "2026.11.13",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[학산도서관] 2026학년도 2학기 교내봉사장학생 추가모집 안내(~11/19)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433059/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.09.07",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[평생교육원 교학과]2026년 인천대학교 평생교육원 산학협력중점교수 채용 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430107/artclView",
-          "writer": "평생교육원 교학과",
-          "date": "2026.09.07",
-          "relevant": false,
-          "matched_dept": "교학과"
-        },
-        {
-          "title": "[평생교육원 교학과] 2026-2학기 국가근로 장학생 추가 모집(~9/14)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430106/artclView",
-          "writer": "평생교육원 교학과",
-          "date": "2026.09.07",
-          "relevant": false,
-          "matched_dept": "교학과"
-        },
-        {
-          "title": "[보건진료소] 2026 건강증진 프로그램 - 「2026 유니워크 챌린지」 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430086/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.04",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2422,6 +2422,14 @@
       "url": "https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "데이터과학과 진로 특강 안내(11/16(월) 13:30 ~14:30)",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/433073/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.11.13",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "📢 데이터과학과 졸업 논문 양식 및 표절검사 안내",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/432648/artclView",
