@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-13 12:20",
+    "last_updated": "2026-11-14 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "(인천대학교 재학생 및 휴학생)[2026 웃음의 밤: 인천대 vs 김원훈]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433089/artclView",
+          "writer": "학생지원과",
+          "date": "2026.11.13",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[보건진료소] 2026년 11월 사랑의 헌혈 운동 안내 - 2026. 11. 17.(화)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433082/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.09.07",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[공학교육혁신센터] 2026년 제11회 INU Maker경진대회 개최 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430119/artclView",
-          "writer": "공학교육혁신센터",
-          "date": "2026.09.07",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2622,6 +2622,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026 INU 취업&직무박람 행사에 따른 소음 안내",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/zrpmphm23ic7mqm4",
+          "writer": "김*호",
+          "date": "2026.11.13",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026년 제11회 Reseña, 최고의 서평 대회 수상작 발표(16일 11시 예정)",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/kxxkosea0qkx2v97",
@@ -3664,6 +3672,14 @@
       "notices": [
         {
           "title": "에타 동아리/학회 보기",
+          "link": "https://everytime.kr/418891?remind=2026-11-14",
+          "writer": "정기 알림",
+          "date": "2026.11.14",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 동아리/학회 보기",
           "link": "https://everytime.kr/418891?remind=2026-11-11",
           "writer": "정기 알림",
           "date": "2026.11.11",
@@ -3859,14 +3875,6 @@
           "link": "https://everytime.kr/418891?remind=2026-08-19",
           "writer": "정기 알림",
           "date": "2026.08.19",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 동아리/학회 보기",
-          "link": "https://everytime.kr/418891?remind=2026-08-15",
-          "writer": "정기 알림",
-          "date": "2026.08.15",
           "relevant": true,
           "matched_dept": null
         }
@@ -4339,14 +4347,6 @@
           "link": "https://www.campuspick.com/education?remind=2026-08-19",
           "writer": "정기 알림",
           "date": "2026.08.19",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 교육 게시판 보기",
-          "link": "https://www.campuspick.com/education?remind=2026-08-15",
-          "writer": "정기 알림",
-          "date": "2026.08.15",
           "relevant": true,
           "matched_dept": null
         }
