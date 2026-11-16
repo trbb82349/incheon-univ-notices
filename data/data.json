@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-16 08:07",
+    "last_updated": "2026-11-16 11:40",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[교외장학] 미래 건설교통신기술인 장학사업",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433130/artclView",
+          "writer": "학생지원과",
+          "date": "2026.11.16",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교외장학] 한국고등교육재단 문우림 제6기 장학생 선발 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433129/artclView",
+          "writer": "학생지원과",
+          "date": "2026.11.16",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "(인천대학교 재학생 및 휴학생)[2026 웃음의 밤: 인천대 vs 김원훈]",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433089/artclView",
@@ -2394,22 +2410,6 @@
           "title": "[장애학생지원센터] 2026-2학기 장애대학생 학습 튜터링 참여 그룹 모집",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430140/artclView",
           "writer": "대학생활지원과",
-          "date": "2026.09.07",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[국제교류과] 미국유급인턴 모집안내(#1112 Pelicana Franchise, #937 Binex Line Corporat",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430139/artclView",
-          "writer": "국제교류과",
-          "date": "2026.09.07",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(2차)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430130/artclView",
-          "writer": "재무회계과",
           "date": "2026.09.07",
           "relevant": true,
           "matched_dept": null
