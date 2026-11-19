@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-19 08:07",
+    "last_updated": "2026-11-19 13:03",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[국제교류과] 해외유급인턴 모집안내(K-뷰티 기업 Style Korean 해외 법인(폴란드·포르투갈·파나마·우루과이))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433314/artclView",
+          "writer": "국제교류과",
+          "date": "2026.11.19",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[교내] 2026-2학기 교내장학금(4차) 신청 안내(2026.11.30. 9시 ~ 12.04. 18시)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433289/artclView",
@@ -2402,14 +2410,6 @@
           "title": "[장애학생지원센터] 「퍼스널 브랜딩&이미지 메이킹 솔루션!!」 학생 모집 안내(~09.25.(금)까지)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430253/artclView",
           "writer": "대학생활지원과",
-          "date": "2026.09.08",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[학산도서관] 2026년 제11회  Reseña, 최고의 서평 대회 안내(~ 26. 10. 16일까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430241/artclView",
-          "writer": "학술정보과",
           "date": "2026.09.08",
           "relevant": true,
           "matched_dept": null
