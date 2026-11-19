@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-19 13:03",
+    "last_updated": "2026-11-20 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,30 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[사회봉사센터] 한국장학재단 2026 동계 대학생 재능봉사 캠프 멘토팀 모집(~11/25 23:59)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433365/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.11.19",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 군 복무 휴학 중 취득학점 인정 신청 안내(11. 26.(목)~12. 18.(금))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433321/artclView",
+          "writer": "학사과",
+          "date": "2026.11.19",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 동계 계절학기 한세대학교 학점교류 안내(~11. 25.(수) 13:00)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433319/artclView",
+          "writer": "학사과",
+          "date": "2026.11.19",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[국제교류과] 해외유급인턴 모집안내(K-뷰티 기업 Style Korean 해외 법인(폴란드·포르투갈·파나마·우루과이))",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433314/artclView",
@@ -2389,30 +2413,6 @@
           "date": "2026.09.08",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[체육진흥원] 2026-2학기 교내봉사장학생(운동경기부 재활관리) 추가 모집 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430264/artclView",
-          "writer": "체육진흥원",
-          "date": "2026.09.08",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[체육진흥원] 2026학년도 2학기 체육진흥원 스포츠과학 측정보조 국가근로장학생 추가 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430263/artclView",
-          "writer": "체육진흥원",
-          "date": "2026.09.08",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[장애학생지원센터] 「퍼스널 브랜딩&이미지 메이킹 솔루션!!」 학생 모집 안내(~09.25.(금)까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430253/artclView",
-          "writer": "대학생활지원과",
-          "date": "2026.09.08",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2559,6 +2559,14 @@
       "group": "인천대",
       "notices": [
         {
+          "title": "[교내장학금] 2026-2학기 교내장학금(4차) 신청 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/433324/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.11.19",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
           "title": "[교내장학금] 2026-2학기 (재)인천대학교발전기금 장학금 신청 안내(~11//10(화)",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/432024/artclView",
           "writer": "데이터과학과",
@@ -2606,6 +2614,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "기말고사 기간 중 운영연장 및 외부이용자 이용제한 안내(11/30~12/11, 2주간)",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/au5xw2qgp3mpj2y6",
+          "writer": "사*실",
+          "date": "2026.11.19",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2027학년도 대학수학능력시험일 도서관 운영시간 조정 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/o8txbucqukotfp85",
@@ -2887,14 +2903,6 @@
           "matched_dept": null
         },
         {
-          "title": "2026년 3분기 테마도서전 「인천대타운의 나침반 - 나의 전공, 나의 진로」",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/gtg57t4nzw31zd1l",
-          "writer": "이*혁",
-          "date": "2026.08.21",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
           "title": "2026년 11월 국내외 전자정보 온라인 이용교육 안내",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/14182",
           "writer": "조*주",
@@ -3083,14 +3091,6 @@
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/13850",
           "writer": "조*주",
           "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026년 3분기 테마도서전 「인천대타운의 나침반 - 나의 전공, 나의 진로」",
-          "link": "https://lib.inu.ac.kr/library-guide/news/notice/13845",
-          "writer": "이*혁",
-          "date": "2026.08.21",
           "relevant": true,
           "matched_dept": null
         }
@@ -3408,6 +3408,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-11-20",
+          "writer": "정기 알림",
+          "date": "2026.11.20",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-11-17",
           "writer": "정기 알림",
           "date": "2026.11.17",
@@ -3603,14 +3611,6 @@
           "link": "https://everytime.kr/367564?remind=2026-08-25",
           "writer": "정기 알림",
           "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 홍보게시판 보기",
-          "link": "https://everytime.kr/367564?remind=2026-08-21",
-          "writer": "정기 알림",
-          "date": "2026.08.21",
           "relevant": true,
           "matched_dept": null
         }
@@ -4163,14 +4163,6 @@
           "link": "https://www.campuspick.com/activity?remind=2026-08-25",
           "writer": "정기 알림",
           "date": "2026.08.25",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 대외활동 게시판 보기",
-          "link": "https://www.campuspick.com/activity?remind=2026-08-21",
-          "writer": "정기 알림",
-          "date": "2026.08.21",
           "relevant": true,
           "matched_dept": null
         }
