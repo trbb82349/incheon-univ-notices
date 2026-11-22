@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-22 11:57",
+    "last_updated": "2026-11-23 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -2423,6 +2423,14 @@
       "group": "인천대",
       "notices": [
         {
+          "title": "2026학년도 2학기 군 복무 휴학 중 취득학점 인정 신청 안내(11. 26.(목)~12.",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/433453/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.11.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
           "title": "데이터과학과 진로 특강 안내(11/16(월) 13:30 ~14:30)",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/433073/artclView",
           "writer": "데이터과학과",
@@ -2531,14 +2539,6 @@
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/429735/artclView",
           "writer": "데이터과학과",
           "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026-2학기 인천대학교 공인회계사/세무사 고시반 모집 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/429154/artclView",
-          "writer": "경영대학",
-          "date": "2026.08.24",
           "relevant": true,
           "matched_dept": null
         },
@@ -3192,6 +3192,14 @@
       "notices": [
         {
           "title": "에타 정보게시판 보기",
+          "link": "https://everytime.kr/259118?remind=2026-11-23",
+          "writer": "정기 알림",
+          "date": "2026.11.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 정보게시판 보기",
           "link": "https://everytime.kr/259118?remind=2026-11-19",
           "writer": "정기 알림",
           "date": "2026.11.19",
@@ -3387,14 +3395,6 @@
           "link": "https://everytime.kr/259118?remind=2026-08-27",
           "writer": "정기 알림",
           "date": "2026.08.27",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 정보게시판 보기",
-          "link": "https://everytime.kr/259118?remind=2026-08-24",
-          "writer": "정기 알림",
-          "date": "2026.08.24",
           "relevant": true,
           "matched_dept": null
         }
@@ -3840,6 +3840,14 @@
       "notices": [
         {
           "title": "캠퍼스픽 공모전 게시판 보기",
+          "link": "https://www.campuspick.com/contest?remind=2026-11-23",
+          "writer": "정기 알림",
+          "date": "2026.11.23",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "캠퍼스픽 공모전 게시판 보기",
           "link": "https://www.campuspick.com/contest?remind=2026-11-19",
           "writer": "정기 알림",
           "date": "2026.11.19",
@@ -4035,14 +4043,6 @@
           "link": "https://www.campuspick.com/contest?remind=2026-08-27",
           "writer": "정기 알림",
           "date": "2026.08.27",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 공모전 게시판 보기",
-          "link": "https://www.campuspick.com/contest?remind=2026-08-24",
-          "writer": "정기 알림",
-          "date": "2026.08.24",
           "relevant": true,
           "matched_dept": null
         }
@@ -4294,6 +4294,14 @@
       "url": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=",
       "group": "인천대",
       "notices": [
+        {
+          "title": "교내비교과 보기",
+          "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-11-23",
+          "writer": "정기 알림",
+          "date": "2026.11.23",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "교내비교과 보기",
           "link": "https://starinu.inu.ac.kr/ptfol/imng/icmpNsbjtPgm/findIcmpNsbjtPgmList.do?paginationInfo.currentPageNo=1&sort=0001&chkAblyCount=0&vshOrgid=&vshOrgzNm=&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&_planBigCdList=on&searchValue=&yuCoreAblyCdList=0000&eduFrDt=&eduToDt=?remind=2026-11-19",
