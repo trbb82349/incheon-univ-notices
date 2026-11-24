@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-24 08:07",
+    "last_updated": "2026-11-24 15:53",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,54 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026-2학기 기말고사 시험기간 「천원의 저녁밥」 사업 안내(11/30(월)~12/4(금))",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433649/artclView",
+          "writer": "학생지원과",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "나눔은 따뜻하게, 학점은 알차게!! 계절학기 사회봉사(지역사회와 사회공헌) 수강신청 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433610/artclView",
+          "writer": "사회봉사센터",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "인천대학교 학내 시험 및 평가 관련 부정행위 예방 가이드라인 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433588/artclView",
+          "writer": "학사과",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 성적처리 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433584/artclView",
+          "writer": "학사과",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[교육혁신과] 학부생 학회 발표 지원 프로그램 신청 가능 안내 (~15명)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433582/artclView",
+          "writer": "교육혁신과",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[대학생활상담센터] 12월 마음안심버스 안내 [12/1(화) 14시~16시]",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433569/artclView",
+          "writer": "대학생활지원과",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026년도 2학기 창업인재지원금 안내(~27.01.03(일)까지 신청)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433512/artclView",
@@ -2365,54 +2413,6 @@
           "date": "2026.09.14",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "[해운항만물류전문인력양성사업단] 2026 하반기 산학연계 인턴십 교육 참가자 모집(~9/18(금)까지)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430446/artclView",
-          "writer": "해운항만물류전문인력양성사업단",
-          "date": "2026.09.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[학산도서관] '생성형 AI로 완성하는 나만의 디지털 스토리북' 온라인교",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430444/artclView",
-          "writer": "학술정보과",
-          "date": "2026.09.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[학부 재학생] 2026-2학기 재학생 등록금 납부 기간 연장 안내(3차)",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430443/artclView",
-          "writer": "재무회계과",
-          "date": "2026.09.14",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026년 고속도로장학재단 고속도로 장학생 선발 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430425/artclView",
-          "writer": "학생지원과",
-          "date": "2026.09.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "인천대학교 금고지정 공고",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430423/artclView",
-          "writer": "재무회계과",
-          "date": "2026.09.11",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[대학생활상담센터] 심리검사 해석상담 참여 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430409/artclView",
-          "writer": "대학생활지원과",
-          "date": "2026.09.11",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2422,6 +2422,22 @@
       "url": "https://datascience.inu.ac.kr/bbs/datascience/1825/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "인천대학교 학내 시험 및 평가 관련 부정행위 예방 가이드라인 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/433634/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "2026학년도 2학기 성적처리 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/433632/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "2026학년도 2학기 군 복무 휴학 중 취득학점 인정 신청 안내(11. 26.(목)~12.",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1825/433453/artclView",
@@ -2559,6 +2575,14 @@
       "group": "인천대",
       "notices": [
         {
+          "title": "[국가장학금] 2027년 1학기 국가장학금 1차 신청 기간 안내",
+          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/433635/artclView",
+          "writer": "데이터과학과",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
           "title": "[교내장학금] 2026-2학기 교내장학금(4차) 신청 안내",
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/433324/artclView",
           "writer": "데이터과학과",
@@ -2614,6 +2638,14 @@
       "url": "https://lib.inu.ac.kr/library-guide/news/notice?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "2026년 4분기 테마도서전「인천대타운의 사랑방 - 이웃과 함께」",
+          "link": "https://lib.inu.ac.kr/library-guide/news/notice/fgd512p839t14uau",
+          "writer": "이*혁",
+          "date": "2026.11.24",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "기말고사 기간 중 운영연장 및 외부이용자 이용제한 안내(11/30~12/11, 2주간)",
           "link": "https://lib.inu.ac.kr/library-guide/news/notice/au5xw2qgp3mpj2y6",
