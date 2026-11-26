@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-26 13:53",
+    "last_updated": "2026-11-27 08:07",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,22 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[사범대학] 2026학년도 2학기 사범대학 교내봉사장학생 추가 선발결과 안내",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433798/artclView",
+          "writer": "사범대학",
+          "date": "2026.11.26",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "[공학교육혁신센터] 강원대 주관 창의혁신 DNA School 교육과정(심화)참가학생 모집 (~12/9, 수,선착순)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433791/artclView",
+          "writer": "공학교육혁신센터",
+          "date": "2026.11.26",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[공학교육혁신센터]  건양대 주관 창의혁신 DNA School 교육과정(기초)참가학생 모집 (~12/2.수, 마감)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433771/artclView",
@@ -2397,22 +2413,6 @@
           "date": "2026.09.15",
           "relevant": true,
           "matched_dept": null
-        },
-        {
-          "title": "-2027년 상반기 파견-  일본 간사이국제공항 인턴프로그램 모집안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430531/artclView",
-          "writer": "국제교류과",
-          "date": "2026.09.15",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026년도 인천대학교 학부 재학생 대상 4회차(10~11월) 전화영어 수강생 모집",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430523/artclView",
-          "writer": "국제교류과",
-          "date": "2026.09.15",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
@@ -2611,22 +2611,6 @@
           "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/431593/artclView",
           "writer": "데이터과학과",
           "date": "2026.10.12",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[교외장학] 2026년 2학기 푸른등대 기부장학금 신규장학생 선발 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/429485/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.08.28",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "[외부장학금] 2026년 2학기 중소기업 취업연계(희망사다리Ⅰ유형) 신규장학생 신청 안내",
-          "link": "https://datascience.inu.ac.kr/bbs/datascience/1829/429482/artclView",
-          "writer": "데이터과학과",
-          "date": "2026.08.28",
           "relevant": true,
           "matched_dept": null
         }
@@ -3392,6 +3376,14 @@
       "notices": [
         {
           "title": "에타 홍보게시판 보기",
+          "link": "https://everytime.kr/367564?remind=2026-11-27",
+          "writer": "정기 알림",
+          "date": "2026.11.27",
+          "relevant": true,
+          "matched_dept": null
+        },
+        {
+          "title": "에타 홍보게시판 보기",
           "link": "https://everytime.kr/367564?remind=2026-11-24",
           "writer": "정기 알림",
           "date": "2026.11.24",
@@ -3587,14 +3579,6 @@
           "link": "https://everytime.kr/367564?remind=2026-09-01",
           "writer": "정기 알림",
           "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "에타 홍보게시판 보기",
-          "link": "https://everytime.kr/367564?remind=2026-08-28",
-          "writer": "정기 알림",
-          "date": "2026.08.28",
           "relevant": true,
           "matched_dept": null
         }
@@ -4139,14 +4123,6 @@
           "link": "https://www.campuspick.com/activity?remind=2026-09-01",
           "writer": "정기 알림",
           "date": "2026.09.01",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "캠퍼스픽 대외활동 게시판 보기",
-          "link": "https://www.campuspick.com/activity?remind=2026-08-28",
-          "writer": "정기 알림",
-          "date": "2026.08.28",
           "relevant": true,
           "matched_dept": null
         }
