@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-27 08:07",
+    "last_updated": "2026-11-27 13:54",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "[동북아물류대학원] 2026-2 교내봉사장학생 추가 모집 안내(~12/4)",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433817/artclView",
+          "writer": "동북아물류대학원",
+          "date": "2026.11.27",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[사범대학] 2026학년도 2학기 사범대학 교내봉사장학생 추가 선발결과 안내",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433798/artclView",
@@ -2402,14 +2410,6 @@
           "title": "[AI멘토링] 2026학년도 대학생 청소년 AI 교육지원장학금 멘토 모집(3개 기관/10명)",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/430554/artclView",
           "writer": "학생지원과",
-          "date": "2026.09.15",
-          "relevant": true,
-          "matched_dept": null
-        },
-        {
-          "title": "2026학년도 2학기 2차 폐강 교과목 및 수강신청 변경 안내",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430537/artclView",
-          "writer": "학사과",
           "date": "2026.09.15",
           "relevant": true,
           "matched_dept": null
