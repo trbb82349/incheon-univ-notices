@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-28 08:07",
+    "last_updated": "2026-11-28 13:39",
     "my_keywords": [
       "경영학부",
       "경영대학",
@@ -14,6 +14,14 @@
       "url": "https://www.inu.ac.kr/bbs/inu/2006/artclList.do?page=1",
       "group": "인천대",
       "notices": [
+        {
+          "title": "「2026 외국인 창업대전(OASIS-6) Global Startup Challenge」",
+          "link": "https://www.inu.ac.kr/bbs/inu/2006/433857/artclView",
+          "writer": "창업지원단",
+          "date": "2026.11.28",
+          "relevant": true,
+          "matched_dept": null
+        },
         {
           "title": "[취업경력개발원] 2026-2학기 국가근로장학생 기업인턴십 추가 모집 (~12.11(금))",
           "link": "https://www.inu.ac.kr/bbs/inu/2006/433839/artclView",
@@ -2405,14 +2413,6 @@
           "date": "2026.09.17",
           "relevant": false,
           "matched_dept": "교학과"
-        },
-        {
-          "title": "[재외동포청] 코리안 페스티벌, 클래식부터 대중가요까지 음악으로 만나는 화합의 무대!",
-          "link": "https://www.inu.ac.kr/bbs/inu/2006/430588/artclView",
-          "writer": "홍보과",
-          "date": "2026.09.16",
-          "relevant": true,
-          "matched_dept": null
         }
       ],
       "error": null
